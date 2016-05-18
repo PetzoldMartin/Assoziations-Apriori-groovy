@@ -8,6 +8,7 @@ package groovy.apriori
         static void main(String... args) {
             println 'Groovy world!'
             new CSVReader(path: 'res/negativ.csv').read()
+            new CSVReader(path: 'res/positiv.csv').read()
 
         }
     }
