@@ -1,4 +1,7 @@
 package groovy.apriori
+
+import java.lang.reflect.Array
+
 /**
  * Created by aisma on 18.05.2016.
  */
@@ -29,22 +32,34 @@ class Apriori {
     }
 
     def countCandidates(List itemSet) {
-        itemSet.each {
-            it.each {it2->
-                ((Item) it2).count=0;
-            }
-        }
-        library.each { List libLine ->
-            itemSet.each { setLine ->
-                if (libLine.containsAll(setLine)) {
-                    setLine.each { setLineElement ->
-                        libLine.each { libLineElement ->
-                            if (libLineElement == setLineElement) ((Item) setLineElement).count += ((Item) libLineElement).count
+
+        itemSet.each { List setLine ->
+            def r=[]
+            def hitcounter = 0
+            library.each {
+                List libLine ->
+                    def count = []
+                    if (libLine.containsAll(setLine)) {
+                        hitcounter += 1
+                        libLine.each {
+                            Item libLineElement ->
+                                if (setLine.contains(libLineElement)) {
+                                    count.add(((Item) libLineElement).count)
+                                }
                         }
+                        r.add(count.min())
                     }
-                }
+
             }
+            println 'hc: '+ hitcounter
+            println  'sum: '+ r.sum()
+            setLine.each {Item lineItem->
+                lineItem.count=r.sum()
+            }
+
+
         }
+
     }
 
     protected def makeRules(def loop) {
@@ -64,8 +79,8 @@ class Apriori {
             if (candidateSets.size() >= loop) {
                 def itemSet = []
                 itemSet = combinationsOf(prepareCandidateBuild(largeItemSets[loop - 1] as List), loop + 1)
-                if(itemSet) {
-                    //countCandidates(itemSet)
+                if (itemSet) {
+                    countCandidates(itemSet)
                     candidateSets.add(loop, itemSet.clone())
                     //itemSet.removeIf {lookAfterCandidateMinsupp(it)}
                     largeItemSets.add(loop, itemSet.clone())
@@ -73,6 +88,8 @@ class Apriori {
                     makeRules(loopI + 1)
                 }
             }
+            debug(0)
+
         }
     }
 
@@ -81,7 +98,7 @@ class Apriori {
         def newList = []
         list.each {
             it.each { item ->
-                if (!newList.contains(item)) newList.add(item)
+                if (!newList.contains(item)) newList.add(item.clone())
             }
         }
         return newList
@@ -89,12 +106,12 @@ class Apriori {
 
     def debug(def loop) {
         candidateSets[loop].each {
-            println([it.name, it.id, it.count])
+            println([it.id, it.count,it],)
         }
         println '-------------------'
-        largeItemSets[loop].each {
-            println([it.name, it.id, it.count])
-        }
+//        largeItemSets[loop].each {
+//            println([it.id, it.count])
+//        }
     }
 
     List combinationsOf(List list, int r) {
@@ -117,11 +134,16 @@ class Apriori {
 
 
 class Item implements Cloneable, Comparable {
-    def name, id, count
+    def name, count
+    int id = 0;
 
     def setCount(def count) {
         this.count = count;
         return this;
+    }
+
+    def add(int i) {
+        this.count = this.count + i;
     }
 
     @Override
@@ -131,7 +153,7 @@ class Item implements Cloneable, Comparable {
 
     @Override
     boolean equals(Object obj) {
-        return this.id == obj.id
+        return this.id == obj.id && this.name == obj.name
     }
 
 }
