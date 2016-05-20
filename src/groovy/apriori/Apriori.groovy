@@ -32,8 +32,10 @@ class Apriori {
     }
 
     def countCandidates(List itemSet) {
-
+        //backset is for independence the elements
+        List backSet=[]
         itemSet.each { List setLine ->
+            List backSetLine=[]
             def r=[]
             def hitcounter = 0
             library.each {
@@ -51,15 +53,16 @@ class Apriori {
                     }
 
             }
-            println 'hc: '+ hitcounter
-            println  'sum: '+ r.sum()
+//            println 'hc: '+ hitcounter
+//            println  'sum: '+ r.sum()
             setLine.each {Item lineItem->
                 lineItem.count=r.sum()
+                backSetLine.add(lineItem.clone())
             }
-
+            backSet.add(backSetLine)
 
         }
-
+    return backSet
     }
 
     protected def makeRules(def loop) {
@@ -69,7 +72,7 @@ class Apriori {
         if (loopI == 0) {
             //make first candidates
             def itemSet = prepareData()
-            countCandidates(itemSet)
+            itemSet=countCandidates(itemSet)
             candidateSets.add(loop, itemSet.clone())
             itemSet.removeIf { ((Item) it[0]).count < getMinSupportAbs() }
             largeItemSets.add(loop, itemSet.clone())
@@ -80,15 +83,15 @@ class Apriori {
                 def itemSet = []
                 itemSet = combinationsOf(prepareCandidateBuild(largeItemSets[loop - 1] as List), loop + 1)
                 if (itemSet) {
-                    countCandidates(itemSet)
+                    itemSet=countCandidates(itemSet)
                     candidateSets.add(loop, itemSet.clone())
-                    //itemSet.removeIf {lookAfterCandidateMinsupp(it)}
+                    itemSet.removeIf {((Item) it[0]).count < getMinSupportAbs()}
                     largeItemSets.add(loop, itemSet.clone())
                     debug(loop)
                     makeRules(loopI + 1)
                 }
             }
-            debug(0)
+            //debug(0)
 
         }
     }
@@ -109,9 +112,9 @@ class Apriori {
             println([it.id, it.count,it],)
         }
         println '-------------------'
-//        largeItemSets[loop].each {
-//            println([it.id, it.count])
-//        }
+        largeItemSets[loop].each {
+            println([it.id, it.count,it])
+        }
     }
 
     List combinationsOf(List list, int r) {
@@ -119,7 +122,7 @@ class Apriori {
         {
             def combs = [] as Set
             list.eachPermutation {
-                combs << it.subList(0, r).sort {
+                combs << it.subList(0, r).collect().sort {
                     a, b -> a <=> b
                 }
             }
@@ -154,6 +157,10 @@ class Item implements Cloneable, Comparable {
     @Override
     boolean equals(Object obj) {
         return this.id == obj.id && this.name == obj.name
+    }
+    @Override
+    Item clone(){
+        return new Item(count: this.count,name: this.name,id: this.id)
     }
 
 }
