@@ -83,8 +83,6 @@ class Apriori {
         } else {
             if (candidateSets.size() >= loop) {
                 def itemSet = []
-                //Depricated because to slow
-                //itemSet = combinationsOf(prepareCandidateBuild(largeItemSets[loop - 1] as List), loop + 1)
                 // Create the initial vector
                 ICombinatoricsVector<Item> initialVector = Factory.createVector(prepareCandidateBuild(largeItemSets[loop - 1] as List));
                 // Create a simple combination generator to generate loop+1-combinations of the initial vector
@@ -128,35 +126,6 @@ class Apriori {
         }
     }
 
-    //Method extension because of performance problems of overall method depricated
-    List combinationsOf(List list, int r) {
-        if ((0..<list.size() + 1).contains(r))// validate input
-        {
-            if (r < 3) {
-
-                def searchlists = []
-                for (int i = 0; i < r; i++) {
-                    searchlists.add(i, list)
-                }
-                return searchlists.combinations().findAll {
-                    a, b ->
-                        a <=> b
-                }
-
-            } else {
-
-                def combs = [] as Set
-                list.eachPermutation {
-                    combs << it.subList(0, r).collect().sort {
-                        a, b ->
-                            a <=> b
-                    }
-                }
-                combs as List
-
-            }
-        }
-    }
 
     def makeRules() {
         makeRules(0)
