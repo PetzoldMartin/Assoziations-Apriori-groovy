@@ -6,13 +6,13 @@ package groovy.apriori
 
     class Main {
         static void main(String... args) {
-            def minSupport=20;
-            println 'test'
-            def pos=new Apriori(csvReader:new CSVReader(path: 'res/test.csv').read(), minSupportRel: minSupport)
-            pos.makeRules()
-//            println 'Negativ'
-//            def pos=new Apriori(csvReader:new CSVReader(path: 'res/negativ.csv').read(), minSupportRel: minSupport)
+            def minSupport=10
+//            println 'test'
+//            def pos=new Apriori(csvReader:new CSVReader(path: 'res/test.csv').read(), minSupportRel: minSupport)
 //            pos.makeRules()
+            println 'Negativ'
+            def pos=new Apriori(csvReader:new CSVReader(path: 'res/negativ.csv').read(), minSupportRel: minSupport)
+            pos.makeRules()
 //            println 'Positive'
 //            new Apriori(csvReader:new CSVReader(path: 'res/positiv.csv').read(), minSupportRel: minSupport)
 //            println 'Both'
