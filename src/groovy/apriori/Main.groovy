@@ -10,6 +10,7 @@ package groovy.apriori
             println 'test'
             def pos=new Apriori(csvReader:new CSVReader(path: 'res/test.csv').read(), minSupportRel: minSupport)
             pos.makeRules()
+            pos.printAndAnalyze()
             println 'Negativ'
             def pos2=new Apriori(csvReader:new CSVReader(path: 'res/negativ.csv').read(), minSupportRel: minSupport)
             pos2.makeRules()

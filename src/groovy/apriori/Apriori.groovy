@@ -16,7 +16,7 @@ class Apriori {
     def minSupportRel
 
     def getMinSupportAbs() {
-        csvReader.body.size() * 10 * minSupportRel / 100
+        csvReader.body.size() * 10 * (minSupportRel / 100)
     }
 
     def prepareData() {
@@ -71,14 +71,14 @@ class Apriori {
     protected def makeRules(def loop) {
 
         def loopI = loop
-        println 'LOOP' + loop
+        //println 'LOOP' + loop
         if (loopI == 0) {
             def itemSet = prepareData()
             itemSet = countCandidates(itemSet)
             candidateSets.add(loop, itemSet.clone())
             itemSet.removeIf { ((Item) it[0]).count < getMinSupportAbs() }
             largeItemSets.add(loop, itemSet.clone())
-            debug(loop)
+            //debug(loop)
             makeRules(loopI + 1)
         } else {
             if (candidateSets.size() >= loop) {
@@ -86,7 +86,7 @@ class Apriori {
                 // Create the initial vector
                 ICombinatoricsVector<Item> initialVector = Factory.createVector(prepareCandidateBuild(largeItemSets[loop - 1] as List));
                 // Create a simple combination generator to generate loop+1-combinations of the initial vector
-                Generator<Item>  gen = Factory.createSimpleCombinationGenerator(initialVector, loop+1);
+                Generator<Item> gen = Factory.createSimpleCombinationGenerator(initialVector, loop + 1);
                 // Print all possible combinations
                 gen.each {
                     itemSet.add(it.getVector());
@@ -96,7 +96,7 @@ class Apriori {
                     candidateSets.add(loop, itemSet.clone())
                     itemSet.removeIf { ((Item) it[0]).count < getMinSupportAbs() }
                     largeItemSets.add(loop, itemSet.clone())
-                    debug(loop)
+                    //debug(loop)
                     makeRules(loopI + 1)
                 }
             }
@@ -122,10 +122,50 @@ class Apriori {
 //        }
         println '-------------------'
         largeItemSets[loop].each {
-            println([it.id, it.count, it])
+            println(it)
         }
     }
 
+    def printCAndF(File f,String s){
+        f<<s
+        print s
+    }
+    def printAndAnalyze() {
+        def of = new File(csvReader.path.replaceAll(".csv", "out.csv"))
+        of.write("")
+        print';Minsupport Relativ;'+minSupportRel+'%\n'
+        print ';Minsupport Absolut;'+minSupportAbs+'\n'
+
+        largeItemSets.eachWithIndex { ArrayList entry, int i ->
+            println i
+            largeItemSets[i].each { List it ->
+                //outputFile << it.toString()[2..-3] + "\n"
+                printCAndF(of,it.toString()[1..-2]+';relativer Support;'+((Item)it[0]).getRelativSupport(csvReader.body.size())+'%')
+                printCAndF(of,"\n")
+                if (it.size() > 1) {
+                    it.each {
+
+                        Item it2 ->
+                            List x = it.clone()
+                            x.removeElement(it2.clone())
+                            printCAndF(of, 'aus: ;')
+                            x.each {Item y->
+                                printCAndF(of, '+++'+y.toString()[1..-2]+';relativer Support;'+y.getRelativSupport(csvReader.body.size())+'%')
+                            }
+                            printCAndF(of, ';folgt: ;' + it2.toString() + ';mit einer Confidence von;')
+                            printCAndF(of, (((Double)(it2.count/searchForSupportOf(it2)))*100)+'%')
+                            printCAndF(of, "\n")
+                    }
+                }
+
+            }
+        }
+    }
+    def searchForSupportOf(Item item){
+        List temp=largeItemSets[0]
+        def t2=  temp[item.id]
+        return t2.count
+    }
 
     def makeRules() {
         makeRules(0)
@@ -165,4 +205,12 @@ class Item implements Cloneable, Comparable {
         return new Item(count: this.count, name: this.name, id: this.id)
     }
 
+    def getRelativSupport(int sSize) {
+        return count/(sSize/10)
+    }
+
+    @Override
+    String toString() {
+        return ';Name: ;' + name + '; Id: ;' + id + '; Support: ;' + count
+    }
 }
