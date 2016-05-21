@@ -1,6 +1,9 @@
 package groovy.apriori
 
-import java.lang.reflect.Array
+import org.paukov.combinatorics.Factory
+import org.paukov.combinatorics.Generator
+import org.paukov.combinatorics.ICombinatoricsVector
+
 
 /**
  * Created by aisma on 18.05.2016.
@@ -33,10 +36,10 @@ class Apriori {
 
     def countCandidates(List itemSet) {
         //backset is for independence the elements
-        List backSet=[]
+        List backSet = []
         itemSet.each { List setLine ->
-            List backSetLine=[]
-            def r=[]
+            List backSetLine = []
+            def r = []
             def hitcounter = 0
             library.each {
                 List libLine ->
@@ -55,14 +58,14 @@ class Apriori {
             }
 //            println 'hc: '+ hitcounter
 //            println  'sum: '+ r.sum()
-            setLine.each {Item lineItem->
-                lineItem.count=r.sum()
+            setLine.each { Item lineItem ->
+                lineItem.count = r.sum()
                 backSetLine.add(lineItem.clone())
             }
             backSet.add(backSetLine)
 
         }
-    return backSet
+        return backSet
     }
 
     protected def makeRules(def loop) {
@@ -70,9 +73,8 @@ class Apriori {
         def loopI = loop
         println 'LOOP' + loop
         if (loopI == 0) {
-            //make first candidates
             def itemSet = prepareData()
-            itemSet=countCandidates(itemSet)
+            itemSet = countCandidates(itemSet)
             candidateSets.add(loop, itemSet.clone())
             itemSet.removeIf { ((Item) it[0]).count < getMinSupportAbs() }
             largeItemSets.add(loop, itemSet.clone())
@@ -81,11 +83,20 @@ class Apriori {
         } else {
             if (candidateSets.size() >= loop) {
                 def itemSet = []
-                itemSet = combinationsOf(prepareCandidateBuild(largeItemSets[loop - 1] as List), loop + 1)
+                //Depricated because to slow
+                //itemSet = combinationsOf(prepareCandidateBuild(largeItemSets[loop - 1] as List), loop + 1)
+                // Create the initial vector
+                ICombinatoricsVector<Item> initialVector = Factory.createVector(prepareCandidateBuild(largeItemSets[loop - 1] as List));
+                // Create a simple combination generator to generate loop+1-combinations of the initial vector
+                Generator<Item>  gen = Factory.createSimpleCombinationGenerator(initialVector, loop+1);
+                // Print all possible combinations
+                gen.each {
+                    itemSet.add(it.getVector());
+                }
                 if (itemSet) {
-                    itemSet=countCandidates(itemSet)
+                    itemSet = countCandidates(itemSet)
                     candidateSets.add(loop, itemSet.clone())
-                    itemSet.removeIf {((Item) it[0]).count < getMinSupportAbs()}
+                    itemSet.removeIf { ((Item) it[0]).count < getMinSupportAbs() }
                     largeItemSets.add(loop, itemSet.clone())
                     debug(loop)
                     makeRules(loopI + 1)
@@ -101,32 +112,49 @@ class Apriori {
         def newList = []
         list.each {
             it.each { item ->
-                if (!newList.contains(item)) newList.add(item.clone())
+                if (!newList.contains(item)) newList.add(item)
             }
         }
         return newList
     }
 
     def debug(def loop) {
-        candidateSets[loop].each {
-            println([it.id, it.count,it],)
-        }
+//        candidateSets[loop].each {
+//            println([it.id, it.count,it],)
+//        }
         println '-------------------'
         largeItemSets[loop].each {
-            println([it.id, it.count,it])
+            println([it.id, it.count, it])
         }
     }
 
+    //Method extension because of performance problems of overall method depricated
     List combinationsOf(List list, int r) {
         if ((0..<list.size() + 1).contains(r))// validate input
         {
-            def combs = [] as Set
-            list.eachPermutation {
-                combs << it.subList(0, r).collect().sort {
-                    a, b -> a <=> b
+            if (r < 3) {
+
+                def searchlists = []
+                for (int i = 0; i < r; i++) {
+                    searchlists.add(i, list)
                 }
+                return searchlists.combinations().findAll {
+                    a, b ->
+                        a <=> b
+                }
+
+            } else {
+
+                def combs = [] as Set
+                list.eachPermutation {
+                    combs << it.subList(0, r).collect().sort {
+                        a, b ->
+                            a <=> b
+                    }
+                }
+                combs as List
+
             }
-            combs as List
         }
     }
 
@@ -151,16 +179,21 @@ class Item implements Cloneable, Comparable {
 
     @Override
     int compareTo(Object o) {
-        return this.id <=> o.id;
+        if (o instanceof Item) {
+            return this.id <=> o.id;
+        } else return 0;
     }
 
     @Override
     boolean equals(Object obj) {
-        return this.id == obj.id && this.name == obj.name
+        if (obj instanceof Item) {
+            return this.id == obj.id
+        } else return false
     }
+
     @Override
-    Item clone(){
-        return new Item(count: this.count,name: this.name,id: this.id)
+    Item clone() {
+        return new Item(count: this.count, name: this.name, id: this.id)
     }
 
 }

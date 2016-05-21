@@ -1,9 +1,10 @@
 <component name="libraryTable">
   <library name="opencsv-3.7">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/src/lib/opencsv-3.7.jar!/" />
-    </CLASSES>
+    <CLASSES />
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Desktop/combinatoricslib-master.zip!/combinatoricslib-master/src/main/java" />
+      <root url="jar://$USER_HOME$/Desktop/combinatoricslib-master.zip!/combinatoricslib-master/src/test/java" />
+    </SOURCES>
   </library>
 </component>

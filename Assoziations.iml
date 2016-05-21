@@ -8,10 +8,12 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="groovy-2.4.5" level="application" />
     <orderEntry type="library" name="groovycsv-1.1" level="project" />
     <orderEntry type="library" name="groovycsv-1.1" level="project" />
     <orderEntry type="library" name="groovycsv-1.1" level="project" />
     <orderEntry type="library" name="opencsv-3.7" level="project" />
+    <orderEntry type="library" name="groovy-2.4.6" level="application" />
+    <orderEntry type="library" name="groovy-2.4.6" level="application" />
+    <orderEntry type="library" name="combi" level="project" />
   </component>
 </module>

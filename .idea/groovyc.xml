@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="GroovyCompilerProjectConfiguration">
+    <option name="configScript" value="$USER_HOME$/Desktop/groovy-2.4.6/bin/groovy" />
     <excludes>
       <directory url="file://$USER_HOME$/Desktop/groovy-2.4.6" includeSubdirectories="true" />
     </excludes>
