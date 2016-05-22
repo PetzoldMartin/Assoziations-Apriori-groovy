@@ -160,7 +160,7 @@ class Apriori {
         rules.eachWithIndex {  entry, int i ->
             println i
             entry.each { List it ->
-                printCAndF(of,it.toString()[1..-1]+';relativer Support;'+((Item)it[0]).getRelativSupport(csvReader.body.size())+'%')
+                printCAndF(of,it.toString()[1..-2]+';relativer Support;'+((Item)it[0]).getRelativSupport(csvReader.body.size())+'%')
                 printCAndF(of,"\n")
                 if (it.size() > 1) {
                     it.each {
