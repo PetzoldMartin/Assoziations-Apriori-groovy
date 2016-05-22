@@ -15,6 +15,7 @@ class Apriori {
     def largeItemSets = []
     def minSupportRel
     def rules=[]
+    int lines
 
     def getMinSupportAbs() {
         csvReader.body.size() * 10 * (minSupportRel / 100)
@@ -22,6 +23,8 @@ class Apriori {
 
     def prepareData() {
         def itemSet = []
+        lines=csvReader.body.size()
+        println lines
         csvReader.headers.eachWithIndex { entry, int i ->
             itemSet.add([new Item(name: entry, id: i, count: 0)])
         }
@@ -147,7 +150,7 @@ class Apriori {
     }
 
     def printCAndF(File f,String s){
-        f<<s
+        f<<s.replaceAll(",","\\.")
         print s
     }
     def printAndAnalyze() {
@@ -160,7 +163,9 @@ class Apriori {
         rules.eachWithIndex {  entry, int i ->
             println i
             entry.each { List it ->
-                printCAndF(of,it.toString()[1..-2]+';relativer Support;'+((Item)it[0]).getRelativSupport(csvReader.body.size())+'%')
+                printCAndF(of,';'+it.toString()[1..-2]+';relativer Support;'+((Item)it[0]).getRelativeSupport(lines)+'%')
+                //printCAndF(of, "\nLinecount"+lines+'\n')
+
                 printCAndF(of,"\n")
                 if (it.size() > 1) {
                     it.each {
@@ -170,7 +175,9 @@ class Apriori {
                             x.removeElement(it2.clone())
                             printCAndF(of, 'aus: ;')
                             x.each {Item y->
-                                printCAndF(of, y.toString()[1..-1]+';relativer Support;'+y.getRelativSupport(csvReader.body.size())+'%')
+                                printCAndF(of,';'+ y.toString()[1..-1]+';relativer Support;'+y.getRelativeSupport(lines)+'%')
+                                //printCAndF(of, "\nLinecount"+lines+'\n')
+
                             }
                             printCAndF(of, ';folgt: ;' + it2.toString() + ';mit einer Confidence von;')
                             //printCAndF(of, "\n"+it2.count+':'+searchForSupportOf(it2)+'\n')
@@ -185,17 +192,12 @@ class Apriori {
     }
     def searchForSupportOf(Item item) {
         List temp = rules[0].clone()
-        //println "\n+++++++ü" + item.id + '****' + rules[0] + "\n"
         int t2
                 temp.each {Item it->
 
             if(it.id==item.id)return t2=it.count
         }
         return t2
-//        if(t2 instanceof Item)return t2.count
-//        //else println '\n'+(t2.toString().split(';').last()[0..-2]).toInteger()+'\n'
-//        else  if(t2) return (t2.toString().split(';').last()[0..-2]).toInteger()
-//    }
     }
 
     def makeRules() {
@@ -234,7 +236,7 @@ class Item implements Cloneable, Comparable {
         return new Item(count: this.count, name: this.name, id: this.id)
     }
 
-    def getRelativSupport(int sSize) {
+    def getRelativeSupport(int sSize) {
         return count/(sSize/10)
     }
 
