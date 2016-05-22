@@ -6,7 +6,7 @@ package groovy.apriori
 
     class Main {
         static void main(String... args) {
-           def minSupport=10
+           def minSupport=30
             println 'test'
             def pos=new Apriori(csvReader:new CSVReader(path: 'res/test.csv').read(), minSupportRel: minSupport)
             pos.makeRules()

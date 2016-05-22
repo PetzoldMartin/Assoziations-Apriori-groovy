@@ -1,0 +1,34 @@
+;Minsupport Relativ;20%
+;Minsupport Absolut;100.0
+;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;282;relativer Support;56.4%
+;;Name: ;Arbeitsmaterialien (Skript. Lehrbuch); Id: ;3; Support: ;102;relativer Support;20.4%
+;;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;155;relativer Support;31%
+;;Name: ;Offenheit des Dozenten für Studierende; Id: ;16; Support: ;106;relativer Support;21.2%
+;;Name: ;Selbststudium; Id: ;20; Support: ;158;relativer Support;31.6%
+;;Name: ;Teilnahme am Praktikum; Id: ;23; Support: ;107;relativer Support;21.4%
+;;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;240;relativer Support;48%
+;;Name: ;verständliche Erklärungen; Id: ;29; Support: ;155;relativer Support;31%
+;;Name: ;Visualisierungen; Id: ;30; Support: ;143;relativer Support;28.6%
+;;Name: ;fehlende / unverständliche Erklärungen; Id: ;38; Support: ;115;relativer Support;23%
+;;Name: ;hohe Stoffmenge / hohes Tempo; Id: ;42; Support: ;212;relativer Support;42.4%
+;;Name: ;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung"; Id: ;45; Support: ;120;relativer Support;24%
+;;Name: ;keine Prüfungsvorbereitung / -schwerpunkte; Id: ;50; Support: ;125;relativer Support;25%
+;;Name: ;ungünstige Raumbedingungen; Id: ;55; Support: ;110;relativer Support;22%
+;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;121. ;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;121;relativer Support;24.2%
+aus: ;;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;121;relativer Support;24.2%;folgt: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;121;mit einer Confidence von;42.907801420000006%
+aus: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;121;relativer Support;24.2%;folgt: ;;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;121;mit einer Confidence von;78.06451613%
+;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;156. ;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;156;relativer Support;31.2%
+aus: ;;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;156;relativer Support;31.2%;folgt: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;156;mit einer Confidence von;55.31914894%
+aus: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;156;relativer Support;31.2%;folgt: ;;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;156;mit einer Confidence von;65.0%
+;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;119. ;Name: ;verständliche Erklärungen; Id: ;29; Support: ;119;relativer Support;23.8%
+aus: ;;Name: ;verständliche Erklärungen; Id: ;29; Support: ;119;relativer Support;23.8%;folgt: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;119;mit einer Confidence von;42.19858156%
+aus: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;119;relativer Support;23.8%;folgt: ;;Name: ;verständliche Erklärungen; Id: ;29; Support: ;119;mit einer Confidence von;76.77419355%
+;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;113. ;Name: ;Visualisierungen; Id: ;30; Support: ;113;relativer Support;22.6%
+aus: ;;Name: ;Visualisierungen; Id: ;30; Support: ;113;relativer Support;22.6%;folgt: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;113;mit einer Confidence von;40.07092199%
+aus: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;113;relativer Support;22.6%;folgt: ;;Name: ;Visualisierungen; Id: ;30; Support: ;113;mit einer Confidence von;79.02097902%
+;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;132. ;Name: ;hohe Stoffmenge / hohes Tempo; Id: ;42; Support: ;132;relativer Support;26.4%
+aus: ;;Name: ;hohe Stoffmenge / hohes Tempo; Id: ;42; Support: ;132;relativer Support;26.4%;folgt: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;132;mit einer Confidence von;46.80851064%
+aus: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;132;relativer Support;26.4%;folgt: ;;Name: ;hohe Stoffmenge / hohes Tempo; Id: ;42; Support: ;132;mit einer Confidence von;62.26415093999999%
+;;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;125. ;Name: ;hohe Stoffmenge / hohes Tempo; Id: ;42; Support: ;125;relativer Support;25%
+aus: ;;Name: ;hohe Stoffmenge / hohes Tempo; Id: ;42; Support: ;125;relativer Support;25%;folgt: ;;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;125;mit einer Confidence von;52.08333333%
+aus: ;;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;125;relativer Support;25%;folgt: ;;Name: ;hohe Stoffmenge / hohes Tempo; Id: ;42; Support: ;125;mit einer Confidence von;58.962264149999996%
