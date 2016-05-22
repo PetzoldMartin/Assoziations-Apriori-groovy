@@ -1,23 +1,23 @@
 ;Minsupport Relativ;20%
 ;Minsupport Absolut;100.0
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;282;rel.Supp.;56.40%
-Large itemset;;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;102;rel.Supp.;20.40%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;155;rel.Supp.;31.00%
-Large itemset;;Offenheit des Dozenten für Studierende;abs.Supp.;106;rel.Supp.;21.20%
-Large itemset;;Selbststudium;abs.Supp.;158;rel.Supp.;31.60%
-Large itemset;;Teilnahme am Praktikum;abs.Supp.;107;rel.Supp.;21.40%
-Large itemset;;Übungen in der Vorlesung;abs.Supp.;240;rel.Supp.;48.00%
-Large itemset;;verständliche Erklärungen;abs.Supp.;155;rel.Supp.;31.00%
-Large itemset;;Visualisierungen;abs.Supp.;143;rel.Supp.;28.60%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;121. ;Kommunikation mit Dozenten;abs.Supp.;121;rel.Supp.;24.20%
-Regel :aus: ;;Kommunikation mit Dozenten;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;42.91%
-Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;78.06%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;156. ;Übungen in der Vorlesung;abs.Supp.;156;rel.Supp.;31.20%
-Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;55.32%
-Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;65.00%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;119. ;verständliche Erklärungen;abs.Supp.;119;rel.Supp.;23.80%
-Regel :aus: ;;verständliche Erklärungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;42.20%
-Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;verständliche Erklärungen;mit einer Confidence von;76.77%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;113. ;Visualisierungen;abs.Supp.;113;rel.Supp.;22.60%
-Regel :aus: ;;Visualisierungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;40.07%
-Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Visualisierungen;mit einer Confidence von;79.02%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;282.00;rel.Supp.;56.40%
+Large itemset;;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;102.00;rel.Supp.;20.40%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;155.00;rel.Supp.;31.00%
+Large itemset;;Offenheit des Dozenten für Studierende;abs.Supp.;106.00;rel.Supp.;21.20%
+Large itemset;;Selbststudium;abs.Supp.;158.00;rel.Supp.;31.60%
+Large itemset;;Teilnahme am Praktikum;abs.Supp.;107.00;rel.Supp.;21.40%
+Large itemset;;Übungen in der Vorlesung;abs.Supp.;240.00;rel.Supp.;48.00%
+Large itemset;;verständliche Erklärungen;abs.Supp.;155.00;rel.Supp.;31.00%
+Large itemset;;Visualisierungen;abs.Supp.;143.00;rel.Supp.;28.60%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;110.00. ;Kommunikation mit Dozenten;abs.Supp.;110.00;rel.Supp.;22.00%
+Regel :aus: ;;Kommunikation mit Dozenten;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;39.01%
+Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;70.97%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;140.00. ;Übungen in der Vorlesung;abs.Supp.;140.00;rel.Supp.;28.00%
+Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;49.65%
+Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;58.33%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;110.00. ;verständliche Erklärungen;abs.Supp.;110.00;rel.Supp.;22.00%
+Regel :aus: ;;verständliche Erklärungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;39.01%
+Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;verständliche Erklärungen;mit einer Confidence von;70.97%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;100.00. ;Visualisierungen;abs.Supp.;100.00;rel.Supp.;20.00%
+Regel :aus: ;;Visualisierungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;35.46%
+Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Visualisierungen;mit einer Confidence von;69.93%

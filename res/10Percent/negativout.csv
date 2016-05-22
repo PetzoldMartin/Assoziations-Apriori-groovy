@@ -1,29 +1,26 @@
 ;Minsupport Relativ;10%
 ;Minsupport Absolut;50.0
-Large itemset;;Ablenkung durch Lautstärke der Kommilitonen;abs.Supp.;64;rel.Supp.;12.80%
-Large itemset;;fehlende / mangelnde Anwendung und Praxis;abs.Supp.;83;rel.Supp.;16.60%
-Large itemset;;fehlende / unverständliche Erklärungen;abs.Supp.;115;rel.Supp.;23.00%
-Large itemset;;fehlende / zu wenige Lehrinhalte;abs.Supp.;70;rel.Supp.;14.00%
-Large itemset;;fehlendes Vorwissen;abs.Supp.;70;rel.Supp.;14.00%
-Large itemset;;geringes Engagement des Dozenten;abs.Supp.;73;rel.Supp.;14.60%
-Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;212;rel.Supp.;42.40%
-Large itemset;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;120;rel.Supp.;24.00%
-Large itemset;;keine (vollständigen) Arbeitsmaterialien;abs.Supp.;65;rel.Supp.;13.00%
-Large itemset;;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;125;rel.Supp.;25.00%
-Large itemset;;schwaches eigenes Engagement;abs.Supp.;75;rel.Supp.;15.00%
-Large itemset;;späte Bereitstellung der Unterlagen;abs.Supp.;75;rel.Supp.;15.00%
-Large itemset;;ungünstige Raumbedingungen;abs.Supp.;110;rel.Supp.;22.00%
-Large itemset;;ungünstige Veranstaltungszeit;abs.Supp.;72;rel.Supp.;14.40%
-Large itemset;;unübersichtliche / Überfüllte Visualisierung;abs.Supp.;76;rel.Supp.;15.20%
-Large itemset;;fehlende / unverständliche Erklärungen;abs.Supp.;73. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;73;rel.Supp.;14.60%
-Regel :aus: ;;hohe Stoffmenge / hohes Tempo;folgt: ;;fehlende / unverständliche Erklärungen;mit einer Confidence von;63.48%
-Regel :aus: ;;fehlende / unverständliche Erklärungen;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;34.43%
-Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;52. ;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;52;rel.Supp.;10.40%
-Regel :aus: ;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;24.53%
-Regel :aus: ;;hohe Stoffmenge / hohes Tempo;folgt: ;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";mit einer Confidence von;43.33%
-Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;72. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;72;rel.Supp.;14.40%
-Regel :aus: ;;keine Prüfungsvorbereitung / -schwerpunkte;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;33.96%
-Regel :aus: ;;hohe Stoffmenge / hohes Tempo;folgt: ;;keine Prüfungsvorbereitung / -schwerpunkte;mit einer Confidence von;57.60%
-Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;57. ;ungünstige Raumbedingungen;abs.Supp.;57;rel.Supp.;11.40%
-Regel :aus: ;;ungünstige Raumbedingungen;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;26.89%
-Regel :aus: ;;hohe Stoffmenge / hohes Tempo;folgt: ;;ungünstige Raumbedingungen;mit einer Confidence von;51.82%
+Large itemset;;Ablenkung durch Lautstärke der Kommilitonen;abs.Supp.;64.00;rel.Supp.;12.80%
+Large itemset;;fehlende / mangelnde Anwendung und Praxis;abs.Supp.;83.00;rel.Supp.;16.60%
+Large itemset;;fehlende / unverständliche Erklärungen;abs.Supp.;115.00;rel.Supp.;23.00%
+Large itemset;;fehlende / zu wenige Lehrinhalte;abs.Supp.;70.00;rel.Supp.;14.00%
+Large itemset;;fehlendes Vorwissen;abs.Supp.;70.00;rel.Supp.;14.00%
+Large itemset;;geringes Engagement des Dozenten;abs.Supp.;73.00;rel.Supp.;14.60%
+Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;212.00;rel.Supp.;42.40%
+Large itemset;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;120.00;rel.Supp.;24.00%
+Large itemset;;keine (vollständigen) Arbeitsmaterialien;abs.Supp.;65.00;rel.Supp.;13.00%
+Large itemset;;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;125.00;rel.Supp.;25.00%
+Large itemset;;schwaches eigenes Engagement;abs.Supp.;75.00;rel.Supp.;15.00%
+Large itemset;;späte Bereitstellung der Unterlagen;abs.Supp.;75.00;rel.Supp.;15.00%
+Large itemset;;ungünstige Raumbedingungen;abs.Supp.;110.00;rel.Supp.;22.00%
+Large itemset;;ungünstige Veranstaltungszeit;abs.Supp.;72.00;rel.Supp.;14.40%
+Large itemset;;unübersichtliche / Überfüllte Visualisierung;abs.Supp.;76.00;rel.Supp.;15.20%
+Large itemset;;fehlende / unverständliche Erklärungen;abs.Supp.;59.00. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;59.00;rel.Supp.;11.80%
+Regel :aus: ;;hohe Stoffmenge / hohes Tempo;folgt: ;;fehlende / unverständliche Erklärungen;mit einer Confidence von;51.30%
+Regel :aus: ;;fehlende / unverständliche Erklärungen;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;27.83%
+Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;69.00. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;69.00;rel.Supp.;13.80%
+Regel :aus: ;;keine Prüfungsvorbereitung / -schwerpunkte;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;32.55%
+Regel :aus: ;;hohe Stoffmenge / hohes Tempo;folgt: ;;keine Prüfungsvorbereitung / -schwerpunkte;mit einer Confidence von;55.20%
+Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;53.00. ;ungünstige Raumbedingungen;abs.Supp.;53.00;rel.Supp.;10.60%
+Regel :aus: ;;ungünstige Raumbedingungen;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;25.00%
+Regel :aus: ;;hohe Stoffmenge / hohes Tempo;folgt: ;;ungünstige Raumbedingungen;mit einer Confidence von;48.18%

@@ -1,11 +1,8 @@
 ;Minsupport Relativ;30%
 ;Minsupport Absolut;150.0
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;282;rel.Supp.;56.40%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;155;rel.Supp.;31.00%
-Large itemset;;Selbststudium;abs.Supp.;158;rel.Supp.;31.60%
-Large itemset;;Übungen in der Vorlesung;abs.Supp.;240;rel.Supp.;48.00%
-Large itemset;;verständliche Erklärungen;abs.Supp.;155;rel.Supp.;31.00%
-Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;212;rel.Supp.;42.40%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;156. ;Übungen in der Vorlesung;abs.Supp.;156;rel.Supp.;31.20%
-Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;55.32%
-Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;65.00%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;282.00;rel.Supp.;56.40%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;155.00;rel.Supp.;31.00%
+Large itemset;;Selbststudium;abs.Supp.;158.00;rel.Supp.;31.60%
+Large itemset;;Übungen in der Vorlesung;abs.Supp.;240.00;rel.Supp.;48.00%
+Large itemset;;verständliche Erklärungen;abs.Supp.;155.00;rel.Supp.;31.00%
+Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;212.00;rel.Supp.;42.40%

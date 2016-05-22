@@ -58,7 +58,13 @@ class Apriori {
                                     count.add(((Item) libLineElement).count)
                                 }
                         }
-                        r.add(count.min())
+                        //r.add(count.min())
+                        double x=1
+                        count.each {
+                            x*=it/10
+                        }
+                        r.add(x*10)
+
                     }
 
             }
@@ -208,8 +214,9 @@ class Apriori {
 
 class Item implements Cloneable, Comparable {
     def name
-    int count
+    double count
     int id = 0;
+    DecimalFormat f = new DecimalFormat("#0.00");
 
     def setCount(int count) {
         this.count = count;
@@ -243,7 +250,7 @@ class Item implements Cloneable, Comparable {
 
     @Override
     String toString() {
-        return ';'+name +';abs.Supp.;'+ count
+        return ';'+name +';abs.Supp.;'+ f.format(count)
     }
 
     String toString2() {

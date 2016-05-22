@@ -1,7 +1,7 @@
 ;Minsupport Relativ;10%
 ;Minsupport Absolut;50.0
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;282;rel.Supp.;56.40%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;155;rel.Supp.;31.00%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;121. ;Kommunikation mit Dozenten;abs.Supp.;121;rel.Supp.;24.20%
-Regel :aus: ;;Kommunikation mit Dozenten;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;42.91%
-Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;78.06%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;282.00;rel.Supp.;56.40%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;155.00;rel.Supp.;31.00%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;110.00. ;Kommunikation mit Dozenten;abs.Supp.;110.00;rel.Supp.;22.00%
+Regel :aus: ;;Kommunikation mit Dozenten;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;39.01%
+Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;70.97%
