@@ -15,13 +15,19 @@ package groovy.apriori
             def pos2=new Apriori(csvReader:new CSVReader(path: 'res/negativ.csv').read(), minSupportRel: minSupport)
             pos2.makeRules()
             pos2.printAndAnalyze()
-//            println 'Positive'
-//            new Apriori(csvReader:new CSVReader(path: 'res/positiv.csv').read(), minSupportRel: minSupport)
-//            println 'Both'
-//            def csb=new CSVReader(path: 'res/positiv.csv').read()
-//            csb.setPath('res/negativ.csv')
-//            csb.read()
-//            new Apriori(csvReader:csb, minSupportRel: minSupport)
+            println 'Positive'
+            def pos3= new Apriori(csvReader:new CSVReader(path: 'res/positiv.csv').read(), minSupportRel: minSupport)
+            pos3.makeRules()
+            pos3.printAndAnalyze()
+            println 'Both'
+            def csb=new CSVReader(path: 'res/positiv.csv').read()
+            csb.setPath('res/negativ.csv')
+            csb.read()
+            csb.setPath('res/both.csv')
+            def pos4 =new  Apriori(csvReader:csb, minSupportRel: minSupport)
+            pos4.makeRules()
+            pos4.printAndAnalyze()
+
         }
     }
 
