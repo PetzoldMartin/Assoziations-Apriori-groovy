@@ -1,0 +1,110 @@
+;Minsupport Relativ;10%
+;Minsupport Absolut;56.0
+;Name: ;Anschauungsmaterial / Vorführungen; Id: ;1; Support: ;80];relativer Support;14.2857142857%
+;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;282];relativer Support;50.3571428571%
+;Name: ;Arbeitsmaterialien (Skript, Lehrbuch); Id: ;3; Support: ;102];relativer Support;18.2142857143%
+;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;155];relativer Support;27.6785714286%
+;Name: ;Lockerheit des Dozenten; Id: ;14; Support: ;66];relativer Support;11.7857142857%
+;Name: ;Offenheit des Dozenten für Studierende; Id: ;16; Support: ;106];relativer Support;18.9285714286%
+;Name: ;Selbststudium; Id: ;20; Support: ;158];relativer Support;28.2142857143%
+;Name: ;sympathisches Auftreten des Dozenten; Id: ;22; Support: ;70];relativer Support;12.5%
+;Name: ;Teilnahme am Praktikum; Id: ;23; Support: ;107];relativer Support;19.1071428571%
+;Name: ;Teilnahme am Tutorium; Id: ;24; Support: ;72];relativer Support;12.8571428571%
+;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;240];relativer Support;42.8571428571%
+;Name: ;verständliche Erklärungen; Id: ;29; Support: ;155];relativer Support;27.6785714286%
+;Name: ;Visualisierungen; Id: ;30; Support: ;143];relativer Support;25.5357142857%
+;Name: ;Zusammenfassungen und Wiederholungen; Id: ;31; Support: ;91];relativer Support;16.25%
+;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;72, ;Name: ;Arbeitsmaterialien (Skript, Lehrbuch); Id: ;3; Support: ;72];relativer Support;12.8571428571%
+aus: ;Name: ;Arbeitsmaterialien (Skript, Lehrbuch); Id: ;3; Support: ;72;relativer Support;12.8571428571%;folgt: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;72;mit einer Confidence von;25.531914890000003%
+aus: ;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;72;relativer Support;12.8571428571%;folgt: ;;Name: ;Arbeitsmaterialien (Skript, Lehrbuch); Id: ;3; Support: ;72;mit einer Confidence von;70.58823529%
+;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;121, ;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;121];relativer Support;21.6071428571%
+aus: ;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;121;relativer Support;21.6071428571%;folgt: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;121;mit einer Confidence von;42.907801420000006%
+aus: ;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;121;relativer Support;21.6071428571%;folgt: ;;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;121;mit einer Confidence von;78.06451613%
+;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;81, ;Name: ;Offenheit des Dozenten für Studierende; Id: ;16; Support: ;81];relativer Support;14.4642857143%
+aus: ;Name: ;Offenheit des Dozenten für Studierende; Id: ;16; Support: ;81;relativer Support;14.4642857143%;folgt: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;81;mit einer Confidence von;28.723404260000002%
+aus: ;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;81;relativer Support;14.4642857143%;folgt: ;;Name: ;Offenheit des Dozenten für Studierende; Id: ;16; Support: ;81;mit einer Confidence von;76.41509434%
+;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;80, ;Name: ;Selbststudium; Id: ;20; Support: ;80];relativer Support;14.2857142857%
+aus: ;Name: ;Selbststudium; Id: ;20; Support: ;80;relativer Support;14.2857142857%;folgt: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;80;mit einer Confidence von;28.368794330000004%
+aus: ;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;80;relativer Support;14.2857142857%;folgt: ;;Name: ;Selbststudium; Id: ;20; Support: ;80;mit einer Confidence von;50.632911390000004%
+;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;60, ;Name: ;sympathisches Auftreten des Dozenten; Id: ;22; Support: ;60];relativer Support;10.7142857143%
+aus: ;Name: ;sympathisches Auftreten des Dozenten; Id: ;22; Support: ;60;relativer Support;10.7142857143%;folgt: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;60;mit einer Confidence von;21.27659574%
+aus: ;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;60;relativer Support;10.7142857143%;folgt: ;;Name: ;sympathisches Auftreten des Dozenten; Id: ;22; Support: ;60;mit einer Confidence von;85.71428571%
+;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;73, ;Name: ;Teilnahme am Praktikum; Id: ;23; Support: ;73];relativer Support;13.0357142857%
+aus: ;Name: ;Teilnahme am Praktikum; Id: ;23; Support: ;73;relativer Support;13.0357142857%;folgt: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;73;mit einer Confidence von;25.88652482%
+aus: ;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;73;relativer Support;13.0357142857%;folgt: ;;Name: ;Teilnahme am Praktikum; Id: ;23; Support: ;73;mit einer Confidence von;68.22429907%
+;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;156, ;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;156];relativer Support;27.8571428571%
+aus: ;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;156;relativer Support;27.8571428571%;folgt: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;156;mit einer Confidence von;55.31914894%
+aus: ;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;156;relativer Support;27.8571428571%;folgt: ;;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;156;mit einer Confidence von;65.0%
+;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;119, ;Name: ;verständliche Erklärungen; Id: ;29; Support: ;119];relativer Support;21.25%
+aus: ;Name: ;verständliche Erklärungen; Id: ;29; Support: ;119;relativer Support;21.25%;folgt: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;119;mit einer Confidence von;42.19858156%
+aus: ;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;119;relativer Support;21.25%;folgt: ;;Name: ;verständliche Erklärungen; Id: ;29; Support: ;119;mit einer Confidence von;76.77419355%
+;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;113, ;Name: ;Visualisierungen; Id: ;30; Support: ;113];relativer Support;20.1785714286%
+aus: ;Name: ;Visualisierungen; Id: ;30; Support: ;113;relativer Support;20.1785714286%;folgt: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;113;mit einer Confidence von;40.07092199%
+aus: ;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;113;relativer Support;20.1785714286%;folgt: ;;Name: ;Visualisierungen; Id: ;30; Support: ;113;mit einer Confidence von;79.02097902%
+;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;67, ;Name: ;Zusammenfassungen und Wiederholungen; Id: ;31; Support: ;67];relativer Support;11.9642857143%
+aus: ;Name: ;Zusammenfassungen und Wiederholungen; Id: ;31; Support: ;67;relativer Support;11.9642857143%;folgt: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;67;mit einer Confidence von;23.75886525%
+aus: ;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;67;relativer Support;11.9642857143%;folgt: ;;Name: ;Zusammenfassungen und Wiederholungen; Id: ;31; Support: ;67;mit einer Confidence von;73.62637363%
+;Name: ;Arbeitsmaterialien (Skript, Lehrbuch); Id: ;3; Support: ;66, ;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;66];relativer Support;11.7857142857%
+aus: ;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;66;relativer Support;11.7857142857%;folgt: ;;Name: ;Arbeitsmaterialien (Skript, Lehrbuch); Id: ;3; Support: ;66;mit einer Confidence von;64.70588235%
+aus: ;Name: ;Arbeitsmaterialien (Skript, Lehrbuch); Id: ;3; Support: ;66;relativer Support;11.7857142857%;folgt: ;;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;66;mit einer Confidence von;27.500000000000004%
+;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;80, ;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;80];relativer Support;14.2857142857%
+aus: ;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;80;relativer Support;14.2857142857%;folgt: ;;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;80;mit einer Confidence von;51.61290322999999%
+aus: ;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;80;relativer Support;14.2857142857%;folgt: ;;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;80;mit einer Confidence von;33.333333329999995%
+;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;58, ;Name: ;verständliche Erklärungen; Id: ;29; Support: ;58];relativer Support;10.3571428571%
+aus: ;Name: ;verständliche Erklärungen; Id: ;29; Support: ;58;relativer Support;10.3571428571%;folgt: ;;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;58;mit einer Confidence von;37.419354840000004%
+aus: ;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;58;relativer Support;10.3571428571%;folgt: ;;Name: ;verständliche Erklärungen; Id: ;29; Support: ;58;mit einer Confidence von;37.419354840000004%
+;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;62, ;Name: ;Visualisierungen; Id: ;30; Support: ;62];relativer Support;11.0714285714%
+aus: ;Name: ;Visualisierungen; Id: ;30; Support: ;62;relativer Support;11.0714285714%;folgt: ;;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;62;mit einer Confidence von;40.0%
+aus: ;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;62;relativer Support;11.0714285714%;folgt: ;;Name: ;Visualisierungen; Id: ;30; Support: ;62;mit einer Confidence von;43.35664336%
+;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;60, ;Name: ;Zusammenfassungen und Wiederholungen; Id: ;31; Support: ;60];relativer Support;10.7142857143%
+aus: ;Name: ;Zusammenfassungen und Wiederholungen; Id: ;31; Support: ;60;relativer Support;10.7142857143%;folgt: ;;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;60;mit einer Confidence von;38.70967742%
+aus: ;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;60;relativer Support;10.7142857143%;folgt: ;;Name: ;Zusammenfassungen und Wiederholungen; Id: ;31; Support: ;60;mit einer Confidence von;65.93406593%
+;Name: ;Lockerheit des Dozenten; Id: ;14; Support: ;56, ;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;56];relativer Support;1E+1%
+aus: ;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;56;relativer Support;1E+1%;folgt: ;;Name: ;Lockerheit des Dozenten; Id: ;14; Support: ;56;mit einer Confidence von;84.84848485%
+aus: ;Name: ;Lockerheit des Dozenten; Id: ;14; Support: ;56;relativer Support;1E+1%;folgt: ;;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;56;mit einer Confidence von;23.33333333%
+;Name: ;Offenheit des Dozenten für Studierende; Id: ;16; Support: ;66, ;Name: ;verständliche Erklärungen; Id: ;29; Support: ;66];relativer Support;11.7857142857%
+aus: ;Name: ;verständliche Erklärungen; Id: ;29; Support: ;66;relativer Support;11.7857142857%;folgt: ;;Name: ;Offenheit des Dozenten für Studierende; Id: ;16; Support: ;66;mit einer Confidence von;62.26415093999999%
+aus: ;Name: ;Offenheit des Dozenten für Studierende; Id: ;16; Support: ;66;relativer Support;11.7857142857%;folgt: ;;Name: ;verständliche Erklärungen; Id: ;29; Support: ;66;mit einer Confidence von;42.58064516%
+;Name: ;Selbststudium; Id: ;20; Support: ;80, ;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;80];relativer Support;14.2857142857%
+aus: ;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;80;relativer Support;14.2857142857%;folgt: ;;Name: ;Selbststudium; Id: ;20; Support: ;80;mit einer Confidence von;50.632911390000004%
+aus: ;Name: ;Selbststudium; Id: ;20; Support: ;80;relativer Support;14.2857142857%;folgt: ;;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;80;mit einer Confidence von;33.333333329999995%
+;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;63, ;Name: ;verständliche Erklärungen; Id: ;29; Support: ;63];relativer Support;11.25%
+aus: ;Name: ;verständliche Erklärungen; Id: ;29; Support: ;63;relativer Support;11.25%;folgt: ;;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;63;mit einer Confidence von;26.25%
+aus: ;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;63;relativer Support;11.25%;folgt: ;;Name: ;verständliche Erklärungen; Id: ;29; Support: ;63;mit einer Confidence von;40.64516129%
+;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;67, ;Name: ;Visualisierungen; Id: ;30; Support: ;67];relativer Support;11.9642857143%
+aus: ;Name: ;Visualisierungen; Id: ;30; Support: ;67;relativer Support;11.9642857143%;folgt: ;;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;67;mit einer Confidence von;27.91666667%
+aus: ;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;67;relativer Support;11.9642857143%;folgt: ;;Name: ;Visualisierungen; Id: ;30; Support: ;67;mit einer Confidence von;46.85314685%
+;Name: ;verständliche Erklärungen; Id: ;29; Support: ;79, ;Name: ;Visualisierungen; Id: ;30; Support: ;79];relativer Support;14.1071428571%
+aus: ;Name: ;Visualisierungen; Id: ;30; Support: ;79;relativer Support;14.1071428571%;folgt: ;;Name: ;verständliche Erklärungen; Id: ;29; Support: ;79;mit einer Confidence von;50.967741939999996%
+aus: ;Name: ;verständliche Erklärungen; Id: ;29; Support: ;79;relativer Support;14.1071428571%;folgt: ;;Name: ;Visualisierungen; Id: ;30; Support: ;79;mit einer Confidence von;55.244755239999996%
+;Name: ;verständliche Erklärungen; Id: ;29; Support: ;57, ;Name: ;Zusammenfassungen und Wiederholungen; Id: ;31; Support: ;57];relativer Support;10.1785714286%
+aus: ;Name: ;Zusammenfassungen und Wiederholungen; Id: ;31; Support: ;57;relativer Support;10.1785714286%;folgt: ;;Name: ;verständliche Erklärungen; Id: ;29; Support: ;57;mit einer Confidence von;36.77419355%
+aus: ;Name: ;verständliche Erklärungen; Id: ;29; Support: ;57;relativer Support;10.1785714286%;folgt: ;;Name: ;Zusammenfassungen und Wiederholungen; Id: ;31; Support: ;57;mit einer Confidence von;62.637362640000006%
+;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;65, ;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;65, ;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;65];relativer Support;11.6071428571%
+aus: ;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;65;relativer Support;11.6071428571%Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;65;relativer Support;11.6071428571%;folgt: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;65;mit einer Confidence von;23.049645390000002%
+aus: ;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;65;relativer Support;11.6071428571%Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;65;relativer Support;11.6071428571%;folgt: ;;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;65;mit einer Confidence von;41.93548387%
+aus: ;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;65;relativer Support;11.6071428571%Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;65;relativer Support;11.6071428571%;folgt: ;;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;65;mit einer Confidence von;27.08333333%
+;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;58, ;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;58, ;Name: ;Visualisierungen; Id: ;30; Support: ;58];relativer Support;10.3571428571%
+aus: ;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;58;relativer Support;10.3571428571%Name: ;Visualisierungen; Id: ;30; Support: ;58;relativer Support;10.3571428571%;folgt: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;58;mit einer Confidence von;20.56737589%
+aus: ;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;58;relativer Support;10.3571428571%Name: ;Visualisierungen; Id: ;30; Support: ;58;relativer Support;10.3571428571%;folgt: ;;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;58;mit einer Confidence von;37.419354840000004%
+aus: ;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;58;relativer Support;10.3571428571%Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;58;relativer Support;10.3571428571%;folgt: ;;Name: ;Visualisierungen; Id: ;30; Support: ;58;mit einer Confidence von;40.55944056%
+;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;56, ;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;56, ;Name: ;Zusammenfassungen und Wiederholungen; Id: ;31; Support: ;56];relativer Support;1E+1%
+aus: ;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;56;relativer Support;1E+1%Name: ;Zusammenfassungen und Wiederholungen; Id: ;31; Support: ;56;relativer Support;1E+1%;folgt: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;56;mit einer Confidence von;19.85815603%
+aus: ;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;56;relativer Support;1E+1%Name: ;Zusammenfassungen und Wiederholungen; Id: ;31; Support: ;56;relativer Support;1E+1%;folgt: ;;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;56;mit einer Confidence von;36.12903226%
+aus: ;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;56;relativer Support;1E+1%Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;56;relativer Support;1E+1%;folgt: ;;Name: ;Zusammenfassungen und Wiederholungen; Id: ;31; Support: ;56;mit einer Confidence von;61.53846154%
+;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;57, ;Name: ;Selbststudium; Id: ;20; Support: ;57, ;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;57];relativer Support;10.1785714286%
+aus: ;Name: ;Selbststudium; Id: ;20; Support: ;57;relativer Support;10.1785714286%Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;57;relativer Support;10.1785714286%;folgt: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;57;mit einer Confidence von;20.212765960000002%
+aus: ;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;57;relativer Support;10.1785714286%Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;57;relativer Support;10.1785714286%;folgt: ;;Name: ;Selbststudium; Id: ;20; Support: ;57;mit einer Confidence von;36.07594937%
+aus: ;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;57;relativer Support;10.1785714286%Name: ;Selbststudium; Id: ;20; Support: ;57;relativer Support;10.1785714286%;folgt: ;;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;57;mit einer Confidence von;23.75%
+;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;56, ;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;56, ;Name: ;verständliche Erklärungen; Id: ;29; Support: ;56];relativer Support;1E+1%
+aus: ;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;56;relativer Support;1E+1%Name: ;verständliche Erklärungen; Id: ;29; Support: ;56;relativer Support;1E+1%;folgt: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;56;mit einer Confidence von;19.85815603%
+aus: ;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;56;relativer Support;1E+1%Name: ;verständliche Erklärungen; Id: ;29; Support: ;56;relativer Support;1E+1%;folgt: ;;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;56;mit einer Confidence von;23.33333333%
+aus: ;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;56;relativer Support;1E+1%Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;56;relativer Support;1E+1%;folgt: ;;Name: ;verständliche Erklärungen; Id: ;29; Support: ;56;mit einer Confidence von;36.12903226%
+;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;61, ;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;61, ;Name: ;Visualisierungen; Id: ;30; Support: ;61];relativer Support;10.8928571429%
+aus: ;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;61;relativer Support;10.8928571429%Name: ;Visualisierungen; Id: ;30; Support: ;61;relativer Support;10.8928571429%;folgt: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;61;mit einer Confidence von;21.63120567%
+aus: ;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;61;relativer Support;10.8928571429%Name: ;Visualisierungen; Id: ;30; Support: ;61;relativer Support;10.8928571429%;folgt: ;;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;61;mit einer Confidence von;25.416666669999998%
+aus: ;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;61;relativer Support;10.8928571429%Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;61;relativer Support;10.8928571429%;folgt: ;;Name: ;Visualisierungen; Id: ;30; Support: ;61;mit einer Confidence von;42.657342660000005%
+;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;64, ;Name: ;verständliche Erklärungen; Id: ;29; Support: ;64, ;Name: ;Visualisierungen; Id: ;30; Support: ;64];relativer Support;11.4285714286%
+aus: ;Name: ;verständliche Erklärungen; Id: ;29; Support: ;64;relativer Support;11.4285714286%Name: ;Visualisierungen; Id: ;30; Support: ;64;relativer Support;11.4285714286%;folgt: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;64;mit einer Confidence von;22.69503546%
+aus: ;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;64;relativer Support;11.4285714286%Name: ;Visualisierungen; Id: ;30; Support: ;64;relativer Support;11.4285714286%;folgt: ;;Name: ;verständliche Erklärungen; Id: ;29; Support: ;64;mit einer Confidence von;41.29032258%
+aus: ;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;64;relativer Support;11.4285714286%Name: ;verständliche Erklärungen; Id: ;29; Support: ;64;relativer Support;11.4285714286%;folgt: ;;Name: ;Visualisierungen; Id: ;30; Support: ;64;mit einer Confidence von;44.755244760000004%
