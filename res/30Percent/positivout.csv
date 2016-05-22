@@ -1,10 +1,10 @@
 ;Minsupport Relativ;30%
 ;Minsupport Absolut;150.0
-;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;282;relativer Support;56.4%
-;;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;155;relativer Support;31%
-;;Name: ;Selbststudium; Id: ;20; Support: ;158;relativer Support;31.6%
-;;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;240;relativer Support;48%
-;;Name: ;verständliche Erklärungen; Id: ;29; Support: ;155;relativer Support;31%
-;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;156. ;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;156;relativer Support;31.2%
+Regel;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;282;relativer Support;56.4%
+Regel;;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;155;relativer Support;31%
+Regel;;Name: ;Selbststudium; Id: ;20; Support: ;158;relativer Support;31.6%
+Regel;;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;240;relativer Support;48%
+Regel;;Name: ;verständliche Erklärungen; Id: ;29; Support: ;155;relativer Support;31%
+Regel;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;156. ;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;156;relativer Support;31.2%
 aus: ;;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;156;relativer Support;31.2%;folgt: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;156;mit einer Confidence von;55.31914894%
 aus: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;156;relativer Support;31.2%;folgt: ;;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;156;mit einer Confidence von;65.0%
