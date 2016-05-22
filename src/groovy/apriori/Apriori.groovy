@@ -153,8 +153,8 @@ class Apriori {
     def printAndAnalyze() {
         def of = new File(csvReader.path.replaceAll(".csv", "out.csv"))
         of.write("")
-        print';Minsupport Relativ;'+minSupportRel+'%\n'
-        print ';Minsupport Absolut;'+minSupportAbs+'\n'
+        printCAndF(of,';Minsupport Relativ;'+minSupportRel+'%\n')
+        printCAndF(of,';Minsupport Absolut;'+minSupportAbs+'\n')
 
 
         rules.eachWithIndex {  entry, int i ->
@@ -170,11 +170,12 @@ class Apriori {
                             x.removeElement(it2.clone())
                             printCAndF(of, 'aus: ;')
                             x.each {Item y->
-                                printCAndF(of, '+++'+y.toString()[1..-1]+';relativer Support;'+y.getRelativSupport(csvReader.body.size())+'%')
+                                printCAndF(of, y.toString()[1..-1]+';relativer Support;'+y.getRelativSupport(csvReader.body.size())+'%')
                             }
                             printCAndF(of, ';folgt: ;' + it2.toString() + ';mit einer Confidence von;')
-                            printCAndF(of, "\n"+it2.count+':'+searchForSupportOf(it2))
-                            printCAndF(of, (((Double)(it2.count/searchForSupportOf(it2)))*100)+'%')
+                            //printCAndF(of, "\n"+it2.count+':'+searchForSupportOf(it2)+'\n')
+
+                            if (searchForSupportOf(it2))printCAndF(of, (((Double)(it2.count/searchForSupportOf(it2)))*100)+'%')
                             printCAndF(of, "\n")
                     }
                 }
@@ -182,11 +183,19 @@ class Apriori {
             }
         }
     }
-    def searchForSupportOf(Item item){
-        List temp=rules[0]
-        def t2=  temp[item.id]
-        if(t2 instanceof Item)return t2.count
-        else println '\n'+t2.toString().split(';').last()[0..-2]+'\n'
+    def searchForSupportOf(Item item) {
+        List temp = rules[0].clone()
+        //println "\n+++++++ü" + item.id + '****' + rules[0] + "\n"
+        int t2
+                temp.each {Item it->
+
+            if(it.id==item.id)return t2=it.count
+        }
+        return t2
+//        if(t2 instanceof Item)return t2.count
+//        //else println '\n'+(t2.toString().split(';').last()[0..-2]).toInteger()+'\n'
+//        else  if(t2) return (t2.toString().split(';').last()[0..-2]).toInteger()
+//    }
     }
 
     def makeRules() {
