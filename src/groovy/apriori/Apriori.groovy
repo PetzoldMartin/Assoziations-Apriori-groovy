@@ -14,6 +14,7 @@ class Apriori {
     def candidateSets = []
     def largeItemSets = []
     def minSupportRel
+    def rules=[]
 
     def getMinSupportAbs() {
         csvReader.body.size() * 10 * (minSupportRel / 100)
@@ -59,7 +60,9 @@ class Apriori {
 //            println 'hc: '+ hitcounter
 //            println  'sum: '+ r.sum()
             setLine.each { Item lineItem ->
-                lineItem.count = r.sum()
+
+                if(r.sum()) lineItem.count = r.sum()
+
                 backSetLine.add(lineItem.clone())
             }
             backSet.add(backSetLine)
@@ -78,7 +81,9 @@ class Apriori {
             candidateSets.add(loop, itemSet.clone())
             itemSet.removeIf { ((Item) it[0]).count < getMinSupportAbs() }
             largeItemSets.add(loop, itemSet.clone())
-            //debug(loop)
+            debug(loop)
+            rules.add(deepCopy(loop))
+
             makeRules(loopI + 1)
         } else {
             if (candidateSets.size() >= loop) {
@@ -96,7 +101,9 @@ class Apriori {
                     candidateSets.add(loop, itemSet.clone())
                     itemSet.removeIf { ((Item) it[0]).count < getMinSupportAbs() }
                     largeItemSets.add(loop, itemSet.clone())
-                    //debug(loop)
+                    debug(loop)
+                    rules.add(deepCopy(loop))
+
                     makeRules(loopI + 1)
                 }
             }
@@ -105,6 +112,19 @@ class Apriori {
         }
     }
 
+    def deepCopy(def dl){
+        def level=[]
+        largeItemSets[dl].each {
+            def underLevel=[]
+            it.eachWithIndex {
+                Item it2,int i->
+                    Item x=new Item(count: it2.count, name: it2.name, id: it2.id);
+                    underLevel.add(i,x)
+            }
+            level.add(underLevel)
+        }
+        return level
+    }
 
     List prepareCandidateBuild(List list) {
         def newList = []
@@ -136,11 +156,11 @@ class Apriori {
         print';Minsupport Relativ;'+minSupportRel+'%\n'
         print ';Minsupport Absolut;'+minSupportAbs+'\n'
 
-        largeItemSets.eachWithIndex { ArrayList entry, int i ->
+
+        rules.eachWithIndex {  entry, int i ->
             println i
-            largeItemSets[i].each { List it ->
-                //outputFile << it.toString()[2..-3] + "\n"
-                printCAndF(of,it.toString()[1..-2]+';relativer Support;'+((Item)it[0]).getRelativSupport(csvReader.body.size())+'%')
+            entry.each { List it ->
+                printCAndF(of,it.toString()[1..-1]+';relativer Support;'+((Item)it[0]).getRelativSupport(csvReader.body.size())+'%')
                 printCAndF(of,"\n")
                 if (it.size() > 1) {
                     it.each {
@@ -150,9 +170,10 @@ class Apriori {
                             x.removeElement(it2.clone())
                             printCAndF(of, 'aus: ;')
                             x.each {Item y->
-                                printCAndF(of, '+++'+y.toString()[1..-2]+';relativer Support;'+y.getRelativSupport(csvReader.body.size())+'%')
+                                printCAndF(of, '+++'+y.toString()[1..-1]+';relativer Support;'+y.getRelativSupport(csvReader.body.size())+'%')
                             }
                             printCAndF(of, ';folgt: ;' + it2.toString() + ';mit einer Confidence von;')
+                            printCAndF(of, "\n"+it2.count+':'+searchForSupportOf(it2))
                             printCAndF(of, (((Double)(it2.count/searchForSupportOf(it2)))*100)+'%')
                             printCAndF(of, "\n")
                     }
@@ -162,9 +183,10 @@ class Apriori {
         }
     }
     def searchForSupportOf(Item item){
-        List temp=largeItemSets[0]
+        List temp=rules[0]
         def t2=  temp[item.id]
-        return t2.count
+        if(t2 instanceof Item)return t2.count
+        else println '\n'+t2.toString().split(';').last()[0..-2]+'\n'
     }
 
     def makeRules() {
@@ -172,19 +194,17 @@ class Apriori {
     }
 }
 
-
 class Item implements Cloneable, Comparable {
-    def name, count
+    def name
+    int count
     int id = 0;
 
-    def setCount(def count) {
+    def setCount(int count) {
         this.count = count;
         return this;
     }
 
-    def add(int i) {
-        this.count = this.count + i;
-    }
+
 
     @Override
     int compareTo(Object o) {
