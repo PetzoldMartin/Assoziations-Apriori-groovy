@@ -1,11 +1,11 @@
 ;Minsupport Relativ;30%
 ;Minsupport Absolut;150.0
-Regel;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;282;relativer Support;56.4%
-Regel;;Name: ;Kommunikation mit Dozenten; Id: ;13; Support: ;155;relativer Support;31%
-Regel;;Name: ;Selbststudium; Id: ;20; Support: ;158;relativer Support;31.6%
-Regel;;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;240;relativer Support;48%
-Regel;;Name: ;verständliche Erklärungen; Id: ;29; Support: ;155;relativer Support;31%
-Regel;;Name: ;hohe Stoffmenge / hohes Tempo; Id: ;42; Support: ;212;relativer Support;42.4%
-Regel;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;156. ;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;156;relativer Support;31.2%
-aus: ;;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;156;relativer Support;31.2%;folgt: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;156;mit einer Confidence von;55.31914894%
-aus: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;156;relativer Support;31.2%;folgt: ;;Name: ;Übungen in der Vorlesung; Id: ;27; Support: ;156;mit einer Confidence von;65.0%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;282;rel.Supp.;56.40%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;155;rel.Supp.;31.00%
+Large itemset;;Selbststudium;abs.Supp.;158;rel.Supp.;31.60%
+Large itemset;;Übungen in der Vorlesung;abs.Supp.;240;rel.Supp.;48.00%
+Large itemset;;verständliche Erklärungen;abs.Supp.;155;rel.Supp.;31.00%
+Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;212;rel.Supp.;42.40%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;156. ;Übungen in der Vorlesung;abs.Supp.;156;rel.Supp.;31.20%
+Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;55.32%
+Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;65.00%

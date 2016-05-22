@@ -1,7 +1,7 @@
 ;Minsupport Relativ;20%
 ;Minsupport Absolut;100.0
-Regel;;Name: ;fehlende / unverständliche Erklärungen; Id: ;6; Support: ;115;relativer Support;23%
-Regel;;Name: ;hohe Stoffmenge / hohes Tempo; Id: ;10; Support: ;212;relativer Support;42.4%
-Regel;;Name: ;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung"; Id: ;13; Support: ;120;relativer Support;24%
-Regel;;Name: ;keine Prüfungsvorbereitung / -schwerpunkte; Id: ;18; Support: ;125;relativer Support;25%
-Regel;;Name: ;ungünstige Raumbedingungen; Id: ;23; Support: ;110;relativer Support;22%
+Large itemset;;fehlende / unverständliche Erklärungen;abs.Supp.;115;rel.Supp.;23.00%
+Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;212;rel.Supp.;42.40%
+Large itemset;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;120;rel.Supp.;24.00%
+Large itemset;;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;125;rel.Supp.;25.00%
+Large itemset;;ungünstige Raumbedingungen;abs.Supp.;110;rel.Supp.;22.00%

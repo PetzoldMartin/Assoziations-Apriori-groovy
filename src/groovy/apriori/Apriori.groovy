@@ -4,6 +4,8 @@ import org.paukov.combinatorics.Factory
 import org.paukov.combinatorics.Generator
 import org.paukov.combinatorics.ICombinatoricsVector
 
+import java.text.DecimalFormat
+
 
 /**
  * Created by aisma on 18.05.2016.
@@ -16,7 +18,7 @@ class Apriori {
     def minSupportRel
     def rules=[]
     int lines
-
+    DecimalFormat f = new DecimalFormat("#0.00");
     def getMinSupportAbs() {
         csvReader.body.size() * 10 * (minSupportRel / 100)
     }
@@ -163,7 +165,7 @@ class Apriori {
         rules.eachWithIndex {  entry, int i ->
             println i
             entry.each { List it ->
-                printCAndF(of,'Regel;'+it.toString()[1..-2]+';relativer Support;'+((Item)it[0]).getRelativeSupport(lines)+'%')
+                printCAndF(of,'Large itemset;'+it.toString()[1..-2]+';rel.Supp.;'+f.format(((Item)it[0]).getRelativeSupport(lines))+'%')
                 //printCAndF(of, "\nLinecount"+lines+'\n')
                 printCAndF(of,"\n")
                 if (it.size() > 1) {
@@ -172,16 +174,16 @@ class Apriori {
                         Item it2 ->
                             List x = it.clone()
                             x.removeElement(it2.clone())
-                            printCAndF(of, 'aus: ;')
+                            printCAndF(of, 'Regel :aus: ;')
                             x.each {Item y->
-                                printCAndF(of,';'+ y.toString()[1..-1]+';relativer Support;'+y.getRelativeSupport(lines)+'%')
+                                printCAndF(of,';'+ y.toString2()[1..-1])
                                 //printCAndF(of, "\nLinecount"+lines+'\n')
 
                             }
-                            printCAndF(of, ';folgt: ;' + it2.toString() + ';mit einer Confidence von;')
+                            printCAndF(of, ';folgt: ;' + it2.toString2() + ';mit einer Confidence von;')
                             //printCAndF(of, "\n"+it2.count+':'+searchForSupportOf(it2)+'\n')
 
-                            if (searchForSupportOf(it2))printCAndF(of, (((Double)(it2.count/searchForSupportOf(it2)))*100)+'%')
+                            if (searchForSupportOf(it2))printCAndF(of, f.format((((Double)(it2.count/searchForSupportOf(it2)))*100))+'%')
                             printCAndF(of, "\n")
                     }
                 }
@@ -241,6 +243,10 @@ class Item implements Cloneable, Comparable {
 
     @Override
     String toString() {
-        return ';Name: ;' + name + '; Id: ;' + id + '; Support: ;' + count
+        return ';'+name +';abs.Supp.;'+ count
+    }
+
+    String toString2() {
+        return ';'+name
     }
 }

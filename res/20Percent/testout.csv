@@ -1,7 +1,7 @@
 ;Minsupport Relativ;20%
 ;Minsupport Absolut;100.0
-Regel;;Name: ;hohe Stoffmenge / hohes Tempo; Id: ;1; Support: ;212;relativer Support;42.4%
-Regel;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;282;relativer Support;56.4%
-Regel;;Name: ;hohe Stoffmenge / hohes Tempo; Id: ;1; Support: ;132. ;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;132;relativer Support;26.4%
-aus: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;132;relativer Support;26.4%;folgt: ;;Name: ;hohe Stoffmenge / hohes Tempo; Id: ;1; Support: ;132;mit einer Confidence von;62.26415093999999%
-aus: ;;Name: ;hohe Stoffmenge / hohes Tempo; Id: ;1; Support: ;132;relativer Support;26.4%;folgt: ;;Name: ;Anwendungs- / Praxisbeispiele; Id: ;2; Support: ;132;mit einer Confidence von;46.80851064%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;282;rel.Supp.;56.40%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;155;rel.Supp.;31.00%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;121. ;Kommunikation mit Dozenten;abs.Supp.;121;rel.Supp.;24.20%
+Regel :aus: ;;Kommunikation mit Dozenten;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;42.91%
+Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;78.06%
