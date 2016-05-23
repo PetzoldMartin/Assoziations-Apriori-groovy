@@ -61,7 +61,7 @@ class Apriori {
                         //r.add(count.min())
                         double x=1
                         count.each {
-                            x*=it/10
+                            x*=(it/10)
                         }
                         r.add(x*10)
 
@@ -199,7 +199,7 @@ class Apriori {
     }
     def searchForSupportOf(Item item) {
         List temp = rules[0].clone()
-        int t2
+        double t2
                 temp.each {Item it->
 
             if(it.id==item.id)return t2=it.count
@@ -218,7 +218,7 @@ class Item implements Cloneable, Comparable {
     int id = 0;
     DecimalFormat f = new DecimalFormat("#0.00");
 
-    def setCount(int count) {
+    def setCount(double count) {
         this.count = count;
         return this;
     }
