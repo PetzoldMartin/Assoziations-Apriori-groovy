@@ -14,7 +14,7 @@ class CSVReader {
             line=line+";1"
             if(lineIndex) {
 
-                def x=(line.split(';').collect{if(it)(((it.replaceAll(",","\\.")) as double)*10)as int}.drop(1).dropRight(1))
+                def x=(line.split(';').collect{if(it)(((it.replaceAll(",","\\.")) as double)*100)as int}.drop(1).dropRight(1))
                 if(body[lineIndex-1])body[lineIndex-1]+=x else body[lineIndex-1]=x
                 lineIndex++
                 //println body[lineIndex-1].size()+":::"+  body[lineIndex-1]

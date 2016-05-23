@@ -1,701 +1,702 @@
 ;Minsupport Relativ;6%
-;Minsupport Absolut;30.00
-Large itemset;;angenehmes Tempo;abs.Supp.;50.00;rel.Supp.;10.00%
-Large itemset;;Anschauungsmaterial / Vorführungen;abs.Supp.;80.00;rel.Supp.;16.00%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;282.00;rel.Supp.;56.40%
-Large itemset;;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;102.00;rel.Supp.;20.40%
-Large itemset;;Diskussionen in Präsenzlehre;abs.Supp.;53.00;rel.Supp.;10.60%
-Large itemset;;eigenes Interesse am Thema;abs.Supp.;33.00;rel.Supp.;6.60%
-Large itemset;;Engagement des Dozenten;abs.Supp.;46.00;rel.Supp.;9.20%
-Large itemset;;Erreichbarkeit des Dozenten;abs.Supp.;30.00;rel.Supp.;6.00%
-Large itemset;;Fachkompetenz des Dozenten;abs.Supp.;35.00;rel.Supp.;7.00%
-Large itemset;;Humor des Dozenten;abs.Supp.;36.00;rel.Supp.;7.20%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;155.00;rel.Supp.;31.00%
-Large itemset;;Lockerheit des Dozenten;abs.Supp.;66.00;rel.Supp.;13.20%
-Large itemset;;logischer Aufbau der Lehrveranstaltung;abs.Supp.;31.00;rel.Supp.;6.20%
-Large itemset;;Offenheit des Dozenten für Studierende;abs.Supp.;106.00;rel.Supp.;21.20%
-Large itemset;;Partizipation / Mitsprache der Studierenden;abs.Supp.;45.00;rel.Supp.;9.00%
-Large itemset;;Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;31.00;rel.Supp.;6.20%
-Large itemset;;Selbststudium;abs.Supp.;158.00;rel.Supp.;31.60%
-Large itemset;;strukturiertes Skript;abs.Supp.;52.00;rel.Supp.;10.40%
-Large itemset;;sympathisches Auftreten des Dozenten;abs.Supp.;70.00;rel.Supp.;14.00%
-Large itemset;;Teilnahme am Praktikum;abs.Supp.;107.00;rel.Supp.;21.40%
-Large itemset;;Teilnahme am Tutorium;abs.Supp.;72.00;rel.Supp.;14.40%
-Large itemset;;Teilnahme an Übung (Veranstaltungsform);abs.Supp.;40.00;rel.Supp.;8.00%
-Large itemset;;Teilnahme an Vorlesung;abs.Supp.;33.00;rel.Supp.;6.60%
-Large itemset;;Übungen in der Vorlesung;abs.Supp.;240.00;rel.Supp.;48.00%
-Large itemset;;verständliche Erklärungen;abs.Supp.;155.00;rel.Supp.;31.00%
-Large itemset;;Visualisierungen;abs.Supp.;143.00;rel.Supp.;28.60%
-Large itemset;;Zusammenfassungen und Wiederholungen;abs.Supp.;91.00;rel.Supp.;18.20%
-Large itemset;;Ablenkung durch Lautstärke der Kommilitonen;abs.Supp.;64.00;rel.Supp.;12.80%
-Large itemset;;Ausfall von Lehrveranstaltungen;abs.Supp.;32.00;rel.Supp.;6.40%
-Large itemset;;Demotivierung / Einschüchterung der Studierenden;abs.Supp.;46.00;rel.Supp.;9.20%
-Large itemset;;fehlende / mangelnde Anwendung und Praxis;abs.Supp.;83.00;rel.Supp.;16.60%
-Large itemset;;fehlende / unverständliche Erklärungen;abs.Supp.;115.00;rel.Supp.;23.00%
-Large itemset;;fehlende / zu wenige Lehrinhalte;abs.Supp.;70.00;rel.Supp.;14.00%
-Large itemset;;fehlendes Vorwissen;abs.Supp.;70.00;rel.Supp.;14.00%
-Large itemset;;geringes Engagement des Dozenten;abs.Supp.;73.00;rel.Supp.;14.60%
-Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;212.00;rel.Supp.;42.40%
-Large itemset;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;120.00;rel.Supp.;24.00%
-Large itemset;;keine (vollständigen) Arbeitsmaterialien;abs.Supp.;65.00;rel.Supp.;13.00%
-Large itemset;;keine geforderte Aktivität der Studierenden;abs.Supp.;32.00;rel.Supp.;6.40%
-Large itemset;;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;125.00;rel.Supp.;25.00%
-Large itemset;;schlechte Passung zu anderen Lehrveranstaltungen;abs.Supp.;49.00;rel.Supp.;9.80%
-Large itemset;;schwaches eigenes Engagement;abs.Supp.;75.00;rel.Supp.;15.00%
-Large itemset;;späte Bereitstellung der Unterlagen;abs.Supp.;75.00;rel.Supp.;15.00%
-Large itemset;;ungünstige Raumbedingungen;abs.Supp.;110.00;rel.Supp.;22.00%
-Large itemset;;ungünstige Veranstaltungszeit;abs.Supp.;72.00;rel.Supp.;14.40%
-Large itemset;;unstrukturierte Arbeitsmaterialien;abs.Supp.;47.00;rel.Supp.;9.40%
-Large itemset;;unübersichtliche / Überfüllte Visualisierung;abs.Supp.;76.00;rel.Supp.;15.20%
-Large itemset;;angenehmes Tempo;abs.Supp.;37.50. ;Anwendungs- / Praxisbeispiele;abs.Supp.;37.50;rel.Supp.;7.50%
+;Minsupport Absolut;300.00
+;Fiktive Transaktionen Anzahl;5000
+Large itemset;;angenehmes Tempo;abs.Supp.;500.00;rel.Supp.;10.00%
+Large itemset;;Anschauungsmaterial / Vorführungen;abs.Supp.;800.00;rel.Supp.;16.00%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;2820.00;rel.Supp.;56.40%
+Large itemset;;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;1020.00;rel.Supp.;20.40%
+Large itemset;;Diskussionen in Präsenzlehre;abs.Supp.;530.00;rel.Supp.;10.60%
+Large itemset;;eigenes Interesse am Thema;abs.Supp.;330.00;rel.Supp.;6.60%
+Large itemset;;Engagement des Dozenten;abs.Supp.;460.00;rel.Supp.;9.20%
+Large itemset;;Erreichbarkeit des Dozenten;abs.Supp.;300.00;rel.Supp.;6.00%
+Large itemset;;Fachkompetenz des Dozenten;abs.Supp.;350.00;rel.Supp.;7.00%
+Large itemset;;Humor des Dozenten;abs.Supp.;360.00;rel.Supp.;7.20%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;1550.00;rel.Supp.;31.00%
+Large itemset;;Lockerheit des Dozenten;abs.Supp.;660.00;rel.Supp.;13.20%
+Large itemset;;logischer Aufbau der Lehrveranstaltung;abs.Supp.;310.00;rel.Supp.;6.20%
+Large itemset;;Offenheit des Dozenten für Studierende;abs.Supp.;1060.00;rel.Supp.;21.20%
+Large itemset;;Partizipation / Mitsprache der Studierenden;abs.Supp.;450.00;rel.Supp.;9.00%
+Large itemset;;Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;310.00;rel.Supp.;6.20%
+Large itemset;;Selbststudium;abs.Supp.;1580.00;rel.Supp.;31.60%
+Large itemset;;strukturiertes Skript;abs.Supp.;520.00;rel.Supp.;10.40%
+Large itemset;;sympathisches Auftreten des Dozenten;abs.Supp.;700.00;rel.Supp.;14.00%
+Large itemset;;Teilnahme am Praktikum;abs.Supp.;1070.00;rel.Supp.;21.40%
+Large itemset;;Teilnahme am Tutorium;abs.Supp.;720.00;rel.Supp.;14.40%
+Large itemset;;Teilnahme an Übung (Veranstaltungsform);abs.Supp.;400.00;rel.Supp.;8.00%
+Large itemset;;Teilnahme an Vorlesung;abs.Supp.;330.00;rel.Supp.;6.60%
+Large itemset;;Übungen in der Vorlesung;abs.Supp.;2400.00;rel.Supp.;48.00%
+Large itemset;;verständliche Erklärungen;abs.Supp.;1550.00;rel.Supp.;31.00%
+Large itemset;;Visualisierungen;abs.Supp.;1430.00;rel.Supp.;28.60%
+Large itemset;;Zusammenfassungen und Wiederholungen;abs.Supp.;910.00;rel.Supp.;18.20%
+Large itemset;;Ablenkung durch Lautstärke der Kommilitonen;abs.Supp.;640.00;rel.Supp.;12.80%
+Large itemset;;Ausfall von Lehrveranstaltungen;abs.Supp.;320.00;rel.Supp.;6.40%
+Large itemset;;Demotivierung / Einschüchterung der Studierenden;abs.Supp.;460.00;rel.Supp.;9.20%
+Large itemset;;fehlende / mangelnde Anwendung und Praxis;abs.Supp.;830.00;rel.Supp.;16.60%
+Large itemset;;fehlende / unverständliche Erklärungen;abs.Supp.;1150.00;rel.Supp.;23.00%
+Large itemset;;fehlende / zu wenige Lehrinhalte;abs.Supp.;700.00;rel.Supp.;14.00%
+Large itemset;;fehlendes Vorwissen;abs.Supp.;700.00;rel.Supp.;14.00%
+Large itemset;;geringes Engagement des Dozenten;abs.Supp.;730.00;rel.Supp.;14.60%
+Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;2120.00;rel.Supp.;42.40%
+Large itemset;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;1200.00;rel.Supp.;24.00%
+Large itemset;;keine (vollständigen) Arbeitsmaterialien;abs.Supp.;650.00;rel.Supp.;13.00%
+Large itemset;;keine geforderte Aktivität der Studierenden;abs.Supp.;320.00;rel.Supp.;6.40%
+Large itemset;;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;1250.00;rel.Supp.;25.00%
+Large itemset;;schlechte Passung zu anderen Lehrveranstaltungen;abs.Supp.;490.00;rel.Supp.;9.80%
+Large itemset;;schwaches eigenes Engagement;abs.Supp.;750.00;rel.Supp.;15.00%
+Large itemset;;späte Bereitstellung der Unterlagen;abs.Supp.;750.00;rel.Supp.;15.00%
+Large itemset;;ungünstige Raumbedingungen;abs.Supp.;1100.00;rel.Supp.;22.00%
+Large itemset;;ungünstige Veranstaltungszeit;abs.Supp.;720.00;rel.Supp.;14.40%
+Large itemset;;unstrukturierte Arbeitsmaterialien;abs.Supp.;470.00;rel.Supp.;9.40%
+Large itemset;;unübersichtliche / Überfüllte Visualisierung;abs.Supp.;760.00;rel.Supp.;15.20%
+Large itemset;;angenehmes Tempo;abs.Supp.;375.00. ;Anwendungs- / Praxisbeispiele;abs.Supp.;375.00;rel.Supp.;7.50%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;angenehmes Tempo;mit einer Confidence von;75.00%
 Regel :aus: ;;angenehmes Tempo;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;13.30%
-Large itemset;;angenehmes Tempo;abs.Supp.;37.50. ;Übungen in der Vorlesung;abs.Supp.;37.50;rel.Supp.;7.50%
+Large itemset;;angenehmes Tempo;abs.Supp.;375.00. ;Übungen in der Vorlesung;abs.Supp.;375.00;rel.Supp.;7.50%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;angenehmes Tempo;mit einer Confidence von;75.00%
 Regel :aus: ;;angenehmes Tempo;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;15.62%
-Large itemset;;Anschauungsmaterial / Vorführungen;abs.Supp.;32.50. ;Anwendungs- / Praxisbeispiele;abs.Supp.;32.50;rel.Supp.;6.50%
+Large itemset;;Anschauungsmaterial / Vorführungen;abs.Supp.;325.00. ;Anwendungs- / Praxisbeispiele;abs.Supp.;325.00;rel.Supp.;6.50%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Anschauungsmaterial / Vorführungen;mit einer Confidence von;40.62%
 Regel :aus: ;;Anschauungsmaterial / Vorführungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;11.52%
-Large itemset;;Anschauungsmaterial / Vorführungen;abs.Supp.;45.00. ;Übungen in der Vorlesung;abs.Supp.;45.00;rel.Supp.;9.00%
+Large itemset;;Anschauungsmaterial / Vorführungen;abs.Supp.;450.00. ;Übungen in der Vorlesung;abs.Supp.;450.00;rel.Supp.;9.00%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;Anschauungsmaterial / Vorführungen;mit einer Confidence von;56.25%
 Regel :aus: ;;Anschauungsmaterial / Vorführungen;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;18.75%
-Large itemset;;Anschauungsmaterial / Vorführungen;abs.Supp.;35.50. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;35.50;rel.Supp.;7.10%
+Large itemset;;Anschauungsmaterial / Vorführungen;abs.Supp.;355.00. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;355.00;rel.Supp.;7.10%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;folgt: ;;Anschauungsmaterial / Vorführungen;mit einer Confidence von;44.38%
 Regel :aus: ;;Anschauungsmaterial / Vorführungen;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;16.75%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;56.50. ;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;56.50;rel.Supp.;11.30%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;565.00. ;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;565.00;rel.Supp.;11.30%
 Regel :aus: ;;Arbeitsmaterialien (Skript. Lehrbuch);folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;20.04%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Arbeitsmaterialien (Skript. Lehrbuch);mit einer Confidence von;55.39%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;33.00. ;Diskussionen in Präsenzlehre;abs.Supp.;33.00;rel.Supp.;6.60%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;330.00. ;Diskussionen in Präsenzlehre;abs.Supp.;330.00;rel.Supp.;6.60%
 Regel :aus: ;;Diskussionen in Präsenzlehre;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;11.70%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Diskussionen in Präsenzlehre;mit einer Confidence von;62.26%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;30.50. ;Engagement des Dozenten;abs.Supp.;30.50;rel.Supp.;6.10%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;305.00. ;Engagement des Dozenten;abs.Supp.;305.00;rel.Supp.;6.10%
 Regel :aus: ;;Engagement des Dozenten;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;10.82%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Engagement des Dozenten;mit einer Confidence von;66.30%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;110.50. ;Kommunikation mit Dozenten;abs.Supp.;110.50;rel.Supp.;22.10%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;1105.00. ;Kommunikation mit Dozenten;abs.Supp.;1105.00;rel.Supp.;22.10%
 Regel :aus: ;;Kommunikation mit Dozenten;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;39.18%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;71.29%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;52.50. ;Lockerheit des Dozenten;abs.Supp.;52.50;rel.Supp.;10.50%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;525.00. ;Lockerheit des Dozenten;abs.Supp.;525.00;rel.Supp.;10.50%
 Regel :aus: ;;Lockerheit des Dozenten;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;18.62%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Lockerheit des Dozenten;mit einer Confidence von;79.55%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;78.00. ;Offenheit des Dozenten für Studierende;abs.Supp.;78.00;rel.Supp.;15.60%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;780.00. ;Offenheit des Dozenten für Studierende;abs.Supp.;780.00;rel.Supp.;15.60%
 Regel :aus: ;;Offenheit des Dozenten für Studierende;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;27.66%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Offenheit des Dozenten für Studierende;mit einer Confidence von;73.58%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;37.50. ;Partizipation / Mitsprache der Studierenden;abs.Supp.;37.50;rel.Supp.;7.50%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;375.00. ;Partizipation / Mitsprache der Studierenden;abs.Supp.;375.00;rel.Supp.;7.50%
 Regel :aus: ;;Partizipation / Mitsprache der Studierenden;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;13.30%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Partizipation / Mitsprache der Studierenden;mit einer Confidence von;83.33%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;63.00. ;Selbststudium;abs.Supp.;63.00;rel.Supp.;12.60%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;630.00. ;Selbststudium;abs.Supp.;630.00;rel.Supp.;12.60%
 Regel :aus: ;;Selbststudium;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;22.34%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Selbststudium;mit einer Confidence von;39.87%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;31.50. ;strukturiertes Skript;abs.Supp.;31.50;rel.Supp.;6.30%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;315.00. ;strukturiertes Skript;abs.Supp.;315.00;rel.Supp.;6.30%
 Regel :aus: ;;strukturiertes Skript;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;11.17%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;strukturiertes Skript;mit einer Confidence von;60.58%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;57.50. ;sympathisches Auftreten des Dozenten;abs.Supp.;57.50;rel.Supp.;11.50%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;575.00. ;sympathisches Auftreten des Dozenten;abs.Supp.;575.00;rel.Supp.;11.50%
 Regel :aus: ;;sympathisches Auftreten des Dozenten;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;20.39%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;sympathisches Auftreten des Dozenten;mit einer Confidence von;82.14%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;66.60. ;Teilnahme am Praktikum;abs.Supp.;66.60;rel.Supp.;13.32%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;666.00. ;Teilnahme am Praktikum;abs.Supp.;666.00;rel.Supp.;13.32%
 Regel :aus: ;;Teilnahme am Praktikum;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;23.62%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Teilnahme am Praktikum;mit einer Confidence von;62.24%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;34.00. ;Teilnahme am Tutorium;abs.Supp.;34.00;rel.Supp.;6.80%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;340.00. ;Teilnahme am Tutorium;abs.Supp.;340.00;rel.Supp.;6.80%
 Regel :aus: ;;Teilnahme am Tutorium;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;12.06%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Teilnahme am Tutorium;mit einer Confidence von;47.22%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;140.50. ;Übungen in der Vorlesung;abs.Supp.;140.50;rel.Supp.;28.10%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;1405.00. ;Übungen in der Vorlesung;abs.Supp.;1405.00;rel.Supp.;28.10%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;49.82%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;58.54%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;110.50. ;verständliche Erklärungen;abs.Supp.;110.50;rel.Supp.;22.10%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;1105.00. ;verständliche Erklärungen;abs.Supp.;1105.00;rel.Supp.;22.10%
 Regel :aus: ;;verständliche Erklärungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;39.18%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;verständliche Erklärungen;mit einer Confidence von;71.29%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;100.00. ;Visualisierungen;abs.Supp.;100.00;rel.Supp.;20.00%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;1000.00. ;Visualisierungen;abs.Supp.;1000.00;rel.Supp.;20.00%
 Regel :aus: ;;Visualisierungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;35.46%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Visualisierungen;mit einer Confidence von;69.93%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;64.50. ;Zusammenfassungen und Wiederholungen;abs.Supp.;64.50;rel.Supp.;12.90%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;645.00. ;Zusammenfassungen und Wiederholungen;abs.Supp.;645.00;rel.Supp.;12.90%
 Regel :aus: ;;Zusammenfassungen und Wiederholungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;22.87%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Zusammenfassungen und Wiederholungen;mit einer Confidence von;70.88%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;32.00. ;Ablenkung durch Lautstärke der Kommilitonen;abs.Supp.;32.00;rel.Supp.;6.40%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;320.00. ;Ablenkung durch Lautstärke der Kommilitonen;abs.Supp.;320.00;rel.Supp.;6.40%
 Regel :aus: ;;Ablenkung durch Lautstärke der Kommilitonen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;11.35%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Ablenkung durch Lautstärke der Kommilitonen;mit einer Confidence von;50.00%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;50.00. ;fehlende / mangelnde Anwendung und Praxis;abs.Supp.;50.00;rel.Supp.;10.00%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;500.00. ;fehlende / mangelnde Anwendung und Praxis;abs.Supp.;500.00;rel.Supp.;10.00%
 Regel :aus: ;;fehlende / mangelnde Anwendung und Praxis;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;17.73%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;fehlende / mangelnde Anwendung und Praxis;mit einer Confidence von;60.24%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;51.50. ;fehlende / unverständliche Erklärungen;abs.Supp.;51.50;rel.Supp.;10.30%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;515.00. ;fehlende / unverständliche Erklärungen;abs.Supp.;515.00;rel.Supp.;10.30%
 Regel :aus: ;;fehlende / unverständliche Erklärungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;18.26%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;fehlende / unverständliche Erklärungen;mit einer Confidence von;44.78%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;33.50. ;fehlendes Vorwissen;abs.Supp.;33.50;rel.Supp.;6.70%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;335.00. ;fehlendes Vorwissen;abs.Supp.;335.00;rel.Supp.;6.70%
 Regel :aus: ;;fehlendes Vorwissen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;11.88%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;fehlendes Vorwissen;mit einer Confidence von;47.86%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;121.00. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;121.00;rel.Supp.;24.20%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;1210.00. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;1210.00;rel.Supp.;24.20%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;42.91%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;57.08%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;74.50. ;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;74.50;rel.Supp.;14.90%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;745.00. ;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;745.00;rel.Supp.;14.90%
 Regel :aus: ;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;26.42%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";mit einer Confidence von;62.08%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;36.50. ;keine (vollständigen) Arbeitsmaterialien;abs.Supp.;36.50;rel.Supp.;7.30%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;365.00. ;keine (vollständigen) Arbeitsmaterialien;abs.Supp.;365.00;rel.Supp.;7.30%
 Regel :aus: ;;keine (vollständigen) Arbeitsmaterialien;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;12.94%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;keine (vollständigen) Arbeitsmaterialien;mit einer Confidence von;56.15%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;69.50. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;69.50;rel.Supp.;13.90%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;695.00. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;695.00;rel.Supp.;13.90%
 Regel :aus: ;;keine Prüfungsvorbereitung / -schwerpunkte;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;24.65%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;keine Prüfungsvorbereitung / -schwerpunkte;mit einer Confidence von;55.60%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;60.00. ;späte Bereitstellung der Unterlagen;abs.Supp.;60.00;rel.Supp.;12.00%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;600.00. ;späte Bereitstellung der Unterlagen;abs.Supp.;600.00;rel.Supp.;12.00%
 Regel :aus: ;;späte Bereitstellung der Unterlagen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;21.28%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;späte Bereitstellung der Unterlagen;mit einer Confidence von;80.00%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;76.50. ;ungünstige Raumbedingungen;abs.Supp.;76.50;rel.Supp.;15.30%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;765.00. ;ungünstige Raumbedingungen;abs.Supp.;765.00;rel.Supp.;15.30%
 Regel :aus: ;;ungünstige Raumbedingungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;27.13%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;ungünstige Raumbedingungen;mit einer Confidence von;69.55%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;52.50. ;ungünstige Veranstaltungszeit;abs.Supp.;52.50;rel.Supp.;10.50%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;525.00. ;ungünstige Veranstaltungszeit;abs.Supp.;525.00;rel.Supp.;10.50%
 Regel :aus: ;;ungünstige Veranstaltungszeit;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;18.62%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;ungünstige Veranstaltungszeit;mit einer Confidence von;72.92%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;41.50. ;unübersichtliche / Überfüllte Visualisierung;abs.Supp.;41.50;rel.Supp.;8.30%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;415.00. ;unübersichtliche / Überfüllte Visualisierung;abs.Supp.;415.00;rel.Supp.;8.30%
 Regel :aus: ;;unübersichtliche / Überfüllte Visualisierung;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;14.72%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;unübersichtliche / Überfüllte Visualisierung;mit einer Confidence von;54.61%
-Large itemset;;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;56.50. ;Diskussionen in Präsenzlehre;abs.Supp.;33.00;rel.Supp.;11.30%
+Large itemset;;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;565.00. ;Diskussionen in Präsenzlehre;abs.Supp.;330.00;rel.Supp.;11.30%
 Regel :aus: ;;Diskussionen in Präsenzlehre;folgt: ;;Arbeitsmaterialien (Skript. Lehrbuch);mit einer Confidence von;55.39%
 Regel :aus: ;;Arbeitsmaterialien (Skript. Lehrbuch);folgt: ;;Diskussionen in Präsenzlehre;mit einer Confidence von;62.26%
-Large itemset;;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;37.50. ;Kommunikation mit Dozenten;abs.Supp.;37.50;rel.Supp.;7.50%
+Large itemset;;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;375.00. ;Kommunikation mit Dozenten;abs.Supp.;375.00;rel.Supp.;7.50%
 Regel :aus: ;;Kommunikation mit Dozenten;folgt: ;;Arbeitsmaterialien (Skript. Lehrbuch);mit einer Confidence von;36.76%
 Regel :aus: ;;Arbeitsmaterialien (Skript. Lehrbuch);folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;24.19%
-Large itemset;;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;35.00. ;Offenheit des Dozenten für Studierende;abs.Supp.;35.00;rel.Supp.;7.00%
+Large itemset;;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;350.00. ;Offenheit des Dozenten für Studierende;abs.Supp.;350.00;rel.Supp.;7.00%
 Regel :aus: ;;Offenheit des Dozenten für Studierende;folgt: ;;Arbeitsmaterialien (Skript. Lehrbuch);mit einer Confidence von;34.31%
 Regel :aus: ;;Arbeitsmaterialien (Skript. Lehrbuch);folgt: ;;Offenheit des Dozenten für Studierende;mit einer Confidence von;33.02%
-Large itemset;;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;32.50. ;sympathisches Auftreten des Dozenten;abs.Supp.;32.50;rel.Supp.;6.50%
+Large itemset;;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;325.00. ;sympathisches Auftreten des Dozenten;abs.Supp.;325.00;rel.Supp.;6.50%
 Regel :aus: ;;sympathisches Auftreten des Dozenten;folgt: ;;Arbeitsmaterialien (Skript. Lehrbuch);mit einer Confidence von;31.86%
 Regel :aus: ;;Arbeitsmaterialien (Skript. Lehrbuch);folgt: ;;sympathisches Auftreten des Dozenten;mit einer Confidence von;46.43%
-Large itemset;;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;48.50. ;Übungen in der Vorlesung;abs.Supp.;48.50;rel.Supp.;9.70%
+Large itemset;;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;485.00. ;Übungen in der Vorlesung;abs.Supp.;485.00;rel.Supp.;9.70%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;Arbeitsmaterialien (Skript. Lehrbuch);mit einer Confidence von;47.55%
 Regel :aus: ;;Arbeitsmaterialien (Skript. Lehrbuch);folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;20.21%
-Large itemset;;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;40.50. ;verständliche Erklärungen;abs.Supp.;40.50;rel.Supp.;8.10%
+Large itemset;;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;405.00. ;verständliche Erklärungen;abs.Supp.;405.00;rel.Supp.;8.10%
 Regel :aus: ;;verständliche Erklärungen;folgt: ;;Arbeitsmaterialien (Skript. Lehrbuch);mit einer Confidence von;39.71%
 Regel :aus: ;;Arbeitsmaterialien (Skript. Lehrbuch);folgt: ;;verständliche Erklärungen;mit einer Confidence von;26.13%
-Large itemset;;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;35.00. ;fehlende / unverständliche Erklärungen;abs.Supp.;35.00;rel.Supp.;7.00%
+Large itemset;;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;350.00. ;fehlende / unverständliche Erklärungen;abs.Supp.;350.00;rel.Supp.;7.00%
 Regel :aus: ;;fehlende / unverständliche Erklärungen;folgt: ;;Arbeitsmaterialien (Skript. Lehrbuch);mit einer Confidence von;34.31%
 Regel :aus: ;;Arbeitsmaterialien (Skript. Lehrbuch);folgt: ;;fehlende / unverständliche Erklärungen;mit einer Confidence von;30.43%
-Large itemset;;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;37.50. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;37.50;rel.Supp.;7.50%
+Large itemset;;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;375.00. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;375.00;rel.Supp.;7.50%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;folgt: ;;Arbeitsmaterialien (Skript. Lehrbuch);mit einer Confidence von;36.76%
 Regel :aus: ;;Arbeitsmaterialien (Skript. Lehrbuch);folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;17.69%
-Large itemset;;Diskussionen in Präsenzlehre;abs.Supp.;32.00. ;Kommunikation mit Dozenten;abs.Supp.;32.00;rel.Supp.;6.40%
+Large itemset;;Diskussionen in Präsenzlehre;abs.Supp.;320.00. ;Kommunikation mit Dozenten;abs.Supp.;320.00;rel.Supp.;6.40%
 Regel :aus: ;;Kommunikation mit Dozenten;folgt: ;;Diskussionen in Präsenzlehre;mit einer Confidence von;60.38%
 Regel :aus: ;;Diskussionen in Präsenzlehre;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;20.65%
-Large itemset;;Diskussionen in Präsenzlehre;abs.Supp.;32.00. ;Lockerheit des Dozenten;abs.Supp.;17.50;rel.Supp.;6.40%
+Large itemset;;Diskussionen in Präsenzlehre;abs.Supp.;320.00. ;Lockerheit des Dozenten;abs.Supp.;175.00;rel.Supp.;6.40%
 Regel :aus: ;;Lockerheit des Dozenten;folgt: ;;Diskussionen in Präsenzlehre;mit einer Confidence von;60.38%
 Regel :aus: ;;Diskussionen in Präsenzlehre;folgt: ;;Lockerheit des Dozenten;mit einer Confidence von;26.52%
-Large itemset;;Diskussionen in Präsenzlehre;abs.Supp.;32.00. ;logischer Aufbau der Lehrveranstaltung;abs.Supp.;8.50;rel.Supp.;6.40%
+Large itemset;;Diskussionen in Präsenzlehre;abs.Supp.;320.00. ;logischer Aufbau der Lehrveranstaltung;abs.Supp.;85.00;rel.Supp.;6.40%
 Regel :aus: ;;logischer Aufbau der Lehrveranstaltung;folgt: ;;Diskussionen in Präsenzlehre;mit einer Confidence von;60.38%
 Regel :aus: ;;Diskussionen in Präsenzlehre;folgt: ;;logischer Aufbau der Lehrveranstaltung;mit einer Confidence von;27.42%
-Large itemset;;Diskussionen in Präsenzlehre;abs.Supp.;35.00. ;fehlende / zu wenige Lehrinhalte;abs.Supp.;35.00;rel.Supp.;7.00%
+Large itemset;;Diskussionen in Präsenzlehre;abs.Supp.;350.00. ;fehlende / zu wenige Lehrinhalte;abs.Supp.;350.00;rel.Supp.;7.00%
 Regel :aus: ;;fehlende / zu wenige Lehrinhalte;folgt: ;;Diskussionen in Präsenzlehre;mit einer Confidence von;66.04%
 Regel :aus: ;;Diskussionen in Präsenzlehre;folgt: ;;fehlende / zu wenige Lehrinhalte;mit einer Confidence von;50.00%
-Large itemset;;Diskussionen in Präsenzlehre;abs.Supp.;35.00. ;fehlendes Vorwissen;abs.Supp.;14.50;rel.Supp.;7.00%
+Large itemset;;Diskussionen in Präsenzlehre;abs.Supp.;350.00. ;fehlendes Vorwissen;abs.Supp.;145.00;rel.Supp.;7.00%
 Regel :aus: ;;fehlendes Vorwissen;folgt: ;;Diskussionen in Präsenzlehre;mit einer Confidence von;66.04%
 Regel :aus: ;;Diskussionen in Präsenzlehre;folgt: ;;fehlendes Vorwissen;mit einer Confidence von;20.71%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;42.50. ;Offenheit des Dozenten für Studierende;abs.Supp.;42.50;rel.Supp.;8.50%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;425.00. ;Offenheit des Dozenten für Studierende;abs.Supp.;425.00;rel.Supp.;8.50%
 Regel :aus: ;;Offenheit des Dozenten für Studierende;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;27.42%
 Regel :aus: ;;Kommunikation mit Dozenten;folgt: ;;Offenheit des Dozenten für Studierende;mit einer Confidence von;40.09%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;32.50. ;Partizipation / Mitsprache der Studierenden;abs.Supp.;32.50;rel.Supp.;6.50%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;325.00. ;Partizipation / Mitsprache der Studierenden;abs.Supp.;325.00;rel.Supp.;6.50%
 Regel :aus: ;;Partizipation / Mitsprache der Studierenden;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;20.97%
 Regel :aus: ;;Kommunikation mit Dozenten;folgt: ;;Partizipation / Mitsprache der Studierenden;mit einer Confidence von;72.22%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;35.50. ;Selbststudium;abs.Supp.;35.50;rel.Supp.;7.10%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;355.00. ;Selbststudium;abs.Supp.;355.00;rel.Supp.;7.10%
 Regel :aus: ;;Selbststudium;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;22.90%
 Regel :aus: ;;Kommunikation mit Dozenten;folgt: ;;Selbststudium;mit einer Confidence von;22.47%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;35.50. ;strukturiertes Skript;abs.Supp.;20.10;rel.Supp.;7.10%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;355.00. ;strukturiertes Skript;abs.Supp.;201.00;rel.Supp.;7.10%
 Regel :aus: ;;strukturiertes Skript;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;22.90%
 Regel :aus: ;;Kommunikation mit Dozenten;folgt: ;;strukturiertes Skript;mit einer Confidence von;38.65%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;33.50. ;Teilnahme am Praktikum;abs.Supp.;33.50;rel.Supp.;6.70%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;335.00. ;Teilnahme am Praktikum;abs.Supp.;335.00;rel.Supp.;6.70%
 Regel :aus: ;;Teilnahme am Praktikum;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;21.61%
 Regel :aus: ;;Kommunikation mit Dozenten;folgt: ;;Teilnahme am Praktikum;mit einer Confidence von;31.31%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;75.00. ;Übungen in der Vorlesung;abs.Supp.;75.00;rel.Supp.;15.00%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;750.00. ;Übungen in der Vorlesung;abs.Supp.;750.00;rel.Supp.;15.00%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;48.39%
 Regel :aus: ;;Kommunikation mit Dozenten;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;31.25%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;54.50. ;verständliche Erklärungen;abs.Supp.;54.50;rel.Supp.;10.90%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;545.00. ;verständliche Erklärungen;abs.Supp.;545.00;rel.Supp.;10.90%
 Regel :aus: ;;verständliche Erklärungen;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;35.16%
 Regel :aus: ;;Kommunikation mit Dozenten;folgt: ;;verständliche Erklärungen;mit einer Confidence von;35.16%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;56.50. ;Visualisierungen;abs.Supp.;56.50;rel.Supp.;11.30%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;565.00. ;Visualisierungen;abs.Supp.;565.00;rel.Supp.;11.30%
 Regel :aus: ;;Visualisierungen;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;36.45%
 Regel :aus: ;;Kommunikation mit Dozenten;folgt: ;;Visualisierungen;mit einer Confidence von;39.51%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;60.00. ;Zusammenfassungen und Wiederholungen;abs.Supp.;60.00;rel.Supp.;12.00%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;600.00. ;Zusammenfassungen und Wiederholungen;abs.Supp.;600.00;rel.Supp.;12.00%
 Regel :aus: ;;Zusammenfassungen und Wiederholungen;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;38.71%
 Regel :aus: ;;Kommunikation mit Dozenten;folgt: ;;Zusammenfassungen und Wiederholungen;mit einer Confidence von;65.93%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;36.00. ;fehlende / mangelnde Anwendung und Praxis;abs.Supp.;36.00;rel.Supp.;7.20%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;360.00. ;fehlende / mangelnde Anwendung und Praxis;abs.Supp.;360.00;rel.Supp.;7.20%
 Regel :aus: ;;fehlende / mangelnde Anwendung und Praxis;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;23.23%
 Regel :aus: ;;Kommunikation mit Dozenten;folgt: ;;fehlende / mangelnde Anwendung und Praxis;mit einer Confidence von;43.37%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;80.00. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;80.00;rel.Supp.;16.00%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;800.00. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;800.00;rel.Supp.;16.00%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;51.61%
 Regel :aus: ;;Kommunikation mit Dozenten;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;37.74%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;42.50. ;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;42.50;rel.Supp.;8.50%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;425.00. ;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;425.00;rel.Supp.;8.50%
 Regel :aus: ;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;27.42%
 Regel :aus: ;;Kommunikation mit Dozenten;folgt: ;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";mit einer Confidence von;35.42%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;57.50. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;57.50;rel.Supp.;11.50%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;575.00. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;575.00;rel.Supp.;11.50%
 Regel :aus: ;;keine Prüfungsvorbereitung / -schwerpunkte;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;37.10%
 Regel :aus: ;;Kommunikation mit Dozenten;folgt: ;;keine Prüfungsvorbereitung / -schwerpunkte;mit einer Confidence von;46.00%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;35.00. ;späte Bereitstellung der Unterlagen;abs.Supp.;35.00;rel.Supp.;7.00%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;350.00. ;späte Bereitstellung der Unterlagen;abs.Supp.;350.00;rel.Supp.;7.00%
 Regel :aus: ;;späte Bereitstellung der Unterlagen;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;22.58%
 Regel :aus: ;;Kommunikation mit Dozenten;folgt: ;;späte Bereitstellung der Unterlagen;mit einer Confidence von;46.67%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;35.00. ;ungünstige Raumbedingungen;abs.Supp.;35.00;rel.Supp.;7.00%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;350.00. ;ungünstige Raumbedingungen;abs.Supp.;350.00;rel.Supp.;7.00%
 Regel :aus: ;;ungünstige Raumbedingungen;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;22.58%
 Regel :aus: ;;Kommunikation mit Dozenten;folgt: ;;ungünstige Raumbedingungen;mit einer Confidence von;31.82%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;31.00. ;ungünstige Veranstaltungszeit;abs.Supp.;31.00;rel.Supp.;6.20%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;310.00. ;ungünstige Veranstaltungszeit;abs.Supp.;310.00;rel.Supp.;6.20%
 Regel :aus: ;;ungünstige Veranstaltungszeit;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;20.00%
 Regel :aus: ;;Kommunikation mit Dozenten;folgt: ;;ungünstige Veranstaltungszeit;mit einer Confidence von;43.06%
-Large itemset;;Lockerheit des Dozenten;abs.Supp.;50.50. ;Übungen in der Vorlesung;abs.Supp.;50.50;rel.Supp.;10.10%
+Large itemset;;Lockerheit des Dozenten;abs.Supp.;505.00. ;Übungen in der Vorlesung;abs.Supp.;505.00;rel.Supp.;10.10%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;Lockerheit des Dozenten;mit einer Confidence von;76.52%
 Regel :aus: ;;Lockerheit des Dozenten;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;21.04%
-Large itemset;;Offenheit des Dozenten für Studierende;abs.Supp.;32.50. ;Partizipation / Mitsprache der Studierenden;abs.Supp.;32.50;rel.Supp.;6.50%
+Large itemset;;Offenheit des Dozenten für Studierende;abs.Supp.;325.00. ;Partizipation / Mitsprache der Studierenden;abs.Supp.;325.00;rel.Supp.;6.50%
 Regel :aus: ;;Partizipation / Mitsprache der Studierenden;folgt: ;;Offenheit des Dozenten für Studierende;mit einer Confidence von;30.66%
 Regel :aus: ;;Offenheit des Dozenten für Studierende;folgt: ;;Partizipation / Mitsprache der Studierenden;mit einer Confidence von;72.22%
-Large itemset;;Offenheit des Dozenten für Studierende;abs.Supp.;45.00. ;sympathisches Auftreten des Dozenten;abs.Supp.;45.00;rel.Supp.;9.00%
+Large itemset;;Offenheit des Dozenten für Studierende;abs.Supp.;450.00. ;sympathisches Auftreten des Dozenten;abs.Supp.;450.00;rel.Supp.;9.00%
 Regel :aus: ;;sympathisches Auftreten des Dozenten;folgt: ;;Offenheit des Dozenten für Studierende;mit einer Confidence von;42.45%
 Regel :aus: ;;Offenheit des Dozenten für Studierende;folgt: ;;sympathisches Auftreten des Dozenten;mit einer Confidence von;64.29%
-Large itemset;;Offenheit des Dozenten für Studierende;abs.Supp.;33.00. ;Übungen in der Vorlesung;abs.Supp.;33.00;rel.Supp.;6.60%
+Large itemset;;Offenheit des Dozenten für Studierende;abs.Supp.;330.00. ;Übungen in der Vorlesung;abs.Supp.;330.00;rel.Supp.;6.60%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;Offenheit des Dozenten für Studierende;mit einer Confidence von;31.13%
 Regel :aus: ;;Offenheit des Dozenten für Studierende;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;13.75%
-Large itemset;;Offenheit des Dozenten für Studierende;abs.Supp.;60.50. ;verständliche Erklärungen;abs.Supp.;60.50;rel.Supp.;12.10%
+Large itemset;;Offenheit des Dozenten für Studierende;abs.Supp.;605.00. ;verständliche Erklärungen;abs.Supp.;605.00;rel.Supp.;12.10%
 Regel :aus: ;;verständliche Erklärungen;folgt: ;;Offenheit des Dozenten für Studierende;mit einer Confidence von;57.08%
 Regel :aus: ;;Offenheit des Dozenten für Studierende;folgt: ;;verständliche Erklärungen;mit einer Confidence von;39.03%
-Large itemset;;Offenheit des Dozenten für Studierende;abs.Supp.;40.00. ;Visualisierungen;abs.Supp.;40.00;rel.Supp.;8.00%
+Large itemset;;Offenheit des Dozenten für Studierende;abs.Supp.;400.00. ;Visualisierungen;abs.Supp.;400.00;rel.Supp.;8.00%
 Regel :aus: ;;Visualisierungen;folgt: ;;Offenheit des Dozenten für Studierende;mit einer Confidence von;37.74%
 Regel :aus: ;;Offenheit des Dozenten für Studierende;folgt: ;;Visualisierungen;mit einer Confidence von;27.97%
-Large itemset;;Offenheit des Dozenten für Studierende;abs.Supp.;31.00. ;Zusammenfassungen und Wiederholungen;abs.Supp.;31.00;rel.Supp.;6.20%
+Large itemset;;Offenheit des Dozenten für Studierende;abs.Supp.;310.00. ;Zusammenfassungen und Wiederholungen;abs.Supp.;310.00;rel.Supp.;6.20%
 Regel :aus: ;;Zusammenfassungen und Wiederholungen;folgt: ;;Offenheit des Dozenten für Studierende;mit einer Confidence von;29.25%
 Regel :aus: ;;Offenheit des Dozenten für Studierende;folgt: ;;Zusammenfassungen und Wiederholungen;mit einer Confidence von;34.07%
-Large itemset;;Offenheit des Dozenten für Studierende;abs.Supp.;44.00. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;44.00;rel.Supp.;8.80%
+Large itemset;;Offenheit des Dozenten für Studierende;abs.Supp.;440.00. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;440.00;rel.Supp.;8.80%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;folgt: ;;Offenheit des Dozenten für Studierende;mit einer Confidence von;41.51%
 Regel :aus: ;;Offenheit des Dozenten für Studierende;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;20.75%
-Large itemset;;Offenheit des Dozenten für Studierende;abs.Supp.;33.50. ;ungünstige Veranstaltungszeit;abs.Supp.;33.50;rel.Supp.;6.70%
+Large itemset;;Offenheit des Dozenten für Studierende;abs.Supp.;335.00. ;ungünstige Veranstaltungszeit;abs.Supp.;335.00;rel.Supp.;6.70%
 Regel :aus: ;;ungünstige Veranstaltungszeit;folgt: ;;Offenheit des Dozenten für Studierende;mit einer Confidence von;31.60%
 Regel :aus: ;;Offenheit des Dozenten für Studierende;folgt: ;;ungünstige Veranstaltungszeit;mit einer Confidence von;46.53%
-Large itemset;;Selbststudium;abs.Supp.;31.00. ;Teilnahme am Praktikum;abs.Supp.;31.00;rel.Supp.;6.20%
+Large itemset;;Selbststudium;abs.Supp.;310.00. ;Teilnahme am Praktikum;abs.Supp.;310.00;rel.Supp.;6.20%
 Regel :aus: ;;Teilnahme am Praktikum;folgt: ;;Selbststudium;mit einer Confidence von;19.62%
 Regel :aus: ;;Selbststudium;folgt: ;;Teilnahme am Praktikum;mit einer Confidence von;28.97%
-Large itemset;;Selbststudium;abs.Supp.;40.50. ;Teilnahme am Tutorium;abs.Supp.;40.50;rel.Supp.;8.10%
+Large itemset;;Selbststudium;abs.Supp.;405.00. ;Teilnahme am Tutorium;abs.Supp.;405.00;rel.Supp.;8.10%
 Regel :aus: ;;Teilnahme am Tutorium;folgt: ;;Selbststudium;mit einer Confidence von;25.63%
 Regel :aus: ;;Selbststudium;folgt: ;;Teilnahme am Tutorium;mit einer Confidence von;56.25%
-Large itemset;;Selbststudium;abs.Supp.;72.00. ;Übungen in der Vorlesung;abs.Supp.;72.00;rel.Supp.;14.40%
+Large itemset;;Selbststudium;abs.Supp.;720.00. ;Übungen in der Vorlesung;abs.Supp.;720.00;rel.Supp.;14.40%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;Selbststudium;mit einer Confidence von;45.57%
 Regel :aus: ;;Selbststudium;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;30.00%
-Large itemset;;Selbststudium;abs.Supp.;32.10. ;Visualisierungen;abs.Supp.;32.10;rel.Supp.;6.42%
+Large itemset;;Selbststudium;abs.Supp.;321.00. ;Visualisierungen;abs.Supp.;321.00;rel.Supp.;6.42%
 Regel :aus: ;;Visualisierungen;folgt: ;;Selbststudium;mit einer Confidence von;20.32%
 Regel :aus: ;;Selbststudium;folgt: ;;Visualisierungen;mit einer Confidence von;22.45%
-Large itemset;;Selbststudium;abs.Supp.;30.60. ;fehlende / mangelnde Anwendung und Praxis;abs.Supp.;30.60;rel.Supp.;6.12%
+Large itemset;;Selbststudium;abs.Supp.;306.00. ;fehlende / mangelnde Anwendung und Praxis;abs.Supp.;306.00;rel.Supp.;6.12%
 Regel :aus: ;;fehlende / mangelnde Anwendung und Praxis;folgt: ;;Selbststudium;mit einer Confidence von;19.37%
 Regel :aus: ;;Selbststudium;folgt: ;;fehlende / mangelnde Anwendung und Praxis;mit einer Confidence von;36.87%
-Large itemset;;Selbststudium;abs.Supp.;47.70. ;fehlende / unverständliche Erklärungen;abs.Supp.;47.70;rel.Supp.;9.54%
+Large itemset;;Selbststudium;abs.Supp.;477.00. ;fehlende / unverständliche Erklärungen;abs.Supp.;477.00;rel.Supp.;9.54%
 Regel :aus: ;;fehlende / unverständliche Erklärungen;folgt: ;;Selbststudium;mit einer Confidence von;30.19%
 Regel :aus: ;;Selbststudium;folgt: ;;fehlende / unverständliche Erklärungen;mit einer Confidence von;41.48%
-Large itemset;;Selbststudium;abs.Supp.;32.60. ;fehlendes Vorwissen;abs.Supp.;32.60;rel.Supp.;6.52%
+Large itemset;;Selbststudium;abs.Supp.;326.00. ;fehlendes Vorwissen;abs.Supp.;326.00;rel.Supp.;6.52%
 Regel :aus: ;;fehlendes Vorwissen;folgt: ;;Selbststudium;mit einer Confidence von;20.63%
 Regel :aus: ;;Selbststudium;folgt: ;;fehlendes Vorwissen;mit einer Confidence von;46.57%
-Large itemset;;Selbststudium;abs.Supp.;36.70. ;geringes Engagement des Dozenten;abs.Supp.;36.70;rel.Supp.;7.34%
+Large itemset;;Selbststudium;abs.Supp.;367.00. ;geringes Engagement des Dozenten;abs.Supp.;367.00;rel.Supp.;7.34%
 Regel :aus: ;;geringes Engagement des Dozenten;folgt: ;;Selbststudium;mit einer Confidence von;23.23%
 Regel :aus: ;;Selbststudium;folgt: ;;geringes Engagement des Dozenten;mit einer Confidence von;50.27%
-Large itemset;;Selbststudium;abs.Supp.;75.10. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;75.10;rel.Supp.;15.02%
+Large itemset;;Selbststudium;abs.Supp.;751.00. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;751.00;rel.Supp.;15.02%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;folgt: ;;Selbststudium;mit einer Confidence von;47.53%
 Regel :aus: ;;Selbststudium;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;35.42%
-Large itemset;;Selbststudium;abs.Supp.;31.10. ;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;31.10;rel.Supp.;6.22%
+Large itemset;;Selbststudium;abs.Supp.;311.00. ;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;311.00;rel.Supp.;6.22%
 Regel :aus: ;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";folgt: ;;Selbststudium;mit einer Confidence von;19.68%
 Regel :aus: ;;Selbststudium;folgt: ;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";mit einer Confidence von;25.92%
-Large itemset;;Selbststudium;abs.Supp.;34.50. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;34.50;rel.Supp.;6.90%
+Large itemset;;Selbststudium;abs.Supp.;345.00. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;345.00;rel.Supp.;6.90%
 Regel :aus: ;;keine Prüfungsvorbereitung / -schwerpunkte;folgt: ;;Selbststudium;mit einer Confidence von;21.84%
 Regel :aus: ;;Selbststudium;folgt: ;;keine Prüfungsvorbereitung / -schwerpunkte;mit einer Confidence von;27.60%
-Large itemset;;Selbststudium;abs.Supp.;31.70. ;ungünstige Raumbedingungen;abs.Supp.;31.70;rel.Supp.;6.34%
+Large itemset;;Selbststudium;abs.Supp.;317.00. ;ungünstige Raumbedingungen;abs.Supp.;317.00;rel.Supp.;6.34%
 Regel :aus: ;;ungünstige Raumbedingungen;folgt: ;;Selbststudium;mit einer Confidence von;20.06%
 Regel :aus: ;;Selbststudium;folgt: ;;ungünstige Raumbedingungen;mit einer Confidence von;28.82%
-Large itemset;;Selbststudium;abs.Supp.;30.50. ;unübersichtliche / Überfüllte Visualisierung;abs.Supp.;30.50;rel.Supp.;6.10%
+Large itemset;;Selbststudium;abs.Supp.;305.00. ;unübersichtliche / Überfüllte Visualisierung;abs.Supp.;305.00;rel.Supp.;6.10%
 Regel :aus: ;;unübersichtliche / Überfüllte Visualisierung;folgt: ;;Selbststudium;mit einer Confidence von;19.30%
 Regel :aus: ;;Selbststudium;folgt: ;;unübersichtliche / Überfüllte Visualisierung;mit einer Confidence von;40.13%
-Large itemset;;strukturiertes Skript;abs.Supp.;31.10. ;ungünstige Raumbedingungen;abs.Supp.;31.10;rel.Supp.;6.22%
+Large itemset;;strukturiertes Skript;abs.Supp.;311.00. ;ungünstige Raumbedingungen;abs.Supp.;311.00;rel.Supp.;6.22%
 Regel :aus: ;;ungünstige Raumbedingungen;folgt: ;;strukturiertes Skript;mit einer Confidence von;59.81%
 Regel :aus: ;;strukturiertes Skript;folgt: ;;ungünstige Raumbedingungen;mit einer Confidence von;28.27%
-Large itemset;;sympathisches Auftreten des Dozenten;abs.Supp.;30.00. ;Übungen in der Vorlesung;abs.Supp.;30.00;rel.Supp.;6.00%
+Large itemset;;sympathisches Auftreten des Dozenten;abs.Supp.;300.00. ;Übungen in der Vorlesung;abs.Supp.;300.00;rel.Supp.;6.00%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;sympathisches Auftreten des Dozenten;mit einer Confidence von;42.86%
 Regel :aus: ;;sympathisches Auftreten des Dozenten;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;12.50%
-Large itemset;;sympathisches Auftreten des Dozenten;abs.Supp.;32.50. ;verständliche Erklärungen;abs.Supp.;32.50;rel.Supp.;6.50%
+Large itemset;;sympathisches Auftreten des Dozenten;abs.Supp.;325.00. ;verständliche Erklärungen;abs.Supp.;325.00;rel.Supp.;6.50%
 Regel :aus: ;;verständliche Erklärungen;folgt: ;;sympathisches Auftreten des Dozenten;mit einer Confidence von;46.43%
 Regel :aus: ;;sympathisches Auftreten des Dozenten;folgt: ;;verständliche Erklärungen;mit einer Confidence von;20.97%
-Large itemset;;Teilnahme am Praktikum;abs.Supp.;46.00. ;Übungen in der Vorlesung;abs.Supp.;46.00;rel.Supp.;9.20%
+Large itemset;;Teilnahme am Praktikum;abs.Supp.;460.00. ;Übungen in der Vorlesung;abs.Supp.;460.00;rel.Supp.;9.20%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;Teilnahme am Praktikum;mit einer Confidence von;42.99%
 Regel :aus: ;;Teilnahme am Praktikum;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;19.17%
-Large itemset;;Teilnahme am Praktikum;abs.Supp.;42.00. ;Visualisierungen;abs.Supp.;42.00;rel.Supp.;8.40%
+Large itemset;;Teilnahme am Praktikum;abs.Supp.;420.00. ;Visualisierungen;abs.Supp.;420.00;rel.Supp.;8.40%
 Regel :aus: ;;Visualisierungen;folgt: ;;Teilnahme am Praktikum;mit einer Confidence von;39.25%
 Regel :aus: ;;Teilnahme am Praktikum;folgt: ;;Visualisierungen;mit einer Confidence von;29.37%
-Large itemset;;Teilnahme am Praktikum;abs.Supp.;46.60. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;46.60;rel.Supp.;9.32%
+Large itemset;;Teilnahme am Praktikum;abs.Supp.;466.00. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;466.00;rel.Supp.;9.32%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;folgt: ;;Teilnahme am Praktikum;mit einer Confidence von;43.55%
 Regel :aus: ;;Teilnahme am Praktikum;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;21.98%
-Large itemset;;Teilnahme am Praktikum;abs.Supp.;42.00. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;42.00;rel.Supp.;8.40%
+Large itemset;;Teilnahme am Praktikum;abs.Supp.;420.00. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;420.00;rel.Supp.;8.40%
 Regel :aus: ;;keine Prüfungsvorbereitung / -schwerpunkte;folgt: ;;Teilnahme am Praktikum;mit einer Confidence von;39.25%
 Regel :aus: ;;Teilnahme am Praktikum;folgt: ;;keine Prüfungsvorbereitung / -schwerpunkte;mit einer Confidence von;33.60%
-Large itemset;;Teilnahme am Tutorium;abs.Supp.;37.00. ;Übungen in der Vorlesung;abs.Supp.;37.00;rel.Supp.;7.40%
+Large itemset;;Teilnahme am Tutorium;abs.Supp.;370.00. ;Übungen in der Vorlesung;abs.Supp.;370.00;rel.Supp.;7.40%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;Teilnahme am Tutorium;mit einer Confidence von;51.39%
 Regel :aus: ;;Teilnahme am Tutorium;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;15.42%
-Large itemset;;Teilnahme am Tutorium;abs.Supp.;38.00. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;38.00;rel.Supp.;7.60%
+Large itemset;;Teilnahme am Tutorium;abs.Supp.;380.00. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;380.00;rel.Supp.;7.60%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;folgt: ;;Teilnahme am Tutorium;mit einer Confidence von;52.78%
 Regel :aus: ;;Teilnahme am Tutorium;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;17.92%
-Large itemset;;Übungen in der Vorlesung;abs.Supp.;52.50. ;verständliche Erklärungen;abs.Supp.;52.50;rel.Supp.;10.50%
+Large itemset;;Übungen in der Vorlesung;abs.Supp.;525.00. ;verständliche Erklärungen;abs.Supp.;525.00;rel.Supp.;10.50%
 Regel :aus: ;;verständliche Erklärungen;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;21.88%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;verständliche Erklärungen;mit einer Confidence von;33.87%
-Large itemset;;Übungen in der Vorlesung;abs.Supp.;56.00. ;Visualisierungen;abs.Supp.;56.00;rel.Supp.;11.20%
+Large itemset;;Übungen in der Vorlesung;abs.Supp.;560.00. ;Visualisierungen;abs.Supp.;560.00;rel.Supp.;11.20%
 Regel :aus: ;;Visualisierungen;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;23.33%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;Visualisierungen;mit einer Confidence von;39.16%
-Large itemset;;Übungen in der Vorlesung;abs.Supp.;30.00. ;Zusammenfassungen und Wiederholungen;abs.Supp.;30.00;rel.Supp.;6.00%
+Large itemset;;Übungen in der Vorlesung;abs.Supp.;300.00. ;Zusammenfassungen und Wiederholungen;abs.Supp.;300.00;rel.Supp.;6.00%
 Regel :aus: ;;Zusammenfassungen und Wiederholungen;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;12.50%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;Zusammenfassungen und Wiederholungen;mit einer Confidence von;32.97%
-Large itemset;;Übungen in der Vorlesung;abs.Supp.;56.00. ;Ablenkung durch Lautstärke der Kommilitonen;abs.Supp.;56.00;rel.Supp.;11.20%
+Large itemset;;Übungen in der Vorlesung;abs.Supp.;560.00. ;Ablenkung durch Lautstärke der Kommilitonen;abs.Supp.;560.00;rel.Supp.;11.20%
 Regel :aus: ;;Ablenkung durch Lautstärke der Kommilitonen;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;23.33%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;Ablenkung durch Lautstärke der Kommilitonen;mit einer Confidence von;87.50%
-Large itemset;;Übungen in der Vorlesung;abs.Supp.;39.00. ;fehlende / mangelnde Anwendung und Praxis;abs.Supp.;39.00;rel.Supp.;7.80%
+Large itemset;;Übungen in der Vorlesung;abs.Supp.;390.00. ;fehlende / mangelnde Anwendung und Praxis;abs.Supp.;390.00;rel.Supp.;7.80%
 Regel :aus: ;;fehlende / mangelnde Anwendung und Praxis;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;16.25%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;fehlende / mangelnde Anwendung und Praxis;mit einer Confidence von;46.99%
-Large itemset;;Übungen in der Vorlesung;abs.Supp.;52.00. ;fehlende / unverständliche Erklärungen;abs.Supp.;52.00;rel.Supp.;10.40%
+Large itemset;;Übungen in der Vorlesung;abs.Supp.;520.00. ;fehlende / unverständliche Erklärungen;abs.Supp.;520.00;rel.Supp.;10.40%
 Regel :aus: ;;fehlende / unverständliche Erklärungen;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;21.67%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;fehlende / unverständliche Erklärungen;mit einer Confidence von;45.22%
-Large itemset;;Übungen in der Vorlesung;abs.Supp.;35.00. ;fehlende / zu wenige Lehrinhalte;abs.Supp.;35.00;rel.Supp.;7.00%
+Large itemset;;Übungen in der Vorlesung;abs.Supp.;350.00. ;fehlende / zu wenige Lehrinhalte;abs.Supp.;350.00;rel.Supp.;7.00%
 Regel :aus: ;;fehlende / zu wenige Lehrinhalte;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;14.58%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;fehlende / zu wenige Lehrinhalte;mit einer Confidence von;50.00%
-Large itemset;;Übungen in der Vorlesung;abs.Supp.;36.50. ;fehlendes Vorwissen;abs.Supp.;36.50;rel.Supp.;7.30%
+Large itemset;;Übungen in der Vorlesung;abs.Supp.;365.00. ;fehlendes Vorwissen;abs.Supp.;365.00;rel.Supp.;7.30%
 Regel :aus: ;;fehlendes Vorwissen;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;15.21%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;fehlendes Vorwissen;mit einer Confidence von;52.14%
-Large itemset;;Übungen in der Vorlesung;abs.Supp.;34.00. ;geringes Engagement des Dozenten;abs.Supp.;34.00;rel.Supp.;6.80%
+Large itemset;;Übungen in der Vorlesung;abs.Supp.;340.00. ;geringes Engagement des Dozenten;abs.Supp.;340.00;rel.Supp.;6.80%
 Regel :aus: ;;geringes Engagement des Dozenten;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;14.17%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;geringes Engagement des Dozenten;mit einer Confidence von;46.58%
-Large itemset;;Übungen in der Vorlesung;abs.Supp.;108.50. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;108.50;rel.Supp.;21.70%
+Large itemset;;Übungen in der Vorlesung;abs.Supp.;1085.00. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;1085.00;rel.Supp.;21.70%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;45.21%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;51.18%
-Large itemset;;Übungen in der Vorlesung;abs.Supp.;54.50. ;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;54.50;rel.Supp.;10.90%
+Large itemset;;Übungen in der Vorlesung;abs.Supp.;545.00. ;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;545.00;rel.Supp.;10.90%
 Regel :aus: ;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;22.71%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";mit einer Confidence von;45.42%
-Large itemset;;Übungen in der Vorlesung;abs.Supp.;42.50. ;keine (vollständigen) Arbeitsmaterialien;abs.Supp.;42.50;rel.Supp.;8.50%
+Large itemset;;Übungen in der Vorlesung;abs.Supp.;425.00. ;keine (vollständigen) Arbeitsmaterialien;abs.Supp.;425.00;rel.Supp.;8.50%
 Regel :aus: ;;keine (vollständigen) Arbeitsmaterialien;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;17.71%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;keine (vollständigen) Arbeitsmaterialien;mit einer Confidence von;65.38%
-Large itemset;;Übungen in der Vorlesung;abs.Supp.;55.00. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;55.00;rel.Supp.;11.00%
+Large itemset;;Übungen in der Vorlesung;abs.Supp.;550.00. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;550.00;rel.Supp.;11.00%
 Regel :aus: ;;keine Prüfungsvorbereitung / -schwerpunkte;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;22.92%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;keine Prüfungsvorbereitung / -schwerpunkte;mit einer Confidence von;44.00%
-Large itemset;;Übungen in der Vorlesung;abs.Supp.;38.50. ;schwaches eigenes Engagement;abs.Supp.;38.50;rel.Supp.;7.70%
+Large itemset;;Übungen in der Vorlesung;abs.Supp.;385.00. ;schwaches eigenes Engagement;abs.Supp.;385.00;rel.Supp.;7.70%
 Regel :aus: ;;schwaches eigenes Engagement;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;16.04%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;schwaches eigenes Engagement;mit einer Confidence von;51.33%
-Large itemset;;Übungen in der Vorlesung;abs.Supp.;32.50. ;späte Bereitstellung der Unterlagen;abs.Supp.;32.50;rel.Supp.;6.50%
+Large itemset;;Übungen in der Vorlesung;abs.Supp.;325.00. ;späte Bereitstellung der Unterlagen;abs.Supp.;325.00;rel.Supp.;6.50%
 Regel :aus: ;;späte Bereitstellung der Unterlagen;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;13.54%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;späte Bereitstellung der Unterlagen;mit einer Confidence von;43.33%
-Large itemset;;Übungen in der Vorlesung;abs.Supp.;55.50. ;ungünstige Raumbedingungen;abs.Supp.;55.50;rel.Supp.;11.10%
+Large itemset;;Übungen in der Vorlesung;abs.Supp.;555.00. ;ungünstige Raumbedingungen;abs.Supp.;555.00;rel.Supp.;11.10%
 Regel :aus: ;;ungünstige Raumbedingungen;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;23.12%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;ungünstige Raumbedingungen;mit einer Confidence von;50.45%
-Large itemset;;Übungen in der Vorlesung;abs.Supp.;33.00. ;ungünstige Veranstaltungszeit;abs.Supp.;33.00;rel.Supp.;6.60%
+Large itemset;;Übungen in der Vorlesung;abs.Supp.;330.00. ;ungünstige Veranstaltungszeit;abs.Supp.;330.00;rel.Supp.;6.60%
 Regel :aus: ;;ungünstige Veranstaltungszeit;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;13.75%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;ungünstige Veranstaltungszeit;mit einer Confidence von;45.83%
-Large itemset;;verständliche Erklärungen;abs.Supp.;67.10. ;Visualisierungen;abs.Supp.;67.10;rel.Supp.;13.42%
+Large itemset;;verständliche Erklärungen;abs.Supp.;671.00. ;Visualisierungen;abs.Supp.;671.00;rel.Supp.;13.42%
 Regel :aus: ;;Visualisierungen;folgt: ;;verständliche Erklärungen;mit einer Confidence von;43.29%
 Regel :aus: ;;verständliche Erklärungen;folgt: ;;Visualisierungen;mit einer Confidence von;46.92%
-Large itemset;;verständliche Erklärungen;abs.Supp.;57.00. ;Zusammenfassungen und Wiederholungen;abs.Supp.;57.00;rel.Supp.;11.40%
+Large itemset;;verständliche Erklärungen;abs.Supp.;570.00. ;Zusammenfassungen und Wiederholungen;abs.Supp.;570.00;rel.Supp.;11.40%
 Regel :aus: ;;Zusammenfassungen und Wiederholungen;folgt: ;;verständliche Erklärungen;mit einer Confidence von;36.77%
 Regel :aus: ;;verständliche Erklärungen;folgt: ;;Zusammenfassungen und Wiederholungen;mit einer Confidence von;62.64%
-Large itemset;;verständliche Erklärungen;abs.Supp.;31.20. ;fehlendes Vorwissen;abs.Supp.;31.20;rel.Supp.;6.24%
+Large itemset;;verständliche Erklärungen;abs.Supp.;312.00. ;fehlendes Vorwissen;abs.Supp.;312.00;rel.Supp.;6.24%
 Regel :aus: ;;fehlendes Vorwissen;folgt: ;;verständliche Erklärungen;mit einer Confidence von;20.13%
 Regel :aus: ;;verständliche Erklärungen;folgt: ;;fehlendes Vorwissen;mit einer Confidence von;44.57%
-Large itemset;;verständliche Erklärungen;abs.Supp.;57.50. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;57.50;rel.Supp.;11.50%
+Large itemset;;verständliche Erklärungen;abs.Supp.;575.00. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;575.00;rel.Supp.;11.50%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;folgt: ;;verständliche Erklärungen;mit einer Confidence von;37.10%
 Regel :aus: ;;verständliche Erklärungen;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;27.12%
-Large itemset;;verständliche Erklärungen;abs.Supp.;46.60. ;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;46.60;rel.Supp.;9.32%
+Large itemset;;verständliche Erklärungen;abs.Supp.;466.00. ;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;466.00;rel.Supp.;9.32%
 Regel :aus: ;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";folgt: ;;verständliche Erklärungen;mit einer Confidence von;30.06%
 Regel :aus: ;;verständliche Erklärungen;folgt: ;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";mit einer Confidence von;38.83%
-Large itemset;;verständliche Erklärungen;abs.Supp.;42.50. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;42.50;rel.Supp.;8.50%
+Large itemset;;verständliche Erklärungen;abs.Supp.;425.00. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;425.00;rel.Supp.;8.50%
 Regel :aus: ;;keine Prüfungsvorbereitung / -schwerpunkte;folgt: ;;verständliche Erklärungen;mit einer Confidence von;27.42%
 Regel :aus: ;;verständliche Erklärungen;folgt: ;;keine Prüfungsvorbereitung / -schwerpunkte;mit einer Confidence von;34.00%
-Large itemset;;verständliche Erklärungen;abs.Supp.;31.10. ;ungünstige Raumbedingungen;abs.Supp.;31.10;rel.Supp.;6.22%
+Large itemset;;verständliche Erklärungen;abs.Supp.;311.00. ;ungünstige Raumbedingungen;abs.Supp.;311.00;rel.Supp.;6.22%
 Regel :aus: ;;ungünstige Raumbedingungen;folgt: ;;verständliche Erklärungen;mit einer Confidence von;20.06%
 Regel :aus: ;;verständliche Erklärungen;folgt: ;;ungünstige Raumbedingungen;mit einer Confidence von;28.27%
-Large itemset;;Visualisierungen;abs.Supp.;49.50. ;Zusammenfassungen und Wiederholungen;abs.Supp.;49.50;rel.Supp.;9.90%
+Large itemset;;Visualisierungen;abs.Supp.;495.00. ;Zusammenfassungen und Wiederholungen;abs.Supp.;495.00;rel.Supp.;9.90%
 Regel :aus: ;;Zusammenfassungen und Wiederholungen;folgt: ;;Visualisierungen;mit einer Confidence von;34.62%
 Regel :aus: ;;Visualisierungen;folgt: ;;Zusammenfassungen und Wiederholungen;mit einer Confidence von;54.40%
-Large itemset;;Visualisierungen;abs.Supp.;31.00. ;fehlende / unverständliche Erklärungen;abs.Supp.;31.00;rel.Supp.;6.20%
+Large itemset;;Visualisierungen;abs.Supp.;310.00. ;fehlende / unverständliche Erklärungen;abs.Supp.;310.00;rel.Supp.;6.20%
 Regel :aus: ;;fehlende / unverständliche Erklärungen;folgt: ;;Visualisierungen;mit einer Confidence von;21.68%
 Regel :aus: ;;Visualisierungen;folgt: ;;fehlende / unverständliche Erklärungen;mit einer Confidence von;26.96%
-Large itemset;;Visualisierungen;abs.Supp.;65.60. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;65.60;rel.Supp.;13.12%
+Large itemset;;Visualisierungen;abs.Supp.;656.00. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;656.00;rel.Supp.;13.12%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;folgt: ;;Visualisierungen;mit einer Confidence von;45.87%
 Regel :aus: ;;Visualisierungen;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;30.94%
-Large itemset;;Visualisierungen;abs.Supp.;34.50. ;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;34.50;rel.Supp.;6.90%
+Large itemset;;Visualisierungen;abs.Supp.;345.00. ;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;345.00;rel.Supp.;6.90%
 Regel :aus: ;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";folgt: ;;Visualisierungen;mit einer Confidence von;24.13%
 Regel :aus: ;;Visualisierungen;folgt: ;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";mit einer Confidence von;28.75%
-Large itemset;;Visualisierungen;abs.Supp.;35.50. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;35.50;rel.Supp.;7.10%
+Large itemset;;Visualisierungen;abs.Supp.;355.00. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;355.00;rel.Supp.;7.10%
 Regel :aus: ;;keine Prüfungsvorbereitung / -schwerpunkte;folgt: ;;Visualisierungen;mit einer Confidence von;24.83%
 Regel :aus: ;;Visualisierungen;folgt: ;;keine Prüfungsvorbereitung / -schwerpunkte;mit einer Confidence von;28.40%
-Large itemset;;Visualisierungen;abs.Supp.;56.60. ;ungünstige Raumbedingungen;abs.Supp.;56.60;rel.Supp.;11.32%
+Large itemset;;Visualisierungen;abs.Supp.;566.00. ;ungünstige Raumbedingungen;abs.Supp.;566.00;rel.Supp.;11.32%
 Regel :aus: ;;ungünstige Raumbedingungen;folgt: ;;Visualisierungen;mit einer Confidence von;39.58%
 Regel :aus: ;;Visualisierungen;folgt: ;;ungünstige Raumbedingungen;mit einer Confidence von;51.45%
-Large itemset;;Zusammenfassungen und Wiederholungen;abs.Supp.;32.10. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;32.10;rel.Supp.;6.42%
+Large itemset;;Zusammenfassungen und Wiederholungen;abs.Supp.;321.00. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;321.00;rel.Supp.;6.42%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;folgt: ;;Zusammenfassungen und Wiederholungen;mit einer Confidence von;35.27%
 Regel :aus: ;;Zusammenfassungen und Wiederholungen;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;15.14%
-Large itemset;;Zusammenfassungen und Wiederholungen;abs.Supp.;34.00. ;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;34.00;rel.Supp.;6.80%
+Large itemset;;Zusammenfassungen und Wiederholungen;abs.Supp.;340.00. ;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;340.00;rel.Supp.;6.80%
 Regel :aus: ;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";folgt: ;;Zusammenfassungen und Wiederholungen;mit einer Confidence von;37.36%
 Regel :aus: ;;Zusammenfassungen und Wiederholungen;folgt: ;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";mit einer Confidence von;28.33%
-Large itemset;;Ablenkung durch Lautstärke der Kommilitonen;abs.Supp.;36.10. ;ungünstige Raumbedingungen;abs.Supp.;36.10;rel.Supp.;7.22%
+Large itemset;;Ablenkung durch Lautstärke der Kommilitonen;abs.Supp.;361.00. ;ungünstige Raumbedingungen;abs.Supp.;361.00;rel.Supp.;7.22%
 Regel :aus: ;;ungünstige Raumbedingungen;folgt: ;;Ablenkung durch Lautstärke der Kommilitonen;mit einer Confidence von;56.41%
 Regel :aus: ;;Ablenkung durch Lautstärke der Kommilitonen;folgt: ;;ungünstige Raumbedingungen;mit einer Confidence von;32.82%
-Large itemset;;Demotivierung / Einschüchterung der Studierenden;abs.Supp.;30.00. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;30.00;rel.Supp.;6.00%
+Large itemset;;Demotivierung / Einschüchterung der Studierenden;abs.Supp.;300.00. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;300.00;rel.Supp.;6.00%
 Regel :aus: ;;keine Prüfungsvorbereitung / -schwerpunkte;folgt: ;;Demotivierung / Einschüchterung der Studierenden;mit einer Confidence von;65.22%
 Regel :aus: ;;Demotivierung / Einschüchterung der Studierenden;folgt: ;;keine Prüfungsvorbereitung / -schwerpunkte;mit einer Confidence von;24.00%
-Large itemset;;Demotivierung / Einschüchterung der Studierenden;abs.Supp.;30.00. ;schlechte Passung zu anderen Lehrveranstaltungen;abs.Supp.;0.50;rel.Supp.;6.00%
+Large itemset;;Demotivierung / Einschüchterung der Studierenden;abs.Supp.;300.00. ;schlechte Passung zu anderen Lehrveranstaltungen;abs.Supp.;5.00;rel.Supp.;6.00%
 Regel :aus: ;;schlechte Passung zu anderen Lehrveranstaltungen;folgt: ;;Demotivierung / Einschüchterung der Studierenden;mit einer Confidence von;65.22%
 Regel :aus: ;;Demotivierung / Einschüchterung der Studierenden;folgt: ;;schlechte Passung zu anderen Lehrveranstaltungen;mit einer Confidence von;1.02%
-Large itemset;;fehlende / mangelnde Anwendung und Praxis;abs.Supp.;36.20. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;36.20;rel.Supp.;7.24%
+Large itemset;;fehlende / mangelnde Anwendung und Praxis;abs.Supp.;362.00. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;362.00;rel.Supp.;7.24%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;folgt: ;;fehlende / mangelnde Anwendung und Praxis;mit einer Confidence von;43.61%
 Regel :aus: ;;fehlende / mangelnde Anwendung und Praxis;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;17.08%
-Large itemset;;fehlende / unverständliche Erklärungen;abs.Supp.;59.10. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;59.10;rel.Supp.;11.82%
+Large itemset;;fehlende / unverständliche Erklärungen;abs.Supp.;591.00. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;591.00;rel.Supp.;11.82%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;folgt: ;;fehlende / unverständliche Erklärungen;mit einer Confidence von;51.39%
 Regel :aus: ;;fehlende / unverständliche Erklärungen;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;27.88%
-Large itemset;;fehlende / unverständliche Erklärungen;abs.Supp.;42.00. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;42.00;rel.Supp.;8.40%
+Large itemset;;fehlende / unverständliche Erklärungen;abs.Supp.;420.00. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;420.00;rel.Supp.;8.40%
 Regel :aus: ;;keine Prüfungsvorbereitung / -schwerpunkte;folgt: ;;fehlende / unverständliche Erklärungen;mit einer Confidence von;36.52%
 Regel :aus: ;;fehlende / unverständliche Erklärungen;folgt: ;;keine Prüfungsvorbereitung / -schwerpunkte;mit einer Confidence von;33.60%
-Large itemset;;fehlendes Vorwissen;abs.Supp.;30.20. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;30.20;rel.Supp.;6.04%
+Large itemset;;fehlendes Vorwissen;abs.Supp.;302.00. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;302.00;rel.Supp.;6.04%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;folgt: ;;fehlendes Vorwissen;mit einer Confidence von;43.14%
 Regel :aus: ;;fehlendes Vorwissen;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;14.25%
-Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;37.80. ;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;37.80;rel.Supp.;7.56%
+Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;378.00. ;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;378.00;rel.Supp.;7.56%
 Regel :aus: ;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;17.83%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;folgt: ;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";mit einer Confidence von;31.50%
-Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;33.70. ;keine (vollständigen) Arbeitsmaterialien;abs.Supp.;33.70;rel.Supp.;6.74%
+Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;337.00. ;keine (vollständigen) Arbeitsmaterialien;abs.Supp.;337.00;rel.Supp.;6.74%
 Regel :aus: ;;keine (vollständigen) Arbeitsmaterialien;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;15.90%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;folgt: ;;keine (vollständigen) Arbeitsmaterialien;mit einer Confidence von;51.85%
-Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;69.00. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;69.00;rel.Supp.;13.80%
+Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;690.00. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;690.00;rel.Supp.;13.80%
 Regel :aus: ;;keine Prüfungsvorbereitung / -schwerpunkte;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;32.55%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;folgt: ;;keine Prüfungsvorbereitung / -schwerpunkte;mit einer Confidence von;55.20%
-Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;32.10. ;schwaches eigenes Engagement;abs.Supp.;32.10;rel.Supp.;6.42%
+Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;321.00. ;schwaches eigenes Engagement;abs.Supp.;321.00;rel.Supp.;6.42%
 Regel :aus: ;;schwaches eigenes Engagement;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;15.14%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;folgt: ;;schwaches eigenes Engagement;mit einer Confidence von;42.80%
-Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;31.50. ;späte Bereitstellung der Unterlagen;abs.Supp.;31.50;rel.Supp.;6.30%
+Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;315.00. ;späte Bereitstellung der Unterlagen;abs.Supp.;315.00;rel.Supp.;6.30%
 Regel :aus: ;;späte Bereitstellung der Unterlagen;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;14.86%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;folgt: ;;späte Bereitstellung der Unterlagen;mit einer Confidence von;42.00%
-Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;53.00. ;ungünstige Raumbedingungen;abs.Supp.;53.00;rel.Supp.;10.60%
+Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;530.00. ;ungünstige Raumbedingungen;abs.Supp.;530.00;rel.Supp.;10.60%
 Regel :aus: ;;ungünstige Raumbedingungen;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;25.00%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;folgt: ;;ungünstige Raumbedingungen;mit einer Confidence von;48.18%
-Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;32.00. ;ungünstige Veranstaltungszeit;abs.Supp.;32.00;rel.Supp.;6.40%
+Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;320.00. ;ungünstige Veranstaltungszeit;abs.Supp.;320.00;rel.Supp.;6.40%
 Regel :aus: ;;ungünstige Veranstaltungszeit;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;15.09%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;folgt: ;;ungünstige Veranstaltungszeit;mit einer Confidence von;44.44%
-Large itemset;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;41.00. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;41.00;rel.Supp.;8.20%
+Large itemset;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;410.00. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;410.00;rel.Supp.;8.20%
 Regel :aus: ;;keine Prüfungsvorbereitung / -schwerpunkte;folgt: ;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";mit einer Confidence von;34.17%
 Regel :aus: ;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";folgt: ;;keine Prüfungsvorbereitung / -schwerpunkte;mit einer Confidence von;32.80%
-Large itemset;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;33.00. ;späte Bereitstellung der Unterlagen;abs.Supp.;33.00;rel.Supp.;6.60%
+Large itemset;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;330.00. ;späte Bereitstellung der Unterlagen;abs.Supp.;330.00;rel.Supp.;6.60%
 Regel :aus: ;;späte Bereitstellung der Unterlagen;folgt: ;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";mit einer Confidence von;27.50%
 Regel :aus: ;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";folgt: ;;späte Bereitstellung der Unterlagen;mit einer Confidence von;44.00%
-Large itemset;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;40.60. ;unübersichtliche / Überfüllte Visualisierung;abs.Supp.;40.60;rel.Supp.;8.12%
+Large itemset;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;406.00. ;unübersichtliche / Überfüllte Visualisierung;abs.Supp.;406.00;rel.Supp.;8.12%
 Regel :aus: ;;unübersichtliche / Überfüllte Visualisierung;folgt: ;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";mit einer Confidence von;33.83%
 Regel :aus: ;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";folgt: ;;unübersichtliche / Überfüllte Visualisierung;mit einer Confidence von;53.42%
-Large itemset;;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;37.50. ;späte Bereitstellung der Unterlagen;abs.Supp.;37.50;rel.Supp.;7.50%
+Large itemset;;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;375.00. ;späte Bereitstellung der Unterlagen;abs.Supp.;375.00;rel.Supp.;7.50%
 Regel :aus: ;;späte Bereitstellung der Unterlagen;folgt: ;;keine Prüfungsvorbereitung / -schwerpunkte;mit einer Confidence von;30.00%
 Regel :aus: ;;keine Prüfungsvorbereitung / -schwerpunkte;folgt: ;;späte Bereitstellung der Unterlagen;mit einer Confidence von;50.00%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;65.25. ;Übungen in der Vorlesung;abs.Supp.;65.25. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;65.25;rel.Supp.;13.05%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;652.50. ;Übungen in der Vorlesung;abs.Supp.;652.50. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;652.50;rel.Supp.;13.05%
 Regel :aus: ;;Übungen in der Vorlesung;hohe Stoffmenge / hohes Tempo;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;23.14%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;hohe Stoffmenge / hohes Tempo;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;27.19%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Übungen in der Vorlesung;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;30.78%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;55.00. ;Übungen in der Vorlesung;abs.Supp.;55.00. ;Kommunikation mit Dozenten;abs.Supp.;55.00;rel.Supp.;11.00%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;550.00. ;Übungen in der Vorlesung;abs.Supp.;550.00. ;Kommunikation mit Dozenten;abs.Supp.;550.00;rel.Supp.;11.00%
 Regel :aus: ;;Übungen in der Vorlesung;Kommunikation mit Dozenten;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;19.50%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Kommunikation mit Dozenten;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;22.92%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Übungen in der Vorlesung;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;35.48%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;41.25. ;Übungen in der Vorlesung;abs.Supp.;41.25. ;Lockerheit des Dozenten;abs.Supp.;41.25;rel.Supp.;8.25%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;412.50. ;Übungen in der Vorlesung;abs.Supp.;412.50. ;Lockerheit des Dozenten;abs.Supp.;412.50;rel.Supp.;8.25%
 Regel :aus: ;;Übungen in der Vorlesung;Lockerheit des Dozenten;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;14.63%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Lockerheit des Dozenten;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;17.19%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Übungen in der Vorlesung;folgt: ;;Lockerheit des Dozenten;mit einer Confidence von;62.50%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;36.50. ;Übungen in der Vorlesung;abs.Supp.;36.50. ;Selbststudium;abs.Supp.;36.50;rel.Supp.;7.30%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;365.00. ;Übungen in der Vorlesung;abs.Supp.;365.00. ;Selbststudium;abs.Supp.;365.00;rel.Supp.;7.30%
 Regel :aus: ;;Übungen in der Vorlesung;Selbststudium;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;12.94%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Selbststudium;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;15.21%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Übungen in der Vorlesung;folgt: ;;Selbststudium;mit einer Confidence von;23.10%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;33.05. ;Übungen in der Vorlesung;abs.Supp.;33.05. ;Teilnahme am Praktikum;abs.Supp.;33.05;rel.Supp.;6.61%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;330.50. ;Übungen in der Vorlesung;abs.Supp.;330.50. ;Teilnahme am Praktikum;abs.Supp.;330.50;rel.Supp.;6.61%
 Regel :aus: ;;Übungen in der Vorlesung;Teilnahme am Praktikum;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;11.72%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Teilnahme am Praktikum;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;13.77%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Übungen in der Vorlesung;folgt: ;;Teilnahme am Praktikum;mit einer Confidence von;30.89%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;38.50. ;Übungen in der Vorlesung;abs.Supp.;38.50. ;verständliche Erklärungen;abs.Supp.;38.50;rel.Supp.;7.70%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;385.00. ;Übungen in der Vorlesung;abs.Supp.;385.00. ;verständliche Erklärungen;abs.Supp.;385.00;rel.Supp.;7.70%
 Regel :aus: ;;Übungen in der Vorlesung;verständliche Erklärungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;13.65%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;verständliche Erklärungen;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;16.04%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Übungen in der Vorlesung;folgt: ;;verständliche Erklärungen;mit einer Confidence von;24.84%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;44.25. ;Übungen in der Vorlesung;abs.Supp.;44.25. ;Visualisierungen;abs.Supp.;44.25;rel.Supp.;8.85%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;442.50. ;Übungen in der Vorlesung;abs.Supp.;442.50. ;Visualisierungen;abs.Supp.;442.50;rel.Supp.;8.85%
 Regel :aus: ;;Übungen in der Vorlesung;Visualisierungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;15.69%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Visualisierungen;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;18.44%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Übungen in der Vorlesung;folgt: ;;Visualisierungen;mit einer Confidence von;30.94%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;34.00. ;Übungen in der Vorlesung;abs.Supp.;34.00. ;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;34.00;rel.Supp.;6.80%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;340.00. ;Übungen in der Vorlesung;abs.Supp.;340.00. ;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;340.00;rel.Supp.;6.80%
 Regel :aus: ;;Übungen in der Vorlesung;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;12.06%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;14.17%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Übungen in der Vorlesung;folgt: ;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";mit einer Confidence von;28.33%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;41.25. ;Übungen in der Vorlesung;abs.Supp.;41.25. ;ungünstige Raumbedingungen;abs.Supp.;41.25;rel.Supp.;8.25%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;412.50. ;Übungen in der Vorlesung;abs.Supp.;412.50. ;ungünstige Raumbedingungen;abs.Supp.;412.50;rel.Supp.;8.25%
 Regel :aus: ;;Übungen in der Vorlesung;ungünstige Raumbedingungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;14.63%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;ungünstige Raumbedingungen;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;17.19%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Übungen in der Vorlesung;folgt: ;;ungünstige Raumbedingungen;mit einer Confidence von;37.50%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;50.50. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;50.50. ;Kommunikation mit Dozenten;abs.Supp.;50.50;rel.Supp.;10.10%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;505.00. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;505.00. ;Kommunikation mit Dozenten;abs.Supp.;505.00;rel.Supp.;10.10%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;Kommunikation mit Dozenten;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;17.91%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Kommunikation mit Dozenten;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;23.82%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;hohe Stoffmenge / hohes Tempo;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;32.58%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;31.25. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;31.25. ;Offenheit des Dozenten für Studierende;abs.Supp.;31.25;rel.Supp.;6.25%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;312.50. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;312.50. ;Offenheit des Dozenten für Studierende;abs.Supp.;312.50;rel.Supp.;6.25%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;Offenheit des Dozenten für Studierende;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;11.08%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Offenheit des Dozenten für Studierende;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;14.74%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;hohe Stoffmenge / hohes Tempo;folgt: ;;Offenheit des Dozenten für Studierende;mit einer Confidence von;29.48%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;38.85. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;38.85. ;Selbststudium;abs.Supp.;38.85;rel.Supp.;7.77%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;388.50. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;388.50. ;Selbststudium;abs.Supp.;388.50;rel.Supp.;7.77%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;Selbststudium;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;13.78%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Selbststudium;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;18.33%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;hohe Stoffmenge / hohes Tempo;folgt: ;;Selbststudium;mit einer Confidence von;24.59%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;31.50. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;31.50. ;verständliche Erklärungen;abs.Supp.;31.50;rel.Supp.;6.30%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;315.00. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;315.00. ;verständliche Erklärungen;abs.Supp.;315.00;rel.Supp.;6.30%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;verständliche Erklärungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;11.17%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;verständliche Erklärungen;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;14.86%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;hohe Stoffmenge / hohes Tempo;folgt: ;;verständliche Erklärungen;mit einer Confidence von;20.32%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;41.60. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;41.60. ;Visualisierungen;abs.Supp.;41.60;rel.Supp.;8.32%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;416.00. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;416.00. ;Visualisierungen;abs.Supp.;416.00;rel.Supp.;8.32%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;Visualisierungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;14.75%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Visualisierungen;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;19.62%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;hohe Stoffmenge / hohes Tempo;folgt: ;;Visualisierungen;mit einer Confidence von;29.09%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;35.25. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;35.25. ;ungünstige Raumbedingungen;abs.Supp.;35.25;rel.Supp.;7.05%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;352.50. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;352.50. ;ungünstige Raumbedingungen;abs.Supp.;352.50;rel.Supp.;7.05%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;ungünstige Raumbedingungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;12.50%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;ungünstige Raumbedingungen;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;16.63%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;hohe Stoffmenge / hohes Tempo;folgt: ;;ungünstige Raumbedingungen;mit einer Confidence von;32.05%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;31.50. ;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;31.50. ;verständliche Erklärungen;abs.Supp.;31.50;rel.Supp.;6.30%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;315.00. ;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;315.00. ;verständliche Erklärungen;abs.Supp.;315.00;rel.Supp.;6.30%
 Regel :aus: ;;Arbeitsmaterialien (Skript. Lehrbuch);verständliche Erklärungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;11.17%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;verständliche Erklärungen;folgt: ;;Arbeitsmaterialien (Skript. Lehrbuch);mit einer Confidence von;30.88%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Arbeitsmaterialien (Skript. Lehrbuch);folgt: ;;verständliche Erklärungen;mit einer Confidence von;20.32%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;31.25. ;Kommunikation mit Dozenten;abs.Supp.;31.25. ;Offenheit des Dozenten für Studierende;abs.Supp.;31.25;rel.Supp.;6.25%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;312.50. ;Kommunikation mit Dozenten;abs.Supp.;312.50. ;Offenheit des Dozenten für Studierende;abs.Supp.;312.50;rel.Supp.;6.25%
 Regel :aus: ;;Kommunikation mit Dozenten;Offenheit des Dozenten für Studierende;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;11.08%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Offenheit des Dozenten für Studierende;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;20.16%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Kommunikation mit Dozenten;folgt: ;;Offenheit des Dozenten für Studierende;mit einer Confidence von;29.48%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;31.25. ;Kommunikation mit Dozenten;abs.Supp.;31.25. ;Partizipation / Mitsprache der Studierenden;abs.Supp.;31.25;rel.Supp.;6.25%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;312.50. ;Kommunikation mit Dozenten;abs.Supp.;312.50. ;Partizipation / Mitsprache der Studierenden;abs.Supp.;312.50;rel.Supp.;6.25%
 Regel :aus: ;;Kommunikation mit Dozenten;Partizipation / Mitsprache der Studierenden;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;11.08%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Partizipation / Mitsprache der Studierenden;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;20.16%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Kommunikation mit Dozenten;folgt: ;;Partizipation / Mitsprache der Studierenden;mit einer Confidence von;69.44%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;31.25. ;Kommunikation mit Dozenten;abs.Supp.;31.25. ;Teilnahme am Praktikum;abs.Supp.;31.25;rel.Supp.;6.25%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;312.50. ;Kommunikation mit Dozenten;abs.Supp.;312.50. ;Teilnahme am Praktikum;abs.Supp.;312.50;rel.Supp.;6.25%
 Regel :aus: ;;Kommunikation mit Dozenten;Teilnahme am Praktikum;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;11.08%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Teilnahme am Praktikum;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;20.16%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Kommunikation mit Dozenten;folgt: ;;Teilnahme am Praktikum;mit einer Confidence von;29.21%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;35.50. ;Kommunikation mit Dozenten;abs.Supp.;35.50. ;verständliche Erklärungen;abs.Supp.;35.50;rel.Supp.;7.10%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;355.00. ;Kommunikation mit Dozenten;abs.Supp.;355.00. ;verständliche Erklärungen;abs.Supp.;355.00;rel.Supp.;7.10%
 Regel :aus: ;;Kommunikation mit Dozenten;verständliche Erklärungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;12.59%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;verständliche Erklärungen;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;22.90%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Kommunikation mit Dozenten;folgt: ;;verständliche Erklärungen;mit einer Confidence von;22.90%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;48.00. ;Kommunikation mit Dozenten;abs.Supp.;48.00. ;Visualisierungen;abs.Supp.;48.00;rel.Supp.;9.60%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;480.00. ;Kommunikation mit Dozenten;abs.Supp.;480.00. ;Visualisierungen;abs.Supp.;480.00;rel.Supp.;9.60%
 Regel :aus: ;;Kommunikation mit Dozenten;Visualisierungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;17.02%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Visualisierungen;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;30.97%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Kommunikation mit Dozenten;folgt: ;;Visualisierungen;mit einer Confidence von;33.57%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;53.00. ;Kommunikation mit Dozenten;abs.Supp.;53.00. ;Zusammenfassungen und Wiederholungen;abs.Supp.;53.00;rel.Supp.;10.60%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;530.00. ;Kommunikation mit Dozenten;abs.Supp.;530.00. ;Zusammenfassungen und Wiederholungen;abs.Supp.;530.00;rel.Supp.;10.60%
 Regel :aus: ;;Kommunikation mit Dozenten;Zusammenfassungen und Wiederholungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;18.79%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Zusammenfassungen und Wiederholungen;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;34.19%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Kommunikation mit Dozenten;folgt: ;;Zusammenfassungen und Wiederholungen;mit einer Confidence von;58.24%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;32.50. ;Kommunikation mit Dozenten;abs.Supp.;32.50. ;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;32.50;rel.Supp.;6.50%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;325.00. ;Kommunikation mit Dozenten;abs.Supp.;325.00. ;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;325.00;rel.Supp.;6.50%
 Regel :aus: ;;Kommunikation mit Dozenten;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;11.52%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;20.97%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Kommunikation mit Dozenten;folgt: ;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";mit einer Confidence von;27.08%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;36.75. ;Kommunikation mit Dozenten;abs.Supp.;36.75. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;36.75;rel.Supp.;7.35%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;367.50. ;Kommunikation mit Dozenten;abs.Supp.;367.50. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;367.50;rel.Supp.;7.35%
 Regel :aus: ;;Kommunikation mit Dozenten;keine Prüfungsvorbereitung / -schwerpunkte;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;13.03%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;keine Prüfungsvorbereitung / -schwerpunkte;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;23.71%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Kommunikation mit Dozenten;folgt: ;;keine Prüfungsvorbereitung / -schwerpunkte;mit einer Confidence von;29.40%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;33.75. ;Kommunikation mit Dozenten;abs.Supp.;33.75. ;ungünstige Raumbedingungen;abs.Supp.;33.75;rel.Supp.;6.75%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;337.50. ;Kommunikation mit Dozenten;abs.Supp.;337.50. ;ungünstige Raumbedingungen;abs.Supp.;337.50;rel.Supp.;6.75%
 Regel :aus: ;;Kommunikation mit Dozenten;ungünstige Raumbedingungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;11.97%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;ungünstige Raumbedingungen;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;21.77%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Kommunikation mit Dozenten;folgt: ;;ungünstige Raumbedingungen;mit einer Confidence von;30.68%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;30.00. ;Offenheit des Dozenten für Studierende;abs.Supp.;30.00. ;Partizipation / Mitsprache der Studierenden;abs.Supp.;30.00;rel.Supp.;6.00%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;300.00. ;Offenheit des Dozenten für Studierende;abs.Supp.;300.00. ;Partizipation / Mitsprache der Studierenden;abs.Supp.;300.00;rel.Supp.;6.00%
 Regel :aus: ;;Offenheit des Dozenten für Studierende;Partizipation / Mitsprache der Studierenden;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;10.64%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Partizipation / Mitsprache der Studierenden;folgt: ;;Offenheit des Dozenten für Studierende;mit einer Confidence von;28.30%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Offenheit des Dozenten für Studierende;folgt: ;;Partizipation / Mitsprache der Studierenden;mit einer Confidence von;66.67%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;35.00. ;Offenheit des Dozenten für Studierende;abs.Supp.;35.00. ;sympathisches Auftreten des Dozenten;abs.Supp.;35.00;rel.Supp.;7.00%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;350.00. ;Offenheit des Dozenten für Studierende;abs.Supp.;350.00. ;sympathisches Auftreten des Dozenten;abs.Supp.;350.00;rel.Supp.;7.00%
 Regel :aus: ;;Offenheit des Dozenten für Studierende;sympathisches Auftreten des Dozenten;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;12.41%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;sympathisches Auftreten des Dozenten;folgt: ;;Offenheit des Dozenten für Studierende;mit einer Confidence von;33.02%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Offenheit des Dozenten für Studierende;folgt: ;;sympathisches Auftreten des Dozenten;mit einer Confidence von;50.00%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;42.75. ;Offenheit des Dozenten für Studierende;abs.Supp.;42.75. ;verständliche Erklärungen;abs.Supp.;42.75;rel.Supp.;8.55%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;427.50. ;Offenheit des Dozenten für Studierende;abs.Supp.;427.50. ;verständliche Erklärungen;abs.Supp.;427.50;rel.Supp.;8.55%
 Regel :aus: ;;Offenheit des Dozenten für Studierende;verständliche Erklärungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;15.16%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;verständliche Erklärungen;folgt: ;;Offenheit des Dozenten für Studierende;mit einer Confidence von;40.33%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Offenheit des Dozenten für Studierende;folgt: ;;verständliche Erklärungen;mit einer Confidence von;27.58%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;30.00. ;Offenheit des Dozenten für Studierende;abs.Supp.;30.00. ;Visualisierungen;abs.Supp.;30.00;rel.Supp.;6.00%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;300.00. ;Offenheit des Dozenten für Studierende;abs.Supp.;300.00. ;Visualisierungen;abs.Supp.;300.00;rel.Supp.;6.00%
 Regel :aus: ;;Offenheit des Dozenten für Studierende;Visualisierungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;10.64%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Visualisierungen;folgt: ;;Offenheit des Dozenten für Studierende;mit einer Confidence von;28.30%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Offenheit des Dozenten für Studierende;folgt: ;;Visualisierungen;mit einer Confidence von;20.98%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;31.00. ;Offenheit des Dozenten für Studierende;abs.Supp.;31.00. ;ungünstige Veranstaltungszeit;abs.Supp.;31.00;rel.Supp.;6.20%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;310.00. ;Offenheit des Dozenten für Studierende;abs.Supp.;310.00. ;ungünstige Veranstaltungszeit;abs.Supp.;310.00;rel.Supp.;6.20%
 Regel :aus: ;;Offenheit des Dozenten für Studierende;ungünstige Veranstaltungszeit;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;10.99%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;ungünstige Veranstaltungszeit;folgt: ;;Offenheit des Dozenten für Studierende;mit einer Confidence von;29.25%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Offenheit des Dozenten für Studierende;folgt: ;;ungünstige Veranstaltungszeit;mit einer Confidence von;43.06%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;48.50. ;verständliche Erklärungen;abs.Supp.;48.50. ;Visualisierungen;abs.Supp.;48.50;rel.Supp.;9.70%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;485.00. ;verständliche Erklärungen;abs.Supp.;485.00. ;Visualisierungen;abs.Supp.;485.00;rel.Supp.;9.70%
 Regel :aus: ;;verständliche Erklärungen;Visualisierungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;17.20%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Visualisierungen;folgt: ;;verständliche Erklärungen;mit einer Confidence von;31.29%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;verständliche Erklärungen;folgt: ;;Visualisierungen;mit einer Confidence von;33.92%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;40.50. ;verständliche Erklärungen;abs.Supp.;40.50. ;Zusammenfassungen und Wiederholungen;abs.Supp.;40.50;rel.Supp.;8.10%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;405.00. ;verständliche Erklärungen;abs.Supp.;405.00. ;Zusammenfassungen und Wiederholungen;abs.Supp.;405.00;rel.Supp.;8.10%
 Regel :aus: ;;verständliche Erklärungen;Zusammenfassungen und Wiederholungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;14.36%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Zusammenfassungen und Wiederholungen;folgt: ;;verständliche Erklärungen;mit einer Confidence von;26.13%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;verständliche Erklärungen;folgt: ;;Zusammenfassungen und Wiederholungen;mit einer Confidence von;44.51%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;34.60. ;verständliche Erklärungen;abs.Supp.;34.60. ;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;34.60;rel.Supp.;6.92%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;346.00. ;verständliche Erklärungen;abs.Supp.;346.00. ;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;346.00;rel.Supp.;6.92%
 Regel :aus: ;;verständliche Erklärungen;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;12.27%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";folgt: ;;verständliche Erklärungen;mit einer Confidence von;22.32%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;verständliche Erklärungen;folgt: ;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";mit einer Confidence von;28.83%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;36.25. ;Visualisierungen;abs.Supp.;36.25. ;Zusammenfassungen und Wiederholungen;abs.Supp.;36.25;rel.Supp.;7.25%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;362.50. ;Visualisierungen;abs.Supp.;362.50. ;Zusammenfassungen und Wiederholungen;abs.Supp.;362.50;rel.Supp.;7.25%
 Regel :aus: ;;Visualisierungen;Zusammenfassungen und Wiederholungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;12.85%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Zusammenfassungen und Wiederholungen;folgt: ;;Visualisierungen;mit einer Confidence von;25.35%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Visualisierungen;folgt: ;;Zusammenfassungen und Wiederholungen;mit einer Confidence von;39.84%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;39.00. ;Visualisierungen;abs.Supp.;39.00. ;ungünstige Raumbedingungen;abs.Supp.;39.00;rel.Supp.;7.80%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;390.00. ;Visualisierungen;abs.Supp.;390.00. ;ungünstige Raumbedingungen;abs.Supp.;390.00;rel.Supp.;7.80%
 Regel :aus: ;;Visualisierungen;ungünstige Raumbedingungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;13.83%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;ungünstige Raumbedingungen;folgt: ;;Visualisierungen;mit einer Confidence von;27.27%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Visualisierungen;folgt: ;;ungünstige Raumbedingungen;mit einer Confidence von;35.45%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;32.25. ;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;32.25. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;32.25;rel.Supp.;6.45%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;322.50. ;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;322.50. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;322.50;rel.Supp.;6.45%
 Regel :aus: ;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";keine Prüfungsvorbereitung / -schwerpunkte;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;11.44%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;keine Prüfungsvorbereitung / -schwerpunkte;folgt: ;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";mit einer Confidence von;26.88%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";folgt: ;;keine Prüfungsvorbereitung / -schwerpunkte;mit einer Confidence von;25.80%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;31.25. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;31.25. ;späte Bereitstellung der Unterlagen;abs.Supp.;31.25;rel.Supp.;6.25%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;312.50. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;312.50. ;späte Bereitstellung der Unterlagen;abs.Supp.;312.50;rel.Supp.;6.25%
 Regel :aus: ;;keine Prüfungsvorbereitung / -schwerpunkte;späte Bereitstellung der Unterlagen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;11.08%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;späte Bereitstellung der Unterlagen;folgt: ;;keine Prüfungsvorbereitung / -schwerpunkte;mit einer Confidence von;25.00%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;keine Prüfungsvorbereitung / -schwerpunkte;folgt: ;;späte Bereitstellung der Unterlagen;mit einer Confidence von;41.67%
-Large itemset;;Übungen in der Vorlesung;abs.Supp.;36.50. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;36.50. ;Kommunikation mit Dozenten;abs.Supp.;36.50;rel.Supp.;7.30%
+Large itemset;;Übungen in der Vorlesung;abs.Supp.;365.00. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;365.00. ;Kommunikation mit Dozenten;abs.Supp.;365.00;rel.Supp.;7.30%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;Kommunikation mit Dozenten;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;15.21%
 Regel :aus: ;;Übungen in der Vorlesung;Kommunikation mit Dozenten;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;17.22%
 Regel :aus: ;;Übungen in der Vorlesung;hohe Stoffmenge / hohes Tempo;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;23.55%
-Large itemset;;Übungen in der Vorlesung;abs.Supp.;38.85. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;38.85. ;Selbststudium;abs.Supp.;38.85;rel.Supp.;7.77%
+Large itemset;;Übungen in der Vorlesung;abs.Supp.;388.50. ;hohe Stoffmenge / hohes Tempo;abs.Supp.;388.50. ;Selbststudium;abs.Supp.;388.50;rel.Supp.;7.77%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;Selbststudium;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;16.19%
 Regel :aus: ;;Übungen in der Vorlesung;Selbststudium;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;18.33%
 Regel :aus: ;;Übungen in der Vorlesung;hohe Stoffmenge / hohes Tempo;folgt: ;;Selbststudium;mit einer Confidence von;24.59%
-Large itemset;;Übungen in der Vorlesung;abs.Supp.;32.80. ;Visualisierungen;abs.Supp.;32.80. ;ungünstige Raumbedingungen;abs.Supp.;32.80;rel.Supp.;6.56%
+Large itemset;;Übungen in der Vorlesung;abs.Supp.;328.00. ;Visualisierungen;abs.Supp.;328.00. ;ungünstige Raumbedingungen;abs.Supp.;328.00;rel.Supp.;6.56%
 Regel :aus: ;;Visualisierungen;ungünstige Raumbedingungen;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;13.67%
 Regel :aus: ;;Übungen in der Vorlesung;ungünstige Raumbedingungen;folgt: ;;Visualisierungen;mit einer Confidence von;22.94%
 Regel :aus: ;;Übungen in der Vorlesung;Visualisierungen;folgt: ;;ungünstige Raumbedingungen;mit einer Confidence von;29.82%
-Large itemset;;Übungen in der Vorlesung;abs.Supp.;31.80. ;Ablenkung durch Lautstärke der Kommilitonen;abs.Supp.;31.80. ;ungünstige Raumbedingungen;abs.Supp.;31.80;rel.Supp.;6.36%
+Large itemset;;Übungen in der Vorlesung;abs.Supp.;318.00. ;Ablenkung durch Lautstärke der Kommilitonen;abs.Supp.;318.00. ;ungünstige Raumbedingungen;abs.Supp.;318.00;rel.Supp.;6.36%
 Regel :aus: ;;Ablenkung durch Lautstärke der Kommilitonen;ungünstige Raumbedingungen;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;13.25%
 Regel :aus: ;;Übungen in der Vorlesung;ungünstige Raumbedingungen;folgt: ;;Ablenkung durch Lautstärke der Kommilitonen;mit einer Confidence von;49.69%
 Regel :aus: ;;Übungen in der Vorlesung;Ablenkung durch Lautstärke der Kommilitonen;folgt: ;;ungünstige Raumbedingungen;mit einer Confidence von;28.91%
-Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;32.50. ;Kommunikation mit Dozenten;abs.Supp.;32.50. ;Offenheit des Dozenten für Studierende;abs.Supp.;32.50;rel.Supp.;6.50%
+Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;325.00. ;Kommunikation mit Dozenten;abs.Supp.;325.00. ;Offenheit des Dozenten für Studierende;abs.Supp.;325.00;rel.Supp.;6.50%
 Regel :aus: ;;Kommunikation mit Dozenten;Offenheit des Dozenten für Studierende;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;15.33%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;Offenheit des Dozenten für Studierende;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;20.97%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;Kommunikation mit Dozenten;folgt: ;;Offenheit des Dozenten für Studierende;mit einer Confidence von;30.66%
-Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;30.45. ;Selbststudium;abs.Supp.;30.45. ;fehlende / unverständliche Erklärungen;abs.Supp.;30.45;rel.Supp.;6.09%
+Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;304.50. ;Selbststudium;abs.Supp.;304.50. ;fehlende / unverständliche Erklärungen;abs.Supp.;304.50;rel.Supp.;6.09%
 Regel :aus: ;;Selbststudium;fehlende / unverständliche Erklärungen;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;14.36%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;fehlende / unverständliche Erklärungen;folgt: ;;Selbststudium;mit einer Confidence von;19.27%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;Selbststudium;folgt: ;;fehlende / unverständliche Erklärungen;mit einer Confidence von;26.48%
-Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;31.15. ;verständliche Erklärungen;abs.Supp.;31.15. ;Visualisierungen;abs.Supp.;31.15;rel.Supp.;6.23%
+Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;311.50. ;verständliche Erklärungen;abs.Supp.;311.50. ;Visualisierungen;abs.Supp.;311.50;rel.Supp.;6.23%
 Regel :aus: ;;verständliche Erklärungen;Visualisierungen;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;14.69%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;Visualisierungen;folgt: ;;verständliche Erklärungen;mit einer Confidence von;20.10%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;verständliche Erklärungen;folgt: ;;Visualisierungen;mit einer Confidence von;21.78%
-Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;30.25. ;verständliche Erklärungen;abs.Supp.;30.25. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;30.25;rel.Supp.;6.05%
+Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;302.50. ;verständliche Erklärungen;abs.Supp.;302.50. ;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;302.50;rel.Supp.;6.05%
 Regel :aus: ;;verständliche Erklärungen;keine Prüfungsvorbereitung / -schwerpunkte;folgt: ;;hohe Stoffmenge / hohes Tempo;mit einer Confidence von;14.27%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;keine Prüfungsvorbereitung / -schwerpunkte;folgt: ;;verständliche Erklärungen;mit einer Confidence von;19.52%
 Regel :aus: ;;hohe Stoffmenge / hohes Tempo;verständliche Erklärungen;folgt: ;;keine Prüfungsvorbereitung / -schwerpunkte;mit einer Confidence von;24.20%
-Large itemset;;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;30.00. ;Offenheit des Dozenten für Studierende;abs.Supp.;30.00. ;sympathisches Auftreten des Dozenten;abs.Supp.;30.00;rel.Supp.;6.00%
+Large itemset;;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;300.00. ;Offenheit des Dozenten für Studierende;abs.Supp.;300.00. ;sympathisches Auftreten des Dozenten;abs.Supp.;300.00;rel.Supp.;6.00%
 Regel :aus: ;;Offenheit des Dozenten für Studierende;sympathisches Auftreten des Dozenten;folgt: ;;Arbeitsmaterialien (Skript. Lehrbuch);mit einer Confidence von;29.41%
 Regel :aus: ;;Arbeitsmaterialien (Skript. Lehrbuch);sympathisches Auftreten des Dozenten;folgt: ;;Offenheit des Dozenten für Studierende;mit einer Confidence von;28.30%
 Regel :aus: ;;Arbeitsmaterialien (Skript. Lehrbuch);Offenheit des Dozenten für Studierende;folgt: ;;sympathisches Auftreten des Dozenten;mit einer Confidence von;42.86%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;30.00. ;Offenheit des Dozenten für Studierende;abs.Supp.;30.00. ;Partizipation / Mitsprache der Studierenden;abs.Supp.;30.00;rel.Supp.;6.00%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;300.00. ;Offenheit des Dozenten für Studierende;abs.Supp.;300.00. ;Partizipation / Mitsprache der Studierenden;abs.Supp.;300.00;rel.Supp.;6.00%
 Regel :aus: ;;Offenheit des Dozenten für Studierende;Partizipation / Mitsprache der Studierenden;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;19.35%
 Regel :aus: ;;Kommunikation mit Dozenten;Partizipation / Mitsprache der Studierenden;folgt: ;;Offenheit des Dozenten für Studierende;mit einer Confidence von;28.30%
 Regel :aus: ;;Kommunikation mit Dozenten;Offenheit des Dozenten für Studierende;folgt: ;;Partizipation / Mitsprache der Studierenden;mit einer Confidence von;66.67%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;33.75. ;verständliche Erklärungen;abs.Supp.;33.75. ;Visualisierungen;abs.Supp.;33.75;rel.Supp.;6.75%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;337.50. ;verständliche Erklärungen;abs.Supp.;337.50. ;Visualisierungen;abs.Supp.;337.50;rel.Supp.;6.75%
 Regel :aus: ;;verständliche Erklärungen;Visualisierungen;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;21.77%
 Regel :aus: ;;Kommunikation mit Dozenten;Visualisierungen;folgt: ;;verständliche Erklärungen;mit einer Confidence von;21.77%
 Regel :aus: ;;Kommunikation mit Dozenten;verständliche Erklärungen;folgt: ;;Visualisierungen;mit einer Confidence von;23.60%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;38.50. ;verständliche Erklärungen;abs.Supp.;38.50. ;Zusammenfassungen und Wiederholungen;abs.Supp.;38.50;rel.Supp.;7.70%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;385.00. ;verständliche Erklärungen;abs.Supp.;385.00. ;Zusammenfassungen und Wiederholungen;abs.Supp.;385.00;rel.Supp.;7.70%
 Regel :aus: ;;verständliche Erklärungen;Zusammenfassungen und Wiederholungen;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;24.84%
 Regel :aus: ;;Kommunikation mit Dozenten;Zusammenfassungen und Wiederholungen;folgt: ;;verständliche Erklärungen;mit einer Confidence von;24.84%
 Regel :aus: ;;Kommunikation mit Dozenten;verständliche Erklärungen;folgt: ;;Zusammenfassungen und Wiederholungen;mit einer Confidence von;42.31%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;36.50. ;Visualisierungen;abs.Supp.;36.50. ;Zusammenfassungen und Wiederholungen;abs.Supp.;36.50;rel.Supp.;7.30%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;365.00. ;Visualisierungen;abs.Supp.;365.00. ;Zusammenfassungen und Wiederholungen;abs.Supp.;365.00;rel.Supp.;7.30%
 Regel :aus: ;;Visualisierungen;Zusammenfassungen und Wiederholungen;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;23.55%
 Regel :aus: ;;Kommunikation mit Dozenten;Zusammenfassungen und Wiederholungen;folgt: ;;Visualisierungen;mit einer Confidence von;25.52%
 Regel :aus: ;;Kommunikation mit Dozenten;Visualisierungen;folgt: ;;Zusammenfassungen und Wiederholungen;mit einer Confidence von;40.11%
-Large itemset;;verständliche Erklärungen;abs.Supp.;41.00. ;Visualisierungen;abs.Supp.;41.00. ;Zusammenfassungen und Wiederholungen;abs.Supp.;41.00;rel.Supp.;8.20%
+Large itemset;;verständliche Erklärungen;abs.Supp.;410.00. ;Visualisierungen;abs.Supp.;410.00. ;Zusammenfassungen und Wiederholungen;abs.Supp.;410.00;rel.Supp.;8.20%
 Regel :aus: ;;Visualisierungen;Zusammenfassungen und Wiederholungen;folgt: ;;verständliche Erklärungen;mit einer Confidence von;26.45%
 Regel :aus: ;;verständliche Erklärungen;Zusammenfassungen und Wiederholungen;folgt: ;;Visualisierungen;mit einer Confidence von;28.67%
 Regel :aus: ;;verständliche Erklärungen;Visualisierungen;folgt: ;;Zusammenfassungen und Wiederholungen;mit einer Confidence von;45.05%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;32.75. ;Kommunikation mit Dozenten;abs.Supp.;32.75. ;verständliche Erklärungen;abs.Supp.;32.75. ;Zusammenfassungen und Wiederholungen;abs.Supp.;32.75;rel.Supp.;6.55%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;327.50. ;Kommunikation mit Dozenten;abs.Supp.;327.50. ;verständliche Erklärungen;abs.Supp.;327.50. ;Zusammenfassungen und Wiederholungen;abs.Supp.;327.50;rel.Supp.;6.55%
 Regel :aus: ;;Kommunikation mit Dozenten;verständliche Erklärungen;Zusammenfassungen und Wiederholungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;11.61%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;verständliche Erklärungen;Zusammenfassungen und Wiederholungen;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;21.13%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Kommunikation mit Dozenten;Zusammenfassungen und Wiederholungen;folgt: ;;verständliche Erklärungen;mit einer Confidence von;21.13%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Kommunikation mit Dozenten;verständliche Erklärungen;folgt: ;;Zusammenfassungen und Wiederholungen;mit einer Confidence von;35.99%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;31.75. ;Kommunikation mit Dozenten;abs.Supp.;31.75. ;Visualisierungen;abs.Supp.;31.75. ;Zusammenfassungen und Wiederholungen;abs.Supp.;31.75;rel.Supp.;6.35%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;317.50. ;Kommunikation mit Dozenten;abs.Supp.;317.50. ;Visualisierungen;abs.Supp.;317.50. ;Zusammenfassungen und Wiederholungen;abs.Supp.;317.50;rel.Supp.;6.35%
 Regel :aus: ;;Kommunikation mit Dozenten;Visualisierungen;Zusammenfassungen und Wiederholungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;11.26%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Visualisierungen;Zusammenfassungen und Wiederholungen;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;20.48%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Kommunikation mit Dozenten;Zusammenfassungen und Wiederholungen;folgt: ;;Visualisierungen;mit einer Confidence von;22.20%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Kommunikation mit Dozenten;Visualisierungen;folgt: ;;Zusammenfassungen und Wiederholungen;mit einer Confidence von;34.89%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;30.00. ;Kommunikation mit Dozenten;abs.Supp.;30.00. ;Offenheit des Dozenten für Studierende;abs.Supp.;30.00. ;Partizipation / Mitsprache der Studierenden;abs.Supp.;30.00;rel.Supp.;6.00%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;300.00. ;Kommunikation mit Dozenten;abs.Supp.;300.00. ;Offenheit des Dozenten für Studierende;abs.Supp.;300.00. ;Partizipation / Mitsprache der Studierenden;abs.Supp.;300.00;rel.Supp.;6.00%
 Regel :aus: ;;Kommunikation mit Dozenten;Offenheit des Dozenten für Studierende;Partizipation / Mitsprache der Studierenden;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;10.64%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Offenheit des Dozenten für Studierende;Partizipation / Mitsprache der Studierenden;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;19.35%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Kommunikation mit Dozenten;Partizipation / Mitsprache der Studierenden;folgt: ;;Offenheit des Dozenten für Studierende;mit einer Confidence von;28.30%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Kommunikation mit Dozenten;Offenheit des Dozenten für Studierende;folgt: ;;Partizipation / Mitsprache der Studierenden;mit einer Confidence von;66.67%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;30.75. ;verständliche Erklärungen;abs.Supp.;30.75. ;Visualisierungen;abs.Supp.;30.75. ;Zusammenfassungen und Wiederholungen;abs.Supp.;30.75;rel.Supp.;6.15%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;307.50. ;verständliche Erklärungen;abs.Supp.;307.50. ;Visualisierungen;abs.Supp.;307.50. ;Zusammenfassungen und Wiederholungen;abs.Supp.;307.50;rel.Supp.;6.15%
 Regel :aus: ;;verständliche Erklärungen;Visualisierungen;Zusammenfassungen und Wiederholungen;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;19.84%
 Regel :aus: ;;Kommunikation mit Dozenten;Visualisierungen;Zusammenfassungen und Wiederholungen;folgt: ;;verständliche Erklärungen;mit einer Confidence von;19.84%
 Regel :aus: ;;Kommunikation mit Dozenten;verständliche Erklärungen;Zusammenfassungen und Wiederholungen;folgt: ;;Visualisierungen;mit einer Confidence von;21.50%

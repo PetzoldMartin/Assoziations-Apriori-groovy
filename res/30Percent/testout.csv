@@ -1,4 +1,5 @@
 ;Minsupport Relativ;30%
-;Minsupport Absolut;150.0
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;282.00;rel.Supp.;56.40%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;155.00;rel.Supp.;31.00%
+;Minsupport Absolut;1500.0
+;Fiktive Transaktionen Anzahl;5000
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;2820.00;rel.Supp.;56.40%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;1550.00;rel.Supp.;31.00%

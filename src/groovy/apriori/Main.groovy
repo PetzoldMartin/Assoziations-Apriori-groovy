@@ -6,7 +6,16 @@ package groovy.apriori
 
     class Main {
         static void main(String... args) {
-           def minSupport=30
+           makeout(6);
+            makeout(10);
+            makeout(20);
+            makeout(30);
+
+
+        }
+
+        static def makeout(minsupp){
+            def minSupport=minsupp
             println 'test'
             def pos=new Apriori(csvReader:new CSVReader(path: 'res/test.csv').read(), minSupportRel: minSupport)
             pos.makeRules()
@@ -27,7 +36,6 @@ package groovy.apriori
             def pos4 =new  Apriori(csvReader:csb, minSupportRel: minSupport)
             pos4.makeRules()
             pos4.printAndAnalyze()
-
         }
     }
 

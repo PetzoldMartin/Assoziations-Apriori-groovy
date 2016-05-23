@@ -1,7 +1,8 @@
 ;Minsupport Relativ;20%
-;Minsupport Absolut;100.0
-Large itemset;;fehlende / unverständliche Erklärungen;abs.Supp.;115.00;rel.Supp.;23.00%
-Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;212.00;rel.Supp.;42.40%
-Large itemset;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;120.00;rel.Supp.;24.00%
-Large itemset;;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;125.00;rel.Supp.;25.00%
-Large itemset;;ungünstige Raumbedingungen;abs.Supp.;110.00;rel.Supp.;22.00%
+;Minsupport Absolut;1000.0
+;Fiktive Transaktionen Anzahl;5000
+Large itemset;;fehlende / unverständliche Erklärungen;abs.Supp.;1150.00;rel.Supp.;23.00%
+Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;2120.00;rel.Supp.;42.40%
+Large itemset;;"kein erkennbarer ""Roter Faden"" in der Lehrveranstaltung";abs.Supp.;1200.00;rel.Supp.;24.00%
+Large itemset;;keine Prüfungsvorbereitung / -schwerpunkte;abs.Supp.;1250.00;rel.Supp.;25.00%
+Large itemset;;ungünstige Raumbedingungen;abs.Supp.;1100.00;rel.Supp.;22.00%

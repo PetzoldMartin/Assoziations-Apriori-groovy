@@ -1,96 +1,97 @@
 ;Minsupport Relativ;10%
-;Minsupport Absolut;50.0
-Large itemset;;angenehmes Tempo;abs.Supp.;50.00;rel.Supp.;10.00%
-Large itemset;;Anschauungsmaterial / Vorführungen;abs.Supp.;80.00;rel.Supp.;16.00%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;282.00;rel.Supp.;56.40%
-Large itemset;;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;102.00;rel.Supp.;20.40%
-Large itemset;;Diskussionen in Präsenzlehre;abs.Supp.;53.00;rel.Supp.;10.60%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;155.00;rel.Supp.;31.00%
-Large itemset;;Lockerheit des Dozenten;abs.Supp.;66.00;rel.Supp.;13.20%
-Large itemset;;Offenheit des Dozenten für Studierende;abs.Supp.;106.00;rel.Supp.;21.20%
-Large itemset;;Selbststudium;abs.Supp.;158.00;rel.Supp.;31.60%
-Large itemset;;strukturiertes Skript;abs.Supp.;52.00;rel.Supp.;10.40%
-Large itemset;;sympathisches Auftreten des Dozenten;abs.Supp.;70.00;rel.Supp.;14.00%
-Large itemset;;Teilnahme am Praktikum;abs.Supp.;107.00;rel.Supp.;21.40%
-Large itemset;;Teilnahme am Tutorium;abs.Supp.;72.00;rel.Supp.;14.40%
-Large itemset;;Übungen in der Vorlesung;abs.Supp.;240.00;rel.Supp.;48.00%
-Large itemset;;verständliche Erklärungen;abs.Supp.;155.00;rel.Supp.;31.00%
-Large itemset;;Visualisierungen;abs.Supp.;143.00;rel.Supp.;28.60%
-Large itemset;;Zusammenfassungen und Wiederholungen;abs.Supp.;91.00;rel.Supp.;18.20%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;56.50. ;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;56.50;rel.Supp.;11.30%
+;Minsupport Absolut;500.0
+;Fiktive Transaktionen Anzahl;5000
+Large itemset;;angenehmes Tempo;abs.Supp.;500.00;rel.Supp.;10.00%
+Large itemset;;Anschauungsmaterial / Vorführungen;abs.Supp.;800.00;rel.Supp.;16.00%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;2820.00;rel.Supp.;56.40%
+Large itemset;;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;1020.00;rel.Supp.;20.40%
+Large itemset;;Diskussionen in Präsenzlehre;abs.Supp.;530.00;rel.Supp.;10.60%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;1550.00;rel.Supp.;31.00%
+Large itemset;;Lockerheit des Dozenten;abs.Supp.;660.00;rel.Supp.;13.20%
+Large itemset;;Offenheit des Dozenten für Studierende;abs.Supp.;1060.00;rel.Supp.;21.20%
+Large itemset;;Selbststudium;abs.Supp.;1580.00;rel.Supp.;31.60%
+Large itemset;;strukturiertes Skript;abs.Supp.;520.00;rel.Supp.;10.40%
+Large itemset;;sympathisches Auftreten des Dozenten;abs.Supp.;700.00;rel.Supp.;14.00%
+Large itemset;;Teilnahme am Praktikum;abs.Supp.;1070.00;rel.Supp.;21.40%
+Large itemset;;Teilnahme am Tutorium;abs.Supp.;720.00;rel.Supp.;14.40%
+Large itemset;;Übungen in der Vorlesung;abs.Supp.;2400.00;rel.Supp.;48.00%
+Large itemset;;verständliche Erklärungen;abs.Supp.;1550.00;rel.Supp.;31.00%
+Large itemset;;Visualisierungen;abs.Supp.;1430.00;rel.Supp.;28.60%
+Large itemset;;Zusammenfassungen und Wiederholungen;abs.Supp.;910.00;rel.Supp.;18.20%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;565.00. ;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;565.00;rel.Supp.;11.30%
 Regel :aus: ;;Arbeitsmaterialien (Skript. Lehrbuch);folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;20.04%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Arbeitsmaterialien (Skript. Lehrbuch);mit einer Confidence von;55.39%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;110.50. ;Kommunikation mit Dozenten;abs.Supp.;110.50;rel.Supp.;22.10%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;1105.00. ;Kommunikation mit Dozenten;abs.Supp.;1105.00;rel.Supp.;22.10%
 Regel :aus: ;;Kommunikation mit Dozenten;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;39.18%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;71.29%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;52.50. ;Lockerheit des Dozenten;abs.Supp.;52.50;rel.Supp.;10.50%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;525.00. ;Lockerheit des Dozenten;abs.Supp.;525.00;rel.Supp.;10.50%
 Regel :aus: ;;Lockerheit des Dozenten;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;18.62%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Lockerheit des Dozenten;mit einer Confidence von;79.55%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;78.00. ;Offenheit des Dozenten für Studierende;abs.Supp.;78.00;rel.Supp.;15.60%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;780.00. ;Offenheit des Dozenten für Studierende;abs.Supp.;780.00;rel.Supp.;15.60%
 Regel :aus: ;;Offenheit des Dozenten für Studierende;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;27.66%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Offenheit des Dozenten für Studierende;mit einer Confidence von;73.58%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;63.00. ;Selbststudium;abs.Supp.;63.00;rel.Supp.;12.60%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;630.00. ;Selbststudium;abs.Supp.;630.00;rel.Supp.;12.60%
 Regel :aus: ;;Selbststudium;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;22.34%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Selbststudium;mit einer Confidence von;39.87%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;57.50. ;sympathisches Auftreten des Dozenten;abs.Supp.;57.50;rel.Supp.;11.50%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;575.00. ;sympathisches Auftreten des Dozenten;abs.Supp.;575.00;rel.Supp.;11.50%
 Regel :aus: ;;sympathisches Auftreten des Dozenten;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;20.39%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;sympathisches Auftreten des Dozenten;mit einer Confidence von;82.14%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;66.60. ;Teilnahme am Praktikum;abs.Supp.;66.60;rel.Supp.;13.32%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;666.00. ;Teilnahme am Praktikum;abs.Supp.;666.00;rel.Supp.;13.32%
 Regel :aus: ;;Teilnahme am Praktikum;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;23.62%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Teilnahme am Praktikum;mit einer Confidence von;62.24%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;140.50. ;Übungen in der Vorlesung;abs.Supp.;140.50;rel.Supp.;28.10%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;1405.00. ;Übungen in der Vorlesung;abs.Supp.;1405.00;rel.Supp.;28.10%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;49.82%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;58.54%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;110.50. ;verständliche Erklärungen;abs.Supp.;110.50;rel.Supp.;22.10%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;1105.00. ;verständliche Erklärungen;abs.Supp.;1105.00;rel.Supp.;22.10%
 Regel :aus: ;;verständliche Erklärungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;39.18%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;verständliche Erklärungen;mit einer Confidence von;71.29%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;100.00. ;Visualisierungen;abs.Supp.;100.00;rel.Supp.;20.00%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;1000.00. ;Visualisierungen;abs.Supp.;1000.00;rel.Supp.;20.00%
 Regel :aus: ;;Visualisierungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;35.46%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Visualisierungen;mit einer Confidence von;69.93%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;64.50. ;Zusammenfassungen und Wiederholungen;abs.Supp.;64.50;rel.Supp.;12.90%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;645.00. ;Zusammenfassungen und Wiederholungen;abs.Supp.;645.00;rel.Supp.;12.90%
 Regel :aus: ;;Zusammenfassungen und Wiederholungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;22.87%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;folgt: ;;Zusammenfassungen und Wiederholungen;mit einer Confidence von;70.88%
-Large itemset;;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;56.50. ;Diskussionen in Präsenzlehre;abs.Supp.;33.00;rel.Supp.;11.30%
+Large itemset;;Arbeitsmaterialien (Skript. Lehrbuch);abs.Supp.;565.00. ;Diskussionen in Präsenzlehre;abs.Supp.;330.00;rel.Supp.;11.30%
 Regel :aus: ;;Diskussionen in Präsenzlehre;folgt: ;;Arbeitsmaterialien (Skript. Lehrbuch);mit einer Confidence von;55.39%
 Regel :aus: ;;Arbeitsmaterialien (Skript. Lehrbuch);folgt: ;;Diskussionen in Präsenzlehre;mit einer Confidence von;62.26%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;75.00. ;Übungen in der Vorlesung;abs.Supp.;75.00;rel.Supp.;15.00%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;750.00. ;Übungen in der Vorlesung;abs.Supp.;750.00;rel.Supp.;15.00%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;48.39%
 Regel :aus: ;;Kommunikation mit Dozenten;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;31.25%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;54.50. ;verständliche Erklärungen;abs.Supp.;54.50;rel.Supp.;10.90%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;545.00. ;verständliche Erklärungen;abs.Supp.;545.00;rel.Supp.;10.90%
 Regel :aus: ;;verständliche Erklärungen;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;35.16%
 Regel :aus: ;;Kommunikation mit Dozenten;folgt: ;;verständliche Erklärungen;mit einer Confidence von;35.16%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;56.50. ;Visualisierungen;abs.Supp.;56.50;rel.Supp.;11.30%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;565.00. ;Visualisierungen;abs.Supp.;565.00;rel.Supp.;11.30%
 Regel :aus: ;;Visualisierungen;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;36.45%
 Regel :aus: ;;Kommunikation mit Dozenten;folgt: ;;Visualisierungen;mit einer Confidence von;39.51%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;60.00. ;Zusammenfassungen und Wiederholungen;abs.Supp.;60.00;rel.Supp.;12.00%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;600.00. ;Zusammenfassungen und Wiederholungen;abs.Supp.;600.00;rel.Supp.;12.00%
 Regel :aus: ;;Zusammenfassungen und Wiederholungen;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;38.71%
 Regel :aus: ;;Kommunikation mit Dozenten;folgt: ;;Zusammenfassungen und Wiederholungen;mit einer Confidence von;65.93%
-Large itemset;;Lockerheit des Dozenten;abs.Supp.;50.50. ;Übungen in der Vorlesung;abs.Supp.;50.50;rel.Supp.;10.10%
+Large itemset;;Lockerheit des Dozenten;abs.Supp.;505.00. ;Übungen in der Vorlesung;abs.Supp.;505.00;rel.Supp.;10.10%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;Lockerheit des Dozenten;mit einer Confidence von;76.52%
 Regel :aus: ;;Lockerheit des Dozenten;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;21.04%
-Large itemset;;Offenheit des Dozenten für Studierende;abs.Supp.;60.50. ;verständliche Erklärungen;abs.Supp.;60.50;rel.Supp.;12.10%
+Large itemset;;Offenheit des Dozenten für Studierende;abs.Supp.;605.00. ;verständliche Erklärungen;abs.Supp.;605.00;rel.Supp.;12.10%
 Regel :aus: ;;verständliche Erklärungen;folgt: ;;Offenheit des Dozenten für Studierende;mit einer Confidence von;57.08%
 Regel :aus: ;;Offenheit des Dozenten für Studierende;folgt: ;;verständliche Erklärungen;mit einer Confidence von;39.03%
-Large itemset;;Selbststudium;abs.Supp.;72.00. ;Übungen in der Vorlesung;abs.Supp.;72.00;rel.Supp.;14.40%
+Large itemset;;Selbststudium;abs.Supp.;720.00. ;Übungen in der Vorlesung;abs.Supp.;720.00;rel.Supp.;14.40%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;Selbststudium;mit einer Confidence von;45.57%
 Regel :aus: ;;Selbststudium;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;30.00%
-Large itemset;;Übungen in der Vorlesung;abs.Supp.;52.50. ;verständliche Erklärungen;abs.Supp.;52.50;rel.Supp.;10.50%
+Large itemset;;Übungen in der Vorlesung;abs.Supp.;525.00. ;verständliche Erklärungen;abs.Supp.;525.00;rel.Supp.;10.50%
 Regel :aus: ;;verständliche Erklärungen;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;21.88%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;verständliche Erklärungen;mit einer Confidence von;33.87%
-Large itemset;;Übungen in der Vorlesung;abs.Supp.;56.00. ;Visualisierungen;abs.Supp.;56.00;rel.Supp.;11.20%
+Large itemset;;Übungen in der Vorlesung;abs.Supp.;560.00. ;Visualisierungen;abs.Supp.;560.00;rel.Supp.;11.20%
 Regel :aus: ;;Visualisierungen;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;23.33%
 Regel :aus: ;;Übungen in der Vorlesung;folgt: ;;Visualisierungen;mit einer Confidence von;39.16%
-Large itemset;;verständliche Erklärungen;abs.Supp.;67.10. ;Visualisierungen;abs.Supp.;67.10;rel.Supp.;13.42%
+Large itemset;;verständliche Erklärungen;abs.Supp.;671.00. ;Visualisierungen;abs.Supp.;671.00;rel.Supp.;13.42%
 Regel :aus: ;;Visualisierungen;folgt: ;;verständliche Erklärungen;mit einer Confidence von;43.29%
 Regel :aus: ;;verständliche Erklärungen;folgt: ;;Visualisierungen;mit einer Confidence von;46.92%
-Large itemset;;verständliche Erklärungen;abs.Supp.;57.00. ;Zusammenfassungen und Wiederholungen;abs.Supp.;57.00;rel.Supp.;11.40%
+Large itemset;;verständliche Erklärungen;abs.Supp.;570.00. ;Zusammenfassungen und Wiederholungen;abs.Supp.;570.00;rel.Supp.;11.40%
 Regel :aus: ;;Zusammenfassungen und Wiederholungen;folgt: ;;verständliche Erklärungen;mit einer Confidence von;36.77%
 Regel :aus: ;;verständliche Erklärungen;folgt: ;;Zusammenfassungen und Wiederholungen;mit einer Confidence von;62.64%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;55.00. ;Kommunikation mit Dozenten;abs.Supp.;55.00. ;Übungen in der Vorlesung;abs.Supp.;55.00;rel.Supp.;11.00%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;550.00. ;Kommunikation mit Dozenten;abs.Supp.;550.00. ;Übungen in der Vorlesung;abs.Supp.;550.00;rel.Supp.;11.00%
 Regel :aus: ;;Kommunikation mit Dozenten;Übungen in der Vorlesung;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;19.50%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Übungen in der Vorlesung;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;35.48%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Kommunikation mit Dozenten;folgt: ;;Übungen in der Vorlesung;mit einer Confidence von;22.92%
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;53.00. ;Kommunikation mit Dozenten;abs.Supp.;53.00. ;Zusammenfassungen und Wiederholungen;abs.Supp.;53.00;rel.Supp.;10.60%
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;530.00. ;Kommunikation mit Dozenten;abs.Supp.;530.00. ;Zusammenfassungen und Wiederholungen;abs.Supp.;530.00;rel.Supp.;10.60%
 Regel :aus: ;;Kommunikation mit Dozenten;Zusammenfassungen und Wiederholungen;folgt: ;;Anwendungs- / Praxisbeispiele;mit einer Confidence von;18.79%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Zusammenfassungen und Wiederholungen;folgt: ;;Kommunikation mit Dozenten;mit einer Confidence von;34.19%
 Regel :aus: ;;Anwendungs- / Praxisbeispiele;Kommunikation mit Dozenten;folgt: ;;Zusammenfassungen und Wiederholungen;mit einer Confidence von;58.24%

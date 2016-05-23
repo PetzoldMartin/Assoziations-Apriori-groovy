@@ -20,7 +20,7 @@ class Apriori {
     int lines
     DecimalFormat f = new DecimalFormat("#0.00");
     def getMinSupportAbs() {
-        csvReader.body.size() * 10 * (minSupportRel / 100)
+        csvReader.body.size() * 100 * (minSupportRel / 100)
     }
 
     def prepareData() {
@@ -61,9 +61,9 @@ class Apriori {
                         //r.add(count.min())
                         double x=1
                         count.each {
-                            x*=(it/10)
+                            x*=(it/100)
                         }
-                        r.add(x*10)
+                        r.add(x*100)
 
                     }
 
@@ -92,7 +92,7 @@ class Apriori {
             candidateSets.add(loop, itemSet.clone())
             itemSet.removeIf { ((Item) it[0]).count < getMinSupportAbs() }
             largeItemSets.add(loop, itemSet.clone())
-            debug(loop)
+            //debug(loop)
             rules.add(deepCopy(loop))
 
             makeRules(loopI + 1)
@@ -112,7 +112,7 @@ class Apriori {
                     candidateSets.add(loop, itemSet.clone())
                     itemSet.removeIf { ((Item) it[0]).count < getMinSupportAbs() }
                     largeItemSets.add(loop, itemSet.clone())
-                    debug(loop)
+                    //debug(loop)
                     rules.add(deepCopy(loop))
 
                     makeRules(loopI + 1)
@@ -162,11 +162,11 @@ class Apriori {
         print s
     }
     def printAndAnalyze() {
-        def of = new File(csvReader.path.replaceAll(".csv", "out.csv"))
+        def of = new File(csvReader.path.replaceAll(".csv", "out.csv").replaceAll('res/','res/'+minSupportRel+'Percent/'))
         of.write("")
         printCAndF(of,';Minsupport Relativ;'+minSupportRel+'%\n')
         printCAndF(of,';Minsupport Absolut;'+minSupportAbs+'\n')
-
+        printCAndF(of,';Fiktive Transaktionen Anzahl;'+lines*100+'\n')
 
         rules.eachWithIndex {  entry, int i ->
             println i
@@ -245,7 +245,7 @@ class Item implements Cloneable, Comparable {
     }
 
     def getRelativeSupport(int sSize) {
-        return count/(sSize/10)
+        return count/(sSize)
     }
 
     @Override

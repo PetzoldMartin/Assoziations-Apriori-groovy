@@ -1,8 +1,9 @@
 ;Minsupport Relativ;30%
-;Minsupport Absolut;150.0
-Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;282.00;rel.Supp.;56.40%
-Large itemset;;Kommunikation mit Dozenten;abs.Supp.;155.00;rel.Supp.;31.00%
-Large itemset;;Selbststudium;abs.Supp.;158.00;rel.Supp.;31.60%
-Large itemset;;Übungen in der Vorlesung;abs.Supp.;240.00;rel.Supp.;48.00%
-Large itemset;;verständliche Erklärungen;abs.Supp.;155.00;rel.Supp.;31.00%
-Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;212.00;rel.Supp.;42.40%
+;Minsupport Absolut;1500.0
+;Fiktive Transaktionen Anzahl;5000
+Large itemset;;Anwendungs- / Praxisbeispiele;abs.Supp.;2820.00;rel.Supp.;56.40%
+Large itemset;;Kommunikation mit Dozenten;abs.Supp.;1550.00;rel.Supp.;31.00%
+Large itemset;;Selbststudium;abs.Supp.;1580.00;rel.Supp.;31.60%
+Large itemset;;Übungen in der Vorlesung;abs.Supp.;2400.00;rel.Supp.;48.00%
+Large itemset;;verständliche Erklärungen;abs.Supp.;1550.00;rel.Supp.;31.00%
+Large itemset;;hohe Stoffmenge / hohes Tempo;abs.Supp.;2120.00;rel.Supp.;42.40%
